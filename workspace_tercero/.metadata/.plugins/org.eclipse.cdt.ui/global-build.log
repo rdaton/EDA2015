@@ -1,0 +1,349 @@
+10:18:06 **** Build of configuration Debug for project eda_tercero ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘std::string decodifica(std::string&)’:
+../main.cpp:14:9: error: ‘unMmsg’ was not declared in this scope
+../main.cpp: In function ‘bool resuelve()’:
+../main.cpp:27:9: error: ‘ture’ was not declared in this scope
+../main.cpp:29:1: error: expected ‘;’ before ‘}’ token
+../main.cpp: In function ‘int main()’:
+../main.cpp:34:7: error: expected ‘(’ before ‘resuelve’
+../main.cpp:34:17: error: expected ‘)’ before ‘;’ token
+../main.cpp: In function ‘bool resuelve()’:
+../main.cpp:29:1: warning: control reaches end of non-void function [-Wreturn-type]
+../main.cpp: In function ‘std::string decodifica(std::string&)’:
+../main.cpp:15:1: warning: control reaches end of non-void function [-Wreturn-type]
+make: *** [main.o] Error 1
+10:18:17 **** Incremental Build of configuration Debug for project eda_tercero ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘bool resuelve()’:
+../main.cpp:27:9: error: ‘ture’ was not declared in this scope
+../main.cpp:29:1: error: expected ‘;’ before ‘}’ token
+../main.cpp: In function ‘int main()’:
+../main.cpp:34:7: error: expected ‘(’ before ‘resuelve’
+../main.cpp:34:17: error: expected ‘)’ before ‘;’ token
+../main.cpp: In function ‘bool resuelve()’:
+../main.cpp:29:1: warning: control reaches end of non-void function [-Wreturn-type]
+make: *** [main.o] Error 1
+10:18:24 **** Incremental Build of configuration Debug for project eda_tercero ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main()’:
+../main.cpp:34:7: error: expected ‘(’ before ‘resuelve’
+../main.cpp:34:17: error: expected ‘)’ before ‘;’ token
+make: *** [main.o] Error 1
+10:18:38 **** Incremental Build of configuration Debug for project eda_tercero ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main()’:
+../main.cpp:35:7: error: expected ‘(’ before ‘resuelve’
+../main.cpp:35:17: error: expected ‘)’ before ‘{’ token
+make: *** [main.o] Error 1
+10:18:41 **** Incremental Build of configuration Debug for project eda_tercero ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main()’:
+../main.cpp:35:7: error: expected ‘(’ before ‘resuelve’
+../main.cpp:35:17: error: expected ‘)’ before ‘{’ token
+make: *** [main.o] Error 1
+10:18:49 **** Incremental Build of configuration Debug for project eda_tercero ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: eda_tercero
+Invoking: GCC C++ Linker
+g++  -o "eda_tercero"  ./main.o   
+Finished building target: eda_tercero
+ 
+10:20:15 **** Incremental Build of configuration Debug for project eda_tercero ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘bool resuelve()’:
+../main.cpp:19:8: error: missing template arguments before ‘unStack’
+../main.cpp:19:8: error: expected ‘;’ before ‘unStack’
+../main.cpp:20:8: error: missing template arguments before ‘unQueue’
+../main.cpp:20:8: error: expected ‘;’ before ‘unQueue’
+make: *** [main.o] Error 1
+10:20:26 **** Incremental Build of configuration Debug for project eda_tercero ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘bool resuelve()’:
+../main.cpp:19:8: error: missing template arguments before ‘unStack’
+../main.cpp:19:8: error: expected ‘;’ before ‘unStack’
+../main.cpp:20:8: error: missing template arguments before ‘unQueue’
+../main.cpp:20:8: error: expected ‘;’ before ‘unQueue’
+make: *** [main.o] Error 1
+10:21:16 **** Incremental Build of configuration Debug for project eda_tercero ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: eda_tercero
+Invoking: GCC C++ Linker
+g++  -o "eda_tercero"  ./main.o   
+Finished building target: eda_tercero
+ 
+10:39:59 **** Incremental Build of configuration Debug for project eda_tercero ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘std::string decodifica(std::string&)’:
+../main.cpp:25:22: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp:28:44: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp:41:20: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Finished building: ../main.cpp
+ 
+Building target: eda_tercero
+Invoking: GCC C++ Linker
+g++  -o "eda_tercero"  ./main.o   
+Finished building target: eda_tercero
+ 
+10:40:18 **** Incremental Build of configuration Debug for project eda_tercero ****
+make all 
+make: No se hace nada para `all'.
+10:41:06 **** Incremental Build of configuration Debug for project eda_tercero ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘std::string decodifica(std::string&)’:
+../main.cpp:25:22: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp:28:44: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp:41:20: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Finished building: ../main.cpp
+ 
+Building target: eda_tercero
+Invoking: GCC C++ Linker
+g++  -o "eda_tercero"  ./main.o   
+Finished building target: eda_tercero
+ 
+10:47:31 **** Incremental Build of configuration Debug for project eda_tercero ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘std::string decodifica(std::string&)’:
+../main.cpp:30:6: error: two or more data types in declaration of ‘i’
+../main.cpp:31:9: error: ‘i’ was not declared in this scope
+../main.cpp:57:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp:59:41: error: ‘i’ was not declared in this scope
+../main.cpp:61:33: error: ‘i’ was not declared in this scope
+make: *** [main.o] Error 1
+10:47:55 **** Incremental Build of configuration Debug for project eda_tercero ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘std::string decodifica(std::string&)’:
+../main.cpp:31:22: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp:34:44: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp:47:20: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp:57:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Finished building: ../main.cpp
+ 
+Building target: eda_tercero
+Invoking: GCC C++ Linker
+g++  -o "eda_tercero"  ./main.o   
+Finished building target: eda_tercero
+ 
+11:12:47 **** Incremental Build of configuration Debug for project eda_tercero ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘std::string decodifica(std::string&)’:
+../main.cpp:31:22: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp:34:44: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp:47:20: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp:56:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Finished building: ../main.cpp
+ 
+Building target: eda_tercero
+Invoking: GCC C++ Linker
+g++  -o "eda_tercero"  ./main.o   
+Finished building target: eda_tercero
+ 
+11:12:53 **** Incremental Build of configuration Debug for project eda_tercero ****
+make all 
+make: No se hace nada para `all'.
+11:14:09 **** Incremental Build of configuration Debug for project eda_tercero ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘std::string decodifica(std::string&)’:
+../main.cpp:31:22: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp:34:44: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp:47:20: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp:56:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Finished building: ../main.cpp
+ 
+Building target: eda_tercero
+Invoking: GCC C++ Linker
+g++  -o "eda_tercero"  ./main.o   
+Finished building target: eda_tercero
+ 
+11:16:12 **** Incremental Build of configuration Debug for project eda_tercero ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘std::string decodifica(std::string&)’:
+../main.cpp:31:22: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp:34:44: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp:47:20: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Finished building: ../main.cpp
+ 
+Building target: eda_tercero
+Invoking: GCC C++ Linker
+g++  -o "eda_tercero"  ./main.o   
+Finished building target: eda_tercero
+ 
+11:18:39 **** Incremental Build of configuration Debug for project eda_tercero ****
+make all 
+make: No se hace nada para `all'.
+11:19:40 **** Incremental Build of configuration Debug for project eda_tercero ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘std::string decodifica(std::string&)’:
+../main.cpp:31:22: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp:34:44: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp:47:20: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Finished building: ../main.cpp
+ 
+Building target: eda_tercero
+Invoking: GCC C++ Linker
+g++  -o "eda_tercero"  ./main.o   
+Finished building target: eda_tercero
+ 
+11:19:44 **** Incremental Build of configuration Debug for project eda_tercero ****
+make all 
+make: No se hace nada para `all'.
+11:20:26 **** Incremental Build of configuration Debug for project eda_tercero ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘std::string decodifica(std::string&)’:
+../main.cpp:31:22: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp:34:44: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp:47:20: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Finished building: ../main.cpp
+ 
+Building target: eda_tercero
+Invoking: GCC C++ Linker
+g++  -o "eda_tercero"  ./main.o   
+Finished building target: eda_tercero
+ 
+11:20:29 **** Incremental Build of configuration Debug for project eda_tercero ****
+make all 
+make: No se hace nada para `all'.
+11:22:52 **** Incremental Build of configuration Debug for project eda_tercero ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘std::string decodifica(std::string&)’:
+../main.cpp:31:22: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp:34:44: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp:47:20: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Finished building: ../main.cpp
+ 
+Building target: eda_tercero
+Invoking: GCC C++ Linker
+g++  -o "eda_tercero"  ./main.o   
+Finished building target: eda_tercero
+ 
+11:29:53 **** Incremental Build of configuration Debug for project eda_tercero ****
+make all 
+make: No se hace nada para `all'.
+11:29:59 **** Incremental Build of configuration Debug for project eda_tercero ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘std::string decodifica(std::string&)’:
+../main.cpp:35:22: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp:38:44: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp:51:20: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Finished building: ../main.cpp
+ 
+Building target: eda_tercero
+Invoking: GCC C++ Linker
+g++  -o "eda_tercero"  ./main.o   
+Finished building target: eda_tercero
+ 
+11:36:25 **** Incremental Build of configuration Debug for project eda_tercero ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp:31:24: fatal error: Exceptions.h: No existe el fichero o el directorio
+compilation terminated.
+make: *** [main.o] Error 1
+11:38:44 **** Incremental Build of configuration Debug for project eda_tercero ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp:79:2: error: #endif without #if
+../main.cpp:97:24: fatal error: Exceptions.h: No existe el fichero o el directorio
+compilation terminated.
+make: *** [main.o] Error 1
+11:38:56 **** Incremental Build of configuration Debug for project eda_tercero ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp:79:2: error: #endif without #if
+../main.cpp:413:0: error: unterminated #ifndef
+../main.cpp: In function ‘std::string decodifica(std::string&)’:
+../main.cpp:639:22: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp:642:44: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp:655:20: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+make: *** [main.o] Error 1
+11:39:26 **** Incremental Build of configuration Debug for project eda_tercero ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘std::string decodifica(std::string&)’:
+../main.cpp:639:22: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp:642:44: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp:655:20: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Finished building: ../main.cpp
+ 
+Building target: eda_tercero
+Invoking: GCC C++ Linker
+g++  -o "eda_tercero"  ./main.o   
+Finished building target: eda_tercero
+ 
+11:40:33 **** Incremental Build of configuration Debug for project eda_tercero ****
+make all 
+make: No se hace nada para `all'.
+11:52:11 **** Incremental Build of configuration Debug for project eda_tercero ****
+make all 
+make: No se hace nada para `all'.

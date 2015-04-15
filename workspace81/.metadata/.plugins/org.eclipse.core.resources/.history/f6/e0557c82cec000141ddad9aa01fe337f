@@ -1,0 +1,20 @@
+/*
+ * @file ListaEnlazada.h
+ * @author manuel.freire@fdi.ucm.es
+ * @date 2015-03-02
+ * @brief Conjunto sencillo
+ */
+
+#ifndef LISTAENLAZADA_H_
+#define LISTAENLAZADA_H_
+
+//Excepción de Lista Llena
+class ListaLlena{};
+//Excepción de Elemento Inexistente
+class ElementoInvalido{};
+
+template
+
+
+
+#endif /* LISTAENLAZADA_H_ */

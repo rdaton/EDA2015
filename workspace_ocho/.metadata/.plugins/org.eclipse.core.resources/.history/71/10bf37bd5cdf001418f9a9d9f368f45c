@@ -1,0 +1,39 @@
+/*
+ * main.cpp
+ *
+ *  Created on: 10/04/2015
+ *      Author: barfelix
+ */
+# include <limits.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+#include <iostream>
+#include "Queue.h"
+#include "List.h"
+using namespace std ;
+
+typedef List<int> listaEntrada;
+typedef List<int> listaSalida;
+
+int main ()
+{
+
+	int num=0;
+	int total_sobres=0;
+	int sobres_eleg=0;
+	cin >> total_sobres;
+	cin >> sobres_eleg;
+	if  ( (total_sobres<=0) || (sobres_eleg<=0) || (total_sobres<sobres_eleg)) return -1;
+	for (int i=0;i<total_sobres;i++)
+	{
+
+		cin>>num;
+		if (num==0) return -1;
+		list.push_back(num);
+	}
+
+
+	return 0;
+
+}

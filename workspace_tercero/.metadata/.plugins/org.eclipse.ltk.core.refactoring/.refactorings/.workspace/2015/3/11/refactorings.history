@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete 3 resources" deleteContents="false" description="Delete 3 resources" element1="/eda_tercero/Deque.h" element2="/eda_tercero/Exceptions.h" element3="/eda_tercero/Stack.h" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="3" stamp="1426242888380"/>
+</session>

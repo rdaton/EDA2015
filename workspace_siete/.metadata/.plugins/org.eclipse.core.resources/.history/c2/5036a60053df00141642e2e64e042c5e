@@ -1,0 +1,27 @@
+/*
+ * main.cpp
+ *
+ *  Created on: 10/04/2015
+ *      Author: barfelix
+ */
+
+# include <limits.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+#include <iostream>
+#include "Arbin.h"
+using namespace std ;
+typedef Arbin<int> tArbin;
+
+
+int main ()
+{
+Arbin a;
+Arbin b;
+Arbin c;
+
+
+return 0;
+
+}

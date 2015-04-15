@@ -1,0 +1,54 @@
+/*
+ * @file ListaEnlazada.h
+ * @author manuel.freire@fdi.ucm.es
+ * @date 2015-03-02
+ * @brief Conjunto sencillo
+ */
+#include <cassert>
+
+#ifndef LISTAENLAZADA_H_
+#define LISTAENLAZADA_H_
+
+//Excepción de Lista Llena
+class ListaLlena{};
+//Excepción de Elemento Inexistente
+class ElementoInvalido{};
+
+template <class E>
+class Conjunto{
+private:
+	/** Clase nodo que almacena internamente el elemento (de tipo E),
+	 * y dos punteros, uno al nodo anterior y otro al nodo siguiente.
+	 * Ambos punteros podrían ser NULL si el nodo es el primero
+	 * y/o último de la lista
+	 */
+	class Nodo
+	{
+	protected:
+		T _elem;
+		Nodo* _sig;
+		Nodo
+	public:
+
+
+		Nodo()
+		{
+			_sig=NULL;
+			_ant=NULL
+		};
+
+		Nodo(const T &elem)
+		{
+		_elem=elem;
+		_sig=NULL;
+		_ant=NULL;
+		};
+
+	};
+	};
+
+};
+
+
+
+#endif /* LISTAENLAZADA_H_ */

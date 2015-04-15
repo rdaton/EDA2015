@@ -1,0 +1,52 @@
+/*
+ * main.cpp
+ *
+ *  Created on: 06/03/2015
+ *      Author: barfelix
+ */
+#include <iostream>
+#include <stdio.h>
+#include "LinkedListStack.h"
+using namespace std;
+
+
+
+
+void unaSuma (int r)
+{
+LinkedListStack<int> * unStack;
+
+int cifra=0;
+int resto=r;
+
+while (resto>0)
+{
+	cifra=resto % 10;
+	resto=resto /10;
+	if (resto>0)
+	cout << cifra << " "<<"+";
+	else
+	cout << cifra << " "<<"= ";
+}
+
+}
+int main()
+{
+	int num=0;
+
+	 cin >> num;
+
+	while (num>-1)
+	{
+		unaSuma (num);
+		cin >> num;
+	};
+
+
+
+
+	return 0;
+}
+
+
+

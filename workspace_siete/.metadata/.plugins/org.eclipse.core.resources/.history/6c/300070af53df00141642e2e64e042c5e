@@ -1,0 +1,50 @@
+/*
+ * main.cpp
+ *
+ *  Created on: 10/04/2015
+ *      Author: barfelix
+ */
+
+# include <limits.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+#include <iostream>
+#include "Arbin.h"
+using namespace std ;
+
+typedef Arbin<int> tArbin ;
+
+tArbin lee () const
+{
+	tArbin ret;
+
+	return ret;
+}
+
+tArbin sumar  (tArbin& a, tArbin& b) const
+{
+	tArbin ret;
+
+
+	return ret;
+}
+
+void mostrar (tArbin& a)
+{
+
+	return;
+}
+
+int main ()
+{
+tArbin a;
+tArbin b;
+tArbin c;
+a=lee();
+b=lee();
+c=sumar(a,b);
+mostrar (c);
+return 0;
+
+}

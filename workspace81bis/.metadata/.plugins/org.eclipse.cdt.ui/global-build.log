@@ -1,0 +1,956 @@
+03:32:06 **** Build of configuration Debug for project eda81bs ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: eda81bs
+Invoking: GCC C++ Linker
+g++  -o "eda81bs"  ./main.o   
+/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 0 has invalid symbol index 11
+/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 1 has invalid symbol index 12
+/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 2 has invalid symbol index 2
+/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 3 has invalid symbol index 2
+/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 4 has invalid symbol index 11
+/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 5 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 6 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 7 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 8 has invalid symbol index 12
+/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 9 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 10 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 11 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 12 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 13 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 14 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 15 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 16 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 17 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 18 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 19 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 20 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 21 has invalid symbol index 21
+/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_line): relocation 0 has invalid symbol index 2
+/usr/lib/gcc/i486-linux-gnu/4.7/../../../i386-linux-gnu/crt1.o: In function `_start':
+(.text+0x18): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+make: *** [eda81bs] Error 1
+03:32:13 **** Incremental Build of configuration Debug for project eda81bs ****
+make all 
+Building target: eda81bs
+Invoking: GCC C++ Linker
+g++  -o "eda81bs"  ./main.o   
+/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 0 has invalid symbol index 11
+/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 1 has invalid symbol index 12
+/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 2 has invalid symbol index 2
+/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 3 has invalid symbol index 2
+/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 4 has invalid symbol index 11
+/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 5 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 6 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 7 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 8 has invalid symbol index 12
+/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 9 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 10 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 11 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 12 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 13 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 14 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 15 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 16 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 17 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 18 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 19 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 20 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 21 has invalid symbol index 21
+/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_line): relocation 0 has invalid symbol index 2
+/usr/lib/gcc/i486-linux-gnu/4.7/../../../i386-linux-gnu/crt1.o: In function `_start':
+(.text+0x18): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+make: *** [eda81bs] Error 1
+03:33:18 **** Incremental Build of configuration Debug for project eda81bs ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main()’:
+../main.cpp:18:2: error: ‘LinkedListStacks’ was not declared in this scope
+../main.cpp:18:19: error: expected ‘;’ before ‘unStack’
+../main.cpp:19:9: error: no match for ‘operator<<’ in ‘num << std::cin’
+../main.cpp:19:9: note: candidates are:
+In file included from /usr/include/c++/4.7/string:54:0,
+                 from /usr/include/c++/4.7/bits/locale_classes.h:42,
+                 from /usr/include/c++/4.7/bits/ios_base.h:43,
+                 from /usr/include/c++/4.7/ios:43,
+                 from /usr/include/c++/4.7/ostream:40,
+                 from /usr/include/c++/4.7/iostream:40,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/bits/basic_string.h:2750:5: note: template<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::basic_string<_CharT, _Traits, _Alloc>&)
+/usr/include/c++/4.7/bits/basic_string.h:2750:5: note:   template argument deduction/substitution failed:
+../main.cpp:19:9: note:   mismatched types ‘std::basic_ostream<_CharT, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:469:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, _CharT)
+/usr/include/c++/4.7/ostream:469:5: note:   template argument deduction/substitution failed:
+../main.cpp:19:9: note:   mismatched types ‘std::basic_ostream<_CharT, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:474:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, char)
+/usr/include/c++/4.7/ostream:474:5: note:   template argument deduction/substitution failed:
+../main.cpp:19:9: note:   mismatched types ‘std::basic_ostream<_CharT, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:480:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char)
+/usr/include/c++/4.7/ostream:480:5: note:   template argument deduction/substitution failed:
+../main.cpp:19:9: note:   mismatched types ‘std::basic_ostream<char, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:486:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char)
+/usr/include/c++/4.7/ostream:486:5: note:   template argument deduction/substitution failed:
+../main.cpp:19:9: note:   mismatched types ‘std::basic_ostream<char, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:491:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char)
+/usr/include/c++/4.7/ostream:491:5: note:   template argument deduction/substitution failed:
+../main.cpp:19:9: note:   mismatched types ‘std::basic_ostream<char, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:511:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const _CharT*)
+/usr/include/c++/4.7/ostream:511:5: note:   template argument deduction/substitution failed:
+../main.cpp:19:9: note:   mismatched types ‘std::basic_ostream<_CharT, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/ostream:607:0,
+                 from /usr/include/c++/4.7/iostream:40,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/bits/ostream.tcc:323:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const char*)
+/usr/include/c++/4.7/bits/ostream.tcc:323:5: note:   template argument deduction/substitution failed:
+../main.cpp:19:9: note:   mismatched types ‘std::basic_ostream<_CharT, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:528:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const char*)
+/usr/include/c++/4.7/ostream:528:5: note:   template argument deduction/substitution failed:
+../main.cpp:19:9: note:   mismatched types ‘std::basic_ostream<char, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:541:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const signed char*)
+/usr/include/c++/4.7/ostream:541:5: note:   template argument deduction/substitution failed:
+../main.cpp:19:9: note:   mismatched types ‘std::basic_ostream<char, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:546:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const unsigned char*)
+/usr/include/c++/4.7/ostream:546:5: note:   template argument deduction/substitution failed:
+../main.cpp:19:9: note:   mismatched types ‘std::basic_ostream<char, _Traits>’ and ‘int’
+make: *** [main.o] Error 1
+03:33:32 **** Incremental Build of configuration Debug for project eda81bs ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main()’:
+../main.cpp:18:2: error: ‘LinkedListStack’ was not declared in this scope
+../main.cpp:18:18: error: expected ‘;’ before ‘unStack’
+../main.cpp:19:9: error: no match for ‘operator<<’ in ‘num << std::cin’
+../main.cpp:19:9: note: candidates are:
+In file included from /usr/include/c++/4.7/string:54:0,
+                 from /usr/include/c++/4.7/bits/locale_classes.h:42,
+                 from /usr/include/c++/4.7/bits/ios_base.h:43,
+                 from /usr/include/c++/4.7/ios:43,
+                 from /usr/include/c++/4.7/ostream:40,
+                 from /usr/include/c++/4.7/iostream:40,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/bits/basic_string.h:2750:5: note: template<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::basic_string<_CharT, _Traits, _Alloc>&)
+/usr/include/c++/4.7/bits/basic_string.h:2750:5: note:   template argument deduction/substitution failed:
+../main.cpp:19:9: note:   mismatched types ‘std::basic_ostream<_CharT, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:469:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, _CharT)
+/usr/include/c++/4.7/ostream:469:5: note:   template argument deduction/substitution failed:
+../main.cpp:19:9: note:   mismatched types ‘std::basic_ostream<_CharT, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:474:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, char)
+/usr/include/c++/4.7/ostream:474:5: note:   template argument deduction/substitution failed:
+../main.cpp:19:9: note:   mismatched types ‘std::basic_ostream<_CharT, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:480:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char)
+/usr/include/c++/4.7/ostream:480:5: note:   template argument deduction/substitution failed:
+../main.cpp:19:9: note:   mismatched types ‘std::basic_ostream<char, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:486:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char)
+/usr/include/c++/4.7/ostream:486:5: note:   template argument deduction/substitution failed:
+../main.cpp:19:9: note:   mismatched types ‘std::basic_ostream<char, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:491:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char)
+/usr/include/c++/4.7/ostream:491:5: note:   template argument deduction/substitution failed:
+../main.cpp:19:9: note:   mismatched types ‘std::basic_ostream<char, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:511:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const _CharT*)
+/usr/include/c++/4.7/ostream:511:5: note:   template argument deduction/substitution failed:
+../main.cpp:19:9: note:   mismatched types ‘std::basic_ostream<_CharT, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/ostream:607:0,
+                 from /usr/include/c++/4.7/iostream:40,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/bits/ostream.tcc:323:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const char*)
+/usr/include/c++/4.7/bits/ostream.tcc:323:5: note:   template argument deduction/substitution failed:
+../main.cpp:19:9: note:   mismatched types ‘std::basic_ostream<_CharT, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:528:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const char*)
+/usr/include/c++/4.7/ostream:528:5: note:   template argument deduction/substitution failed:
+../main.cpp:19:9: note:   mismatched types ‘std::basic_ostream<char, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:541:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const signed char*)
+/usr/include/c++/4.7/ostream:541:5: note:   template argument deduction/substitution failed:
+../main.cpp:19:9: note:   mismatched types ‘std::basic_ostream<char, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:546:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const unsigned char*)
+/usr/include/c++/4.7/ostream:546:5: note:   template argument deduction/substitution failed:
+../main.cpp:19:9: note:   mismatched types ‘std::basic_ostream<char, _Traits>’ and ‘int’
+make: *** [main.o] Error 1
+03:33:41 **** Incremental Build of configuration Debug for project eda81bs ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main()’:
+../main.cpp:18:2: error: ‘LinkedListStack’ was not declared in this scope
+../main.cpp:18:18: error: expected ‘;’ before ‘unStack’
+../main.cpp:19:9: error: no match for ‘operator<<’ in ‘num << std::cin’
+../main.cpp:19:9: note: candidates are:
+In file included from /usr/include/c++/4.7/string:54:0,
+                 from /usr/include/c++/4.7/bits/locale_classes.h:42,
+                 from /usr/include/c++/4.7/bits/ios_base.h:43,
+                 from /usr/include/c++/4.7/ios:43,
+                 from /usr/include/c++/4.7/ostream:40,
+                 from /usr/include/c++/4.7/iostream:40,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/bits/basic_string.h:2750:5: note: template<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::basic_string<_CharT, _Traits, _Alloc>&)
+/usr/include/c++/4.7/bits/basic_string.h:2750:5: note:   template argument deduction/substitution failed:
+../main.cpp:19:9: note:   mismatched types ‘std::basic_ostream<_CharT, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:469:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, _CharT)
+/usr/include/c++/4.7/ostream:469:5: note:   template argument deduction/substitution failed:
+../main.cpp:19:9: note:   mismatched types ‘std::basic_ostream<_CharT, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:474:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, char)
+/usr/include/c++/4.7/ostream:474:5: note:   template argument deduction/substitution failed:
+../main.cpp:19:9: note:   mismatched types ‘std::basic_ostream<_CharT, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:480:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char)
+/usr/include/c++/4.7/ostream:480:5: note:   template argument deduction/substitution failed:
+../main.cpp:19:9: note:   mismatched types ‘std::basic_ostream<char, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:486:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char)
+/usr/include/c++/4.7/ostream:486:5: note:   template argument deduction/substitution failed:
+../main.cpp:19:9: note:   mismatched types ‘std::basic_ostream<char, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:491:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char)
+/usr/include/c++/4.7/ostream:491:5: note:   template argument deduction/substitution failed:
+../main.cpp:19:9: note:   mismatched types ‘std::basic_ostream<char, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:511:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const _CharT*)
+/usr/include/c++/4.7/ostream:511:5: note:   template argument deduction/substitution failed:
+../main.cpp:19:9: note:   mismatched types ‘std::basic_ostream<_CharT, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/ostream:607:0,
+                 from /usr/include/c++/4.7/iostream:40,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/bits/ostream.tcc:323:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const char*)
+/usr/include/c++/4.7/bits/ostream.tcc:323:5: note:   template argument deduction/substitution failed:
+../main.cpp:19:9: note:   mismatched types ‘std::basic_ostream<_CharT, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:528:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const char*)
+/usr/include/c++/4.7/ostream:528:5: note:   template argument deduction/substitution failed:
+../main.cpp:19:9: note:   mismatched types ‘std::basic_ostream<char, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:541:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const signed char*)
+/usr/include/c++/4.7/ostream:541:5: note:   template argument deduction/substitution failed:
+../main.cpp:19:9: note:   mismatched types ‘std::basic_ostream<char, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:546:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const unsigned char*)
+/usr/include/c++/4.7/ostream:546:5: note:   template argument deduction/substitution failed:
+../main.cpp:19:9: note:   mismatched types ‘std::basic_ostream<char, _Traits>’ and ‘int’
+make: *** [main.o] Error 1
+03:34:17 **** Incremental Build of configuration Debug for project eda81bs ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main()’:
+../main.cpp:18:18: error: missing template arguments before ‘unStack’
+../main.cpp:18:18: error: expected ‘;’ before ‘unStack’
+../main.cpp:19:9: error: no match for ‘operator<<’ in ‘num << std::cin’
+../main.cpp:19:9: note: candidates are:
+In file included from ../LinkedListStacks.h:16:0,
+                 from ../main.cpp:9:
+../Exceptions.h:34:22: note: std::ostream& operator<<(std::ostream&, const ExcepcionTAD&)
+../Exceptions.h:34:22: note:   no known conversion for argument 1 from ‘int’ to ‘std::ostream& {aka std::basic_ostream<char>&}’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:546:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const unsigned char*)
+/usr/include/c++/4.7/ostream:546:5: note:   template argument deduction/substitution failed:
+../main.cpp:19:9: note:   mismatched types ‘std::basic_ostream<char, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:541:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const signed char*)
+/usr/include/c++/4.7/ostream:541:5: note:   template argument deduction/substitution failed:
+../main.cpp:19:9: note:   mismatched types ‘std::basic_ostream<char, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:528:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const char*)
+/usr/include/c++/4.7/ostream:528:5: note:   template argument deduction/substitution failed:
+../main.cpp:19:9: note:   mismatched types ‘std::basic_ostream<char, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/ostream:607:0,
+                 from /usr/include/c++/4.7/iostream:40,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/bits/ostream.tcc:323:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const char*)
+/usr/include/c++/4.7/bits/ostream.tcc:323:5: note:   template argument deduction/substitution failed:
+../main.cpp:19:9: note:   mismatched types ‘std::basic_ostream<_CharT, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:511:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const _CharT*)
+/usr/include/c++/4.7/ostream:511:5: note:   template argument deduction/substitution failed:
+../main.cpp:19:9: note:   mismatched types ‘std::basic_ostream<_CharT, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:491:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char)
+/usr/include/c++/4.7/ostream:491:5: note:   template argument deduction/substitution failed:
+../main.cpp:19:9: note:   mismatched types ‘std::basic_ostream<char, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:486:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char)
+/usr/include/c++/4.7/ostream:486:5: note:   template argument deduction/substitution failed:
+../main.cpp:19:9: note:   mismatched types ‘std::basic_ostream<char, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:480:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char)
+/usr/include/c++/4.7/ostream:480:5: note:   template argument deduction/substitution failed:
+../main.cpp:19:9: note:   mismatched types ‘std::basic_ostream<char, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:474:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, char)
+/usr/include/c++/4.7/ostream:474:5: note:   template argument deduction/substitution failed:
+../main.cpp:19:9: note:   mismatched types ‘std::basic_ostream<_CharT, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:469:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, _CharT)
+/usr/include/c++/4.7/ostream:469:5: note:   template argument deduction/substitution failed:
+../main.cpp:19:9: note:   mismatched types ‘std::basic_ostream<_CharT, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/string:54:0,
+                 from /usr/include/c++/4.7/bits/locale_classes.h:42,
+                 from /usr/include/c++/4.7/bits/ios_base.h:43,
+                 from /usr/include/c++/4.7/ios:43,
+                 from /usr/include/c++/4.7/ostream:40,
+                 from /usr/include/c++/4.7/iostream:40,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/bits/basic_string.h:2750:5: note: template<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::basic_string<_CharT, _Traits, _Alloc>&)
+/usr/include/c++/4.7/bits/basic_string.h:2750:5: note:   template argument deduction/substitution failed:
+../main.cpp:19:9: note:   mismatched types ‘std::basic_ostream<_CharT, _Traits>’ and ‘int’
+make: *** [main.o] Error 1
+03:34:51 **** Incremental Build of configuration Debug for project eda81bs ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main()’:
+../main.cpp:18:18: error: missing template arguments before ‘unStack’
+../main.cpp:18:18: error: expected ‘;’ before ‘unStack’
+../main.cpp:19:9: error: no match for ‘operator<<’ in ‘num << std::cin’
+../main.cpp:19:9: note: candidates are:
+In file included from ../LinkedListStack.h:16:0,
+                 from ../main.cpp:9:
+../Exceptions.h:34:22: note: std::ostream& operator<<(std::ostream&, const ExcepcionTAD&)
+../Exceptions.h:34:22: note:   no known conversion for argument 1 from ‘int’ to ‘std::ostream& {aka std::basic_ostream<char>&}’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:546:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const unsigned char*)
+/usr/include/c++/4.7/ostream:546:5: note:   template argument deduction/substitution failed:
+../main.cpp:19:9: note:   mismatched types ‘std::basic_ostream<char, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:541:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const signed char*)
+/usr/include/c++/4.7/ostream:541:5: note:   template argument deduction/substitution failed:
+../main.cpp:19:9: note:   mismatched types ‘std::basic_ostream<char, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:528:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const char*)
+/usr/include/c++/4.7/ostream:528:5: note:   template argument deduction/substitution failed:
+../main.cpp:19:9: note:   mismatched types ‘std::basic_ostream<char, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/ostream:607:0,
+                 from /usr/include/c++/4.7/iostream:40,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/bits/ostream.tcc:323:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const char*)
+/usr/include/c++/4.7/bits/ostream.tcc:323:5: note:   template argument deduction/substitution failed:
+../main.cpp:19:9: note:   mismatched types ‘std::basic_ostream<_CharT, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:511:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const _CharT*)
+/usr/include/c++/4.7/ostream:511:5: note:   template argument deduction/substitution failed:
+../main.cpp:19:9: note:   mismatched types ‘std::basic_ostream<_CharT, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:491:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char)
+/usr/include/c++/4.7/ostream:491:5: note:   template argument deduction/substitution failed:
+../main.cpp:19:9: note:   mismatched types ‘std::basic_ostream<char, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:486:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char)
+/usr/include/c++/4.7/ostream:486:5: note:   template argument deduction/substitution failed:
+../main.cpp:19:9: note:   mismatched types ‘std::basic_ostream<char, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:480:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char)
+/usr/include/c++/4.7/ostream:480:5: note:   template argument deduction/substitution failed:
+../main.cpp:19:9: note:   mismatched types ‘std::basic_ostream<char, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:474:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, char)
+/usr/include/c++/4.7/ostream:474:5: note:   template argument deduction/substitution failed:
+../main.cpp:19:9: note:   mismatched types ‘std::basic_ostream<_CharT, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:469:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, _CharT)
+/usr/include/c++/4.7/ostream:469:5: note:   template argument deduction/substitution failed:
+../main.cpp:19:9: note:   mismatched types ‘std::basic_ostream<_CharT, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/string:54:0,
+                 from /usr/include/c++/4.7/bits/locale_classes.h:42,
+                 from /usr/include/c++/4.7/bits/ios_base.h:43,
+                 from /usr/include/c++/4.7/ios:43,
+                 from /usr/include/c++/4.7/ostream:40,
+                 from /usr/include/c++/4.7/iostream:40,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/bits/basic_string.h:2750:5: note: template<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::basic_string<_CharT, _Traits, _Alloc>&)
+/usr/include/c++/4.7/bits/basic_string.h:2750:5: note:   template argument deduction/substitution failed:
+../main.cpp:19:9: note:   mismatched types ‘std::basic_ostream<_CharT, _Traits>’ and ‘int’
+make: *** [main.o] Error 1
+03:34:56 **** Incremental Build of configuration Debug for project eda81bs ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main()’:
+../main.cpp:18:18: error: missing template arguments before ‘unStack’
+../main.cpp:18:18: error: expected ‘;’ before ‘unStack’
+../main.cpp:19:9: error: no match for ‘operator<<’ in ‘num << std::cin’
+../main.cpp:19:9: note: candidates are:
+In file included from ../LinkedListStack.h:16:0,
+                 from ../main.cpp:9:
+../Exceptions.h:34:22: note: std::ostream& operator<<(std::ostream&, const ExcepcionTAD&)
+../Exceptions.h:34:22: note:   no known conversion for argument 1 from ‘int’ to ‘std::ostream& {aka std::basic_ostream<char>&}’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:546:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const unsigned char*)
+/usr/include/c++/4.7/ostream:546:5: note:   template argument deduction/substitution failed:
+../main.cpp:19:9: note:   mismatched types ‘std::basic_ostream<char, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:541:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const signed char*)
+/usr/include/c++/4.7/ostream:541:5: note:   template argument deduction/substitution failed:
+../main.cpp:19:9: note:   mismatched types ‘std::basic_ostream<char, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:528:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const char*)
+/usr/include/c++/4.7/ostream:528:5: note:   template argument deduction/substitution failed:
+../main.cpp:19:9: note:   mismatched types ‘std::basic_ostream<char, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/ostream:607:0,
+                 from /usr/include/c++/4.7/iostream:40,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/bits/ostream.tcc:323:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const char*)
+/usr/include/c++/4.7/bits/ostream.tcc:323:5: note:   template argument deduction/substitution failed:
+../main.cpp:19:9: note:   mismatched types ‘std::basic_ostream<_CharT, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:511:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const _CharT*)
+/usr/include/c++/4.7/ostream:511:5: note:   template argument deduction/substitution failed:
+../main.cpp:19:9: note:   mismatched types ‘std::basic_ostream<_CharT, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:491:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char)
+/usr/include/c++/4.7/ostream:491:5: note:   template argument deduction/substitution failed:
+../main.cpp:19:9: note:   mismatched types ‘std::basic_ostream<char, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:486:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char)
+/usr/include/c++/4.7/ostream:486:5: note:   template argument deduction/substitution failed:
+../main.cpp:19:9: note:   mismatched types ‘std::basic_ostream<char, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:480:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char)
+/usr/include/c++/4.7/ostream:480:5: note:   template argument deduction/substitution failed:
+../main.cpp:19:9: note:   mismatched types ‘std::basic_ostream<char, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:474:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, char)
+/usr/include/c++/4.7/ostream:474:5: note:   template argument deduction/substitution failed:
+../main.cpp:19:9: note:   mismatched types ‘std::basic_ostream<_CharT, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:469:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, _CharT)
+/usr/include/c++/4.7/ostream:469:5: note:   template argument deduction/substitution failed:
+../main.cpp:19:9: note:   mismatched types ‘std::basic_ostream<_CharT, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/string:54:0,
+                 from /usr/include/c++/4.7/bits/locale_classes.h:42,
+                 from /usr/include/c++/4.7/bits/ios_base.h:43,
+                 from /usr/include/c++/4.7/ios:43,
+                 from /usr/include/c++/4.7/ostream:40,
+                 from /usr/include/c++/4.7/iostream:40,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/bits/basic_string.h:2750:5: note: template<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::basic_string<_CharT, _Traits, _Alloc>&)
+/usr/include/c++/4.7/bits/basic_string.h:2750:5: note:   template argument deduction/substitution failed:
+../main.cpp:19:9: note:   mismatched types ‘std::basic_ostream<_CharT, _Traits>’ and ‘int’
+make: *** [main.o] Error 1
+03:34:59 **** Incremental Build of configuration Debug for project eda81bs ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main()’:
+../main.cpp:18:18: error: missing template arguments before ‘unStack’
+../main.cpp:18:18: error: expected ‘;’ before ‘unStack’
+../main.cpp:19:9: error: no match for ‘operator<<’ in ‘num << std::cin’
+../main.cpp:19:9: note: candidates are:
+In file included from ../LinkedListStack.h:16:0,
+                 from ../main.cpp:9:
+../Exceptions.h:34:22: note: std::ostream& operator<<(std::ostream&, const ExcepcionTAD&)
+../Exceptions.h:34:22: note:   no known conversion for argument 1 from ‘int’ to ‘std::ostream& {aka std::basic_ostream<char>&}’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:546:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const unsigned char*)
+/usr/include/c++/4.7/ostream:546:5: note:   template argument deduction/substitution failed:
+../main.cpp:19:9: note:   mismatched types ‘std::basic_ostream<char, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:541:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const signed char*)
+/usr/include/c++/4.7/ostream:541:5: note:   template argument deduction/substitution failed:
+../main.cpp:19:9: note:   mismatched types ‘std::basic_ostream<char, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:528:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const char*)
+/usr/include/c++/4.7/ostream:528:5: note:   template argument deduction/substitution failed:
+../main.cpp:19:9: note:   mismatched types ‘std::basic_ostream<char, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/ostream:607:0,
+                 from /usr/include/c++/4.7/iostream:40,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/bits/ostream.tcc:323:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const char*)
+/usr/include/c++/4.7/bits/ostream.tcc:323:5: note:   template argument deduction/substitution failed:
+../main.cpp:19:9: note:   mismatched types ‘std::basic_ostream<_CharT, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:511:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const _CharT*)
+/usr/include/c++/4.7/ostream:511:5: note:   template argument deduction/substitution failed:
+../main.cpp:19:9: note:   mismatched types ‘std::basic_ostream<_CharT, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:491:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char)
+/usr/include/c++/4.7/ostream:491:5: note:   template argument deduction/substitution failed:
+../main.cpp:19:9: note:   mismatched types ‘std::basic_ostream<char, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:486:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char)
+/usr/include/c++/4.7/ostream:486:5: note:   template argument deduction/substitution failed:
+../main.cpp:19:9: note:   mismatched types ‘std::basic_ostream<char, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:480:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char)
+/usr/include/c++/4.7/ostream:480:5: note:   template argument deduction/substitution failed:
+../main.cpp:19:9: note:   mismatched types ‘std::basic_ostream<char, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:474:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, char)
+/usr/include/c++/4.7/ostream:474:5: note:   template argument deduction/substitution failed:
+../main.cpp:19:9: note:   mismatched types ‘std::basic_ostream<_CharT, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:469:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, _CharT)
+/usr/include/c++/4.7/ostream:469:5: note:   template argument deduction/substitution failed:
+../main.cpp:19:9: note:   mismatched types ‘std::basic_ostream<_CharT, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/string:54:0,
+                 from /usr/include/c++/4.7/bits/locale_classes.h:42,
+                 from /usr/include/c++/4.7/bits/ios_base.h:43,
+                 from /usr/include/c++/4.7/ios:43,
+                 from /usr/include/c++/4.7/ostream:40,
+                 from /usr/include/c++/4.7/iostream:40,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/bits/basic_string.h:2750:5: note: template<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::basic_string<_CharT, _Traits, _Alloc>&)
+/usr/include/c++/4.7/bits/basic_string.h:2750:5: note:   template argument deduction/substitution failed:
+../main.cpp:19:9: note:   mismatched types ‘std::basic_ostream<_CharT, _Traits>’ and ‘int’
+make: *** [main.o] Error 1
+03:35:11 **** Incremental Build of configuration Debug for project eda81bs ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main()’:
+../main.cpp:18:18: error: missing template arguments before ‘unStack’
+../main.cpp:18:18: error: expected ‘;’ before ‘unStack’
+../main.cpp:17:6: warning: unused variable ‘num’ [-Wunused-variable]
+make: *** [main.o] Error 1
+03:35:30 **** Incremental Build of configuration Debug for project eda81bs ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main()’:
+../main.cpp:18:17: error: missing template arguments before ‘(’ token
+../main.cpp:18:20: error: expected ‘;’ before ‘unStack’
+../main.cpp:17:6: warning: unused variable ‘num’ [-Wunused-variable]
+make: *** [main.o] Error 1
+03:35:41 **** Incremental Build of configuration Debug for project eda81bs ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main()’:
+../main.cpp:18:17: error: missing template arguments before ‘*’ token
+../main.cpp:18:19: error: ‘unStack’ was not declared in this scope
+../main.cpp:18:31: error: expected type-specifier before ‘LinkedListStack’
+../main.cpp:18:31: error: expected ‘;’ before ‘LinkedListStack’
+../main.cpp:17:6: warning: unused variable ‘num’ [-Wunused-variable]
+make: *** [main.o] Error 1
+03:36:12 **** Incremental Build of configuration Debug for project eda81bs ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main()’:
+../main.cpp:18:17: error: missing template arguments before ‘*’ token
+../main.cpp:18:19: error: ‘unStack’ was not declared in this scope
+../main.cpp:17:6: warning: unused variable ‘num’ [-Wunused-variable]
+make: *** [main.o] Error 1
+03:37:06 **** Incremental Build of configuration Debug for project eda81bs ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main()’:
+../main.cpp:18:36: error: expected type-specifier before ‘LinkedListStack’
+../main.cpp:18:36: error: cannot convert ‘int*’ to ‘LinkedListStack<int>*’ in initialization
+../main.cpp:18:36: error: expected ‘,’ or ‘;’ before ‘LinkedListStack’
+../main.cpp:17:6: warning: unused variable ‘num’ [-Wunused-variable]
+../main.cpp:18:24: warning: unused variable ‘unStack’ [-Wunused-variable]
+make: *** [main.o] Error 1
+03:37:17 **** Incremental Build of configuration Debug for project eda81bs ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main()’:
+../main.cpp:18:37: error: expected type-specifier before ‘LinkedListStack’
+../main.cpp:18:37: error: cannot convert ‘int*’ to ‘LinkedListStack<int>*’ in initialization
+../main.cpp:18:37: error: expected ‘,’ or ‘;’ before ‘LinkedListStack’
+../main.cpp:17:6: warning: unused variable ‘num’ [-Wunused-variable]
+../main.cpp:18:25: warning: unused variable ‘unStack’ [-Wunused-variable]
+make: *** [main.o] Error 1
+03:37:25 **** Incremental Build of configuration Debug for project eda81bs ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main()’:
+../main.cpp:17:6: warning: unused variable ‘num’ [-Wunused-variable]
+../main.cpp:18:25: warning: unused variable ‘unStack’ [-Wunused-variable]
+Finished building: ../main.cpp
+ 
+Building target: eda81bs
+Invoking: GCC C++ Linker
+g++  -o "eda81bs"  ./main.o   
+Finished building target: eda81bs
+ 
+03:51:12 **** Incremental Build of configuration Debug for project eda81bs ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘void unaSuma(int)’:
+../main.cpp:17:5: warning: unused variable ‘cifra’ [-Wunused-variable]
+../main.cpp: In function ‘int main()’:
+../main.cpp:24:9: error: no match for ‘operator<<’ in ‘num << std::cin’
+../main.cpp:24:9: note: candidates are:
+In file included from ../LinkedListStack.h:16:0,
+                 from ../main.cpp:9:
+../Exceptions.h:34:22: note: std::ostream& operator<<(std::ostream&, const ExcepcionTAD&)
+../Exceptions.h:34:22: note:   no known conversion for argument 1 from ‘int’ to ‘std::ostream& {aka std::basic_ostream<char>&}’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:546:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const unsigned char*)
+/usr/include/c++/4.7/ostream:546:5: note:   template argument deduction/substitution failed:
+../main.cpp:24:9: note:   mismatched types ‘std::basic_ostream<char, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:541:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const signed char*)
+/usr/include/c++/4.7/ostream:541:5: note:   template argument deduction/substitution failed:
+../main.cpp:24:9: note:   mismatched types ‘std::basic_ostream<char, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:528:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const char*)
+/usr/include/c++/4.7/ostream:528:5: note:   template argument deduction/substitution failed:
+../main.cpp:24:9: note:   mismatched types ‘std::basic_ostream<char, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/ostream:607:0,
+                 from /usr/include/c++/4.7/iostream:40,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/bits/ostream.tcc:323:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const char*)
+/usr/include/c++/4.7/bits/ostream.tcc:323:5: note:   template argument deduction/substitution failed:
+../main.cpp:24:9: note:   mismatched types ‘std::basic_ostream<_CharT, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:511:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const _CharT*)
+/usr/include/c++/4.7/ostream:511:5: note:   template argument deduction/substitution failed:
+../main.cpp:24:9: note:   mismatched types ‘std::basic_ostream<_CharT, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:491:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char)
+/usr/include/c++/4.7/ostream:491:5: note:   template argument deduction/substitution failed:
+../main.cpp:24:9: note:   mismatched types ‘std::basic_ostream<char, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:486:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char)
+/usr/include/c++/4.7/ostream:486:5: note:   template argument deduction/substitution failed:
+../main.cpp:24:9: note:   mismatched types ‘std::basic_ostream<char, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:480:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char)
+/usr/include/c++/4.7/ostream:480:5: note:   template argument deduction/substitution failed:
+../main.cpp:24:9: note:   mismatched types ‘std::basic_ostream<char, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:474:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, char)
+/usr/include/c++/4.7/ostream:474:5: note:   template argument deduction/substitution failed:
+../main.cpp:24:9: note:   mismatched types ‘std::basic_ostream<_CharT, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:469:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, _CharT)
+/usr/include/c++/4.7/ostream:469:5: note:   template argument deduction/substitution failed:
+../main.cpp:24:9: note:   mismatched types ‘std::basic_ostream<_CharT, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/string:54:0,
+                 from /usr/include/c++/4.7/bits/locale_classes.h:42,
+                 from /usr/include/c++/4.7/bits/ios_base.h:43,
+                 from /usr/include/c++/4.7/ios:43,
+                 from /usr/include/c++/4.7/ostream:40,
+                 from /usr/include/c++/4.7/iostream:40,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/bits/basic_string.h:2750:5: note: template<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::basic_string<_CharT, _Traits, _Alloc>&)
+/usr/include/c++/4.7/bits/basic_string.h:2750:5: note:   template argument deduction/substitution failed:
+../main.cpp:24:9: note:   mismatched types ‘std::basic_ostream<_CharT, _Traits>’ and ‘int’
+../main.cpp:29:10: error: no match for ‘operator<<’ in ‘num << std::cin’
+../main.cpp:29:10: note: candidates are:
+In file included from ../LinkedListStack.h:16:0,
+                 from ../main.cpp:9:
+../Exceptions.h:34:22: note: std::ostream& operator<<(std::ostream&, const ExcepcionTAD&)
+../Exceptions.h:34:22: note:   no known conversion for argument 1 from ‘int’ to ‘std::ostream& {aka std::basic_ostream<char>&}’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:546:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const unsigned char*)
+/usr/include/c++/4.7/ostream:546:5: note:   template argument deduction/substitution failed:
+../main.cpp:29:10: note:   mismatched types ‘std::basic_ostream<char, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:541:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const signed char*)
+/usr/include/c++/4.7/ostream:541:5: note:   template argument deduction/substitution failed:
+../main.cpp:29:10: note:   mismatched types ‘std::basic_ostream<char, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:528:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const char*)
+/usr/include/c++/4.7/ostream:528:5: note:   template argument deduction/substitution failed:
+../main.cpp:29:10: note:   mismatched types ‘std::basic_ostream<char, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/ostream:607:0,
+                 from /usr/include/c++/4.7/iostream:40,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/bits/ostream.tcc:323:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const char*)
+/usr/include/c++/4.7/bits/ostream.tcc:323:5: note:   template argument deduction/substitution failed:
+../main.cpp:29:10: note:   mismatched types ‘std::basic_ostream<_CharT, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:511:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const _CharT*)
+/usr/include/c++/4.7/ostream:511:5: note:   template argument deduction/substitution failed:
+../main.cpp:29:10: note:   mismatched types ‘std::basic_ostream<_CharT, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:491:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char)
+/usr/include/c++/4.7/ostream:491:5: note:   template argument deduction/substitution failed:
+../main.cpp:29:10: note:   mismatched types ‘std::basic_ostream<char, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:486:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char)
+/usr/include/c++/4.7/ostream:486:5: note:   template argument deduction/substitution failed:
+../main.cpp:29:10: note:   mismatched types ‘std::basic_ostream<char, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:480:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char)
+/usr/include/c++/4.7/ostream:480:5: note:   template argument deduction/substitution failed:
+../main.cpp:29:10: note:   mismatched types ‘std::basic_ostream<char, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:474:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, char)
+/usr/include/c++/4.7/ostream:474:5: note:   template argument deduction/substitution failed:
+../main.cpp:29:10: note:   mismatched types ‘std::basic_ostream<_CharT, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/iostream:40:0,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/ostream:469:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, _CharT)
+/usr/include/c++/4.7/ostream:469:5: note:   template argument deduction/substitution failed:
+../main.cpp:29:10: note:   mismatched types ‘std::basic_ostream<_CharT, _Traits>’ and ‘int’
+In file included from /usr/include/c++/4.7/string:54:0,
+                 from /usr/include/c++/4.7/bits/locale_classes.h:42,
+                 from /usr/include/c++/4.7/bits/ios_base.h:43,
+                 from /usr/include/c++/4.7/ios:43,
+                 from /usr/include/c++/4.7/ostream:40,
+                 from /usr/include/c++/4.7/iostream:40,
+                 from ../main.cpp:7:
+/usr/include/c++/4.7/bits/basic_string.h:2750:5: note: template<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::basic_string<_CharT, _Traits, _Alloc>&)
+/usr/include/c++/4.7/bits/basic_string.h:2750:5: note:   template argument deduction/substitution failed:
+../main.cpp:29:10: note:   mismatched types ‘std::basic_ostream<_CharT, _Traits>’ and ‘int’
+../main.cpp:23:25: warning: unused variable ‘unStack’ [-Wunused-variable]
+make: *** [main.o] Error 1
+03:52:04 **** Incremental Build of configuration Debug for project eda81bs ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘void unaSuma(int)’:
+../main.cpp:17:5: warning: unused variable ‘cifra’ [-Wunused-variable]
+../main.cpp: In function ‘int main()’:
+../main.cpp:23:25: warning: unused variable ‘unStack’ [-Wunused-variable]
+Finished building: ../main.cpp
+ 
+Building target: eda81bs
+Invoking: GCC C++ Linker
+g++  -o "eda81bs"  ./main.o   
+Finished building target: eda81bs
+ 
+03:56:32 **** Incremental Build of configuration Debug for project eda81bs ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘void unaSuma(int)’:
+../main.cpp:17:24: warning: unused variable ‘unStack’ [-Wunused-variable]
+Finished building: ../main.cpp
+ 
+Building target: eda81bs
+Invoking: GCC C++ Linker
+g++  -o "eda81bs"  ./main.o   
+Finished building target: eda81bs
+ 
+03:56:35 **** Incremental Build of configuration Debug for project eda81bs ****
+make all 
+make: No se hace nada para `all'.
+04:06:14 **** Incremental Build of configuration Debug for project eda81bs ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘void unaSuma(int)’:
+../main.cpp:33:21: error: void value not ignored as it ought to be
+make: *** [main.o] Error 1
+04:06:40 **** Incremental Build of configuration Debug for project eda81bs ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘void unaSuma(int)’:
+../main.cpp:33:8: error: ‘unSTack’ was not declared in this scope
+../main.cpp:34:2: error: expected ‘;’ before ‘unStack’
+make: *** [main.o] Error 1
+04:07:01 **** Incremental Build of configuration Debug for project eda81bs ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘void unaSuma(int)’:
+../main.cpp:25:23: warning: ‘unStack’ may be used uninitialized in this function [-Wuninitialized]
+Finished building: ../main.cpp
+ 
+Building target: eda81bs
+Invoking: GCC C++ Linker
+g++  -o "eda81bs"  ./main.o   
+Finished building target: eda81bs
+ 
+04:07:31 **** Incremental Build of configuration Debug for project eda81bs ****
+make all 
+make: No se hace nada para `all'.
+04:08:56 **** Incremental Build of configuration Debug for project eda81bs ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: eda81bs
+Invoking: GCC C++ Linker
+g++  -o "eda81bs"  ./main.o   
+Finished building target: eda81bs
+ 
+04:08:59 **** Incremental Build of configuration Debug for project eda81bs ****
+make all 
+make: No se hace nada para `all'.
+04:09:39 **** Incremental Build of configuration Debug for project eda81bs ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: eda81bs
+Invoking: GCC C++ Linker
+g++  -o "eda81bs"  ./main.o   
+Finished building target: eda81bs
+ 
+04:09:41 **** Incremental Build of configuration Debug for project eda81bs ****
+make all 
+make: No se hace nada para `all'.
+04:11:08 **** Incremental Build of configuration Debug for project eda81bs ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: eda81bs
+Invoking: GCC C++ Linker
+g++  -o "eda81bs"  ./main.o   
+Finished building target: eda81bs
+ 
+04:11:11 **** Incremental Build of configuration Debug for project eda81bs ****
+make all 
+make: No se hace nada para `all'.
+04:12:39 **** Incremental Build of configuration Debug for project eda81bs ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: eda81bs
+Invoking: GCC C++ Linker
+g++  -o "eda81bs"  ./main.o   
+Finished building target: eda81bs
+ 
+04:12:41 **** Incremental Build of configuration Debug for project eda81bs ****
+make all 
+make: No se hace nada para `all'.
+04:13:31 **** Incremental Build of configuration Debug for project eda81bs ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: eda81bs
+Invoking: GCC C++ Linker
+g++  -o "eda81bs"  ./main.o   
+Finished building target: eda81bs
+ 
+04:13:34 **** Incremental Build of configuration Debug for project eda81bs ****
+make all 
+make: No se hace nada para `all'.

@@ -1,0 +1,141 @@
+/*
+ * @file ListaEnlazada.h
+ * @author manuel.freire@fdi.ucm.es
+ * @date 2015-03-02
+ * @brief Conjunto sencillo
+ */
+#include <cassert>
+#include <stdlib.h>
+#include<iostream>
+#include<stdio.h>
+
+using namespace std ;
+
+#ifndef LISTAENLAZADA_H_
+#define LISTAENLAZADA_H_
+
+//Excepción de Lista Llena
+class ListaLlena{};
+//Excepción de Elemento Inexistente
+class ElementoInvalido{};
+
+template <class E>
+class ListaEnlazada{
+private:
+	/** Clase nodo que almacena internamente el elemento (de tipo E),
+	 * y dos punteros, uno al nodo anterior y otro al nodo siguiente.
+	 * Ambos punteros podrían ser NULL si el nodo es el primero
+	 * y/o último de la lista
+	 */
+	class Nodo
+	{
+	protected:
+		E _elem;
+		Nodo* _sig;
+		Nodo* _ant;
+
+	public:
+		Nodo()
+		{
+			_sig=NULL;
+			_ant=NULL;
+		};
+
+		Nodo(const E &elem)
+		{
+		_elem=elem;
+		_sig=NULL;
+		_ant=NULL;
+		};
+
+		Nodo(Nodo* ant, const E& elem, Nodo* sig)
+		{
+		_elem=elem;
+		_sig=sig;
+		_ant=ant;
+		};
+	};
+
+int _lon;
+Nodo* _primero;
+Nodo* _ultimo;
+
+int _cur;
+Nodo* _NodCur;
+
+public :
+	/*Constructor por defecto, inicialza primero , NodCur, y ultimo a null,
+	 * y pone longritud a cero
+	 *
+	 */
+	ListaEnlazada()
+	{
+		//inicializo lista
+		_lon=0;
+		_primero=NULL;
+		_ultimo=NULL;
+
+		//inicializo puntero auxiliar
+		_cur=-1;
+		_NodCur=NULL;
+	}
+protected:
+	bool empty()
+	{
+		return (_lon==0);
+	}
+
+	void limpia ()
+	{
+	if (empty) return;
+	Nodo* puntero_s=_ultimo;
+	Nodo* puntero_a=_ultimo->_ant;
+	while 	(puntero_a!=_primero)
+	{
+		delete puntero_s;
+		puntero_s=puntero_a;
+
+		puntero_a=puntero_a->_ant;
+	}
+
+	}
+	/**
+	 * Inserta un elemento entre el nodo1 y el nodo2.
+	 * Devuelve el puntero al nodo creado.
+	 * Caso general: los dos nodos existen.
+	 * nodo1->_sig==nodo2
+	 * nodo1->_ant==nodo1
+	 * Casos especiales: alguno de los nodos no existe
+	 * nodo1==NULL y/o nodo2==NULL
+	 */
+	static Nodo *insertaElem(const E& e, Nodo* nodo1, Nodo* nodo2)
+	{
+		Nodo* nuevo= new Nodo (nodo1, e, nodo2);
+		if (nodo1 !=NULL)
+			nodo1->_sig=nuevo;
+		if (nodo2 !=NULL)
+			nodo2->_ant=nuevo;
+		return nuevo;
+	}
+
+	/**
+	 * Elimina el nodo n. Si el nodo tiene nodos antes
+	 * o después, actualiza sus punteros anterior y siguiente.
+	 * Caso general: hay nodos anterior y siguiente.
+	 * Caso especiales: algunos de los nodos (anterior o siguiente
+	 * a n) no existen
+	 */
+
+	static void borraElem(Nodo* n)
+	{
+	assert(n!=NULL);
+	Nodo *ant = n->_ant;
+	Nodo *sig = n->_sig;
+	if (ant != NULL)
+		ant->_sig=*sig;
+	if (sig != NULL)
+		sig->_ant=ant;
+	delete n;
+	}
+};
+#endif /* LISTAENLAZADA_H_ */

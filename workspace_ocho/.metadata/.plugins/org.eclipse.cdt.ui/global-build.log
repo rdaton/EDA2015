@@ -1,0 +1,359 @@
+10:26:49 **** Build of configuration Debug for project eda_ocho ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main()’:
+../main.cpp:18:2: error: ‘un’ was not declared in this scope
+../main.cpp:20:2: error: expected ‘;’ before ‘return’
+make: *** [main.o] Error 1
+10:27:19 **** Incremental Build of configuration Debug for project eda_ocho ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: eda_ocho
+Invoking: GCC C++ Linker
+g++  -o "eda_ocho"  ./main.o   
+Finished building target: eda_ocho
+ 
+10:30:53 **** Incremental Build of configuration Debug for project eda_ocho ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main()’:
+../main.cpp:22:8: error: ‘total’ was not declared in this scope
+../main.cpp:22:14: error: expected ‘;’ before ‘sobres’
+../main.cpp:25:10: error: expected unqualified-id before ‘)’ token
+../main.cpp:25:10: error: expected ‘;’ before ‘)’ token
+../main.cpp:25:10: error: expected primary-expression before ‘)’ token
+../main.cpp:25:10: error: expected ‘;’ before ‘)’ token
+make: *** [main.o] Error 1
+10:32:34 **** Incremental Build of configuration Debug for project eda_ocho ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main()’:
+../main.cpp:23:8: error: ‘total’ was not declared in this scope
+../main.cpp:23:14: error: expected ‘;’ before ‘sobres’
+make: *** [main.o] Error 1
+10:32:57 **** Incremental Build of configuration Debug for project eda_ocho ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: eda_ocho
+Invoking: GCC C++ Linker
+g++  -o "eda_ocho"  ./main.o   
+Finished building target: eda_ocho
+ 
+10:35:41 **** Incremental Build of configuration Debug for project eda_ocho ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp:15:9: error: ‘List’ does not name a type
+../main.cpp: In function ‘int main()’:
+../main.cpp:20:2: error: ‘tCola’ was not declared in this scope
+../main.cpp:20:8: error: expected ‘;’ before ‘unaCola’
+../main.cpp:32:3: error: ‘list’ was not declared in this scope
+make: *** [main.o] Error 1
+10:35:59 **** Incremental Build of configuration Debug for project eda_ocho ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp:17:1: error: expected initializer before ‘typedef’
+../main.cpp: In function ‘int main()’:
+../main.cpp:33:3: error: ‘list’ was not declared in this scope
+make: *** [main.o] Error 1
+10:36:07 **** Incremental Build of configuration Debug for project eda_ocho ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main()’:
+../main.cpp:33:3: error: ‘list’ was not declared in this scope
+make: *** [main.o] Error 1
+10:36:53 **** Incremental Build of configuration Debug for project eda_ocho ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: eda_ocho
+Invoking: GCC C++ Linker
+g++  -o "eda_ocho"  ./main.o   
+Finished building target: eda_ocho
+ 
+10:37:45 **** Incremental Build of configuration Debug for project eda_ocho ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘int main()’:
+../main.cpp:21:2: error: ‘tListaEntrada’ was not declared in this scope
+../main.cpp:21:16: error: expected ‘;’ before ‘unaLista’
+../main.cpp:22:2: error: ‘tListaSalida’ was not declared in this scope
+../main.cpp:22:15: error: expected ‘;’ before ‘otraLista’
+make: *** [main.o] Error 1
+10:37:57 **** Incremental Build of configuration Debug for project eda_ocho ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: eda_ocho
+Invoking: GCC C++ Linker
+g++  -o "eda_ocho"  ./main.o   
+Finished building target: eda_ocho
+ 
+10:41:46 **** Incremental Build of configuration Debug for project eda_ocho ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘void resuelve(const tLista&, tLista&, int)’:
+../main.cpp:21:17: error: no match for ‘operator[]’ in ‘a[0]’
+../main.cpp:22:17: error: no match for ‘operator[]’ in ‘a[1]’
+../main.cpp:23:17: error: no match for ‘operator[]’ in ‘a[2]’
+../main.cpp:21:5: warning: unused variable ‘puntero1’ [-Wunused-variable]
+../main.cpp:22:5: warning: unused variable ‘puntero2’ [-Wunused-variable]
+../main.cpp:23:5: warning: unused variable ‘puntero3’ [-Wunused-variable]
+make: *** [main.o] Error 1
+10:42:46 **** Incremental Build of configuration Debug for project eda_ocho ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘void resuelve(const tLista&, tLista&, int)’:
+../main.cpp:21:4: error: expected unqualified-id before ‘[’ token
+make: *** [main.o] Error 1
+10:42:58 **** Incremental Build of configuration Debug for project eda_ocho ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘void resuelve(const tLista&, tLista&, int)’:
+../main.cpp:21:4: error: expected unqualified-id before ‘[’ token
+make: *** [main.o] Error 1
+10:44:55 **** Incremental Build of configuration Debug for project eda_ocho ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘void resuelve(const tLista&, tLista&, int)’:
+../main.cpp:21:5: warning: unused variable ‘punteros’ [-Wunused-variable]
+Finished building: ../main.cpp
+ 
+Building target: eda_ocho
+Invoking: GCC C++ Linker
+g++  -o "eda_ocho"  ./main.o   
+Finished building target: eda_ocho
+ 
+10:50:00 **** Incremental Build of configuration Debug for project eda_ocho ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘void resuelve(const tLista&, tLista&, int)’:
+../main.cpp:27:15: error: invalid types ‘<unresolved overloaded function type>[int]’ for array subscript
+../main.cpp:31:24: error: expected ‘]’ before ‘div’
+../main.cpp:31:24: error: expected ‘;’ before ‘div’
+../main.cpp:31:34: warning: statement has no effect [-Wunused-value]
+In file included from ../main.cpp:13:0:
+../List.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = int]’:
+../main.cpp:30:23:   required from here
+../List.h:210:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+make: *** [main.o] Error 1
+10:50:18 **** Incremental Build of configuration Debug for project eda_ocho ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘void resuelve(const tLista&, tLista&, int)’:
+../main.cpp:31:24: error: expected ‘]’ before ‘div’
+../main.cpp:31:24: error: expected ‘;’ before ‘div’
+../main.cpp:31:34: warning: statement has no effect [-Wunused-value]
+In file included from ../main.cpp:13:0:
+../List.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = int]’:
+../main.cpp:27:15:   required from here
+../List.h:210:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+make: *** [main.o] Error 1
+10:50:50 **** Incremental Build of configuration Debug for project eda_ocho ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘void resuelve(const tLista&, tLista&, int)’:
+../main.cpp:31:24: error: expected ‘]’ before ‘div’
+../main.cpp:31:24: error: expected ‘;’ before ‘div’
+../main.cpp:31:34: warning: statement has no effect [-Wunused-value]
+In file included from ../main.cpp:13:0:
+../List.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = int]’:
+../main.cpp:27:15:   required from here
+../List.h:210:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+make: *** [main.o] Error 1
+10:50:53 **** Incremental Build of configuration Debug for project eda_ocho ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘void resuelve(const tLista&, tLista&, int)’:
+../main.cpp:31:24: error: expected ‘]’ before ‘div’
+../main.cpp:31:24: error: expected ‘;’ before ‘div’
+../main.cpp:31:34: warning: statement has no effect [-Wunused-value]
+In file included from ../main.cpp:13:0:
+../List.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = int]’:
+../main.cpp:27:15:   required from here
+../List.h:210:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+make: *** [main.o] Error 1
+10:51:32 **** Incremental Build of configuration Debug for project eda_ocho ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘void resuelve(const tLista&, tLista&, int)’:
+../main.cpp:26:5: warning: unused variable ‘punteros’ [-Wunused-variable]
+../main.cpp:27:5: warning: unused variable ‘max’ [-Wunused-variable]
+In file included from ../main.cpp:13:0:
+../List.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = int]’:
+../main.cpp:27:17:   required from here
+../List.h:210:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Finished building: ../main.cpp
+ 
+Building target: eda_ocho
+Invoking: GCC C++ Linker
+g++  -o "eda_ocho"  ./main.o   
+Finished building target: eda_ocho
+ 
+10:51:37 **** Incremental Build of configuration Debug for project eda_ocho ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘void resuelve(const tLista&, tLista&, int)’:
+../main.cpp:27:5: warning: unused variable ‘max’ [-Wunused-variable]
+In file included from ../main.cpp:13:0:
+../List.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = int]’:
+../main.cpp:27:17:   required from here
+../List.h:210:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Finished building: ../main.cpp
+ 
+Building target: eda_ocho
+Invoking: GCC C++ Linker
+g++  -o "eda_ocho"  ./main.o   
+Finished building target: eda_ocho
+ 
+10:51:52 **** Incremental Build of configuration Debug for project eda_ocho ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘void resuelve(const tLista&, tLista&, int)’:
+../main.cpp:27:5: warning: unused variable ‘max’ [-Wunused-variable]
+Finished building: ../main.cpp
+ 
+Building target: eda_ocho
+Invoking: GCC C++ Linker
+g++  -o "eda_ocho"  ./main.o   
+Finished building target: eda_ocho
+ 
+10:52:18 **** Incremental Build of configuration Debug for project eda_ocho ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘void resuelve(const tLista&, tLista&, int)’:
+../main.cpp:27:5: warning: variable ‘max’ set but not used [-Wunused-but-set-variable]
+In file included from ../main.cpp:13:0:
+../List.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = int]’:
+../main.cpp:28:11:   required from here
+../List.h:210:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Finished building: ../main.cpp
+ 
+Building target: eda_ocho
+Invoking: GCC C++ Linker
+g++  -o "eda_ocho"  ./main.o   
+Finished building target: eda_ocho
+ 
+10:53:40 **** Incremental Build of configuration Debug for project eda_ocho ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘void resuelve(const tLista&, tLista&, int)’:
+../main.cpp:27:5: warning: variable ‘max’ set but not used [-Wunused-but-set-variable]
+In file included from ../main.cpp:13:0:
+../List.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = int]’:
+../main.cpp:28:16:   required from here
+../List.h:210:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Finished building: ../main.cpp
+ 
+Building target: eda_ocho
+Invoking: GCC C++ Linker
+g++  -o "eda_ocho"  ./main.o   
+Finished building target: eda_ocho
+ 
+10:53:51 **** Incremental Build of configuration Debug for project eda_ocho ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘void resuelve(const tLista&, tLista&, int)’:
+../main.cpp:27:5: warning: unused variable ‘max’ [-Wunused-variable]
+In file included from ../main.cpp:13:0:
+../List.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = int]’:
+../main.cpp:27:20:   required from here
+../List.h:210:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Finished building: ../main.cpp
+ 
+Building target: eda_ocho
+Invoking: GCC C++ Linker
+g++  -o "eda_ocho"  ./main.o   
+Finished building target: eda_ocho
+ 
+10:54:18 **** Incremental Build of configuration Debug for project eda_ocho ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘void resuelve(const tLista&, tLista&, int)’:
+../main.cpp:27:5: warning: unused variable ‘max’ [-Wunused-variable]
+In file included from ../main.cpp:13:0:
+../List.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = int]’:
+../main.cpp:27:20:   required from here
+../List.h:210:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Finished building: ../main.cpp
+ 
+Building target: eda_ocho
+Invoking: GCC C++ Linker
+g++  -o "eda_ocho"  ./main.o   
+Finished building target: eda_ocho
+ 
+10:54:26 **** Incremental Build of configuration Debug for project eda_ocho ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function ‘void resuelve(const tLista&, tLista&, int)’:
+../main.cpp:27:5: warning: unused variable ‘max’ [-Wunused-variable]
+In file included from ../main.cpp:13:0:
+../List.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = int]’:
+../main.cpp:27:20:   required from here
+../List.h:210:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Finished building: ../main.cpp
+ 
+Building target: eda_ocho
+Invoking: GCC C++ Linker
+g++  -o "eda_ocho"  ./main.o   
+Finished building target: eda_ocho
+ 

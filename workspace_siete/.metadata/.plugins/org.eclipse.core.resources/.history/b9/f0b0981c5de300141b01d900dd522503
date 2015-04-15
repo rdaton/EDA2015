@@ -1,0 +1,64 @@
+/*
+ * main.cpp
+ *
+ *  Created on: 10/04/2015
+ *      Author: barfelix
+ */
+
+# include <limits.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+#include <iostream>
+#include "Arbin.h"
+using namespace std ;
+
+typedef Arbin<int> tArbin ;
+tArbin lee ()
+{
+int r;
+cin >> r;
+if (r==-1)
+	return tArbin();
+else{
+	tArbin iz=lee();
+	tArbin der=lee();
+	return tArbin(iz,r,der);
+}
+
+}
+
+
+tArbin suma  (const tArbin& a, const tArbin& b)
+{
+	if (a.esVacio()) return b;
+	if (b.esVacio()) return a;
+
+tArbin iz=suma(a.hijoIz(),b.hijoIz());
+tArbin dr=suma(a.hijoDr(),b.hijoDr());
+return tArbin(iz,a.raiz()+b.raiz(),dr);
+}
+
+void mostrar (tArbin& a)
+{
+	ConstIterator unIterador;
+	List<int> unaLista=a.preorden();
+	if (unaLista.empty()) return;
+
+	for (int i=0;i<unaLista.size();i++)
+		cout<<unaLista.at(i);
+	cout << "\n";
+}
+
+int main ()
+{
+tArbin a;
+tArbin b;
+tArbin c;
+a=lee();
+b=lee();
+c=suma(a,b);
+mostrar (c);
+return 0;
+
+}

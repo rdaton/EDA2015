@@ -1,0 +1,87 @@
+/*
+ * main.cpp
+ *
+ *  Created on: 06/03/2015
+ *      Author: barfelix
+ */
+#include <iostream>
+#include <stdio.h>
+#include <string>
+#include <iosfwd>
+using namespace std;
+
+
+
+bool esEquilibrado(string unString)
+{
+	if (unString.empty()) return true;
+int nParentesis=0;
+int nLlaves=0;
+int nCorchetes=0;
+
+
+
+for (int i=0;i<unString.length();i++)
+{
+	char unChar=unString[i];
+	switch (unChar)
+	{
+	case '(' : nParentesis++;
+	break;
+	case ')' :
+	{
+		if (nParentesis==0) return false;
+		else
+		nParentesis--;
+	};
+	break;
+	case '['  : nLlaves++;
+	break;
+	case ']' :
+	{
+			if (nLlaves==0) return false;
+			else
+
+		nLlaves--;
+	};
+	break;
+	case  '{' : nCorchetes++;
+	break;
+	case    '}' :
+	{
+		if (nCorchetes==0) return false;
+		else
+			nCorchetes--;
+	};
+	break;
+	default:
+		break;
+	}
+};
+
+	return (nParentesis==0 && nLlaves==0 && nCorchetes == 0);
+}
+int main()
+{
+	string unString="";
+
+	 getline(cin,unString);
+	while (!unString.empty())
+	{
+		if (esEquilibrado(unString))
+				cout <<"YES" <<"\n";
+		else
+			cout <<"NO" <<"\n";
+
+		getline(cin,unString);
+
+	};
+
+
+
+
+	return 0;
+}
+
+
+
