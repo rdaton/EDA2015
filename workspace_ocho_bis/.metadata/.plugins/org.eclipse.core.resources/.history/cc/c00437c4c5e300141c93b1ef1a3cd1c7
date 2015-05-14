@@ -1,0 +1,103 @@
+/*
+ * main.cpp
+ *
+ *  Created on: 10/04/2015
+ *      Author: barfelix
+ */
+# include <limits.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+#include <iostream>
+#include "Arbin.h"
+using namespace std ;
+
+typedef Arbin<int> tArbin ;
+typedef List<int> tLista;
+
+tLista lee (bool& error)
+{
+	tLista ret;
+int r;
+cin >> r;
+
+	while (r!=-1)
+	{
+		ret.push_back(r);
+		cin >> r ;
+	};
+error=(r==-1 && ret.size()<1);
+return ret;
+}
+
+tArbin reconstruyeAux ( tLista::ConstIterator preIterador, tLista::ConstIterator finPreIterador
+		tLista::ConstIterator inIterador,tLista::ConstIterator finInIterador, bool& error )
+{
+
+
+
+
+=preA.cend();
+=inB.cbegin();
+=inB.cend();
+
+
+	tArbin hijoIz=tArbin();
+	tArbin hijoDr=tArbin();
+	return unArbol(hijoIz,preIterador);
+}
+
+tArbin reconstruye(const tLista& preA, const tLista& inB, bool& error)
+{
+	tArbin unArbol;
+	error=(preA.size()!=inB.size());
+	if (error) return unArbol;
+
+	unArbol=reconstruyeAux(preA.cbegin(),preA.cend(),inB.cbegin(),inB.cend())
+		{
+
+		}
+}
+
+bool mostrar (const tArbin& a)
+{
+	//saco lista de nodos
+	tLista unaLista=a.postorden();
+
+	//si arbol vacío
+	if (unaLista.empty()) return true;
+
+	tLista::ConstIterator unIterador=unaLista.cbegin();
+	tLista::ConstIterator fin=unaLista.cend();
+
+	while(unIterador!=fin)
+	{
+		cout << unIterador.elem();
+		unIterador.next();
+		if (unIterador!=fin)
+			cout <<" "; //en serio, no sé por qué debo poner esto
+	}
+
+	cout << "\n";
+	return true;
+}
+
+int main ()
+{
+bool error=false;
+
+List<int> a;
+List<int> b;
+tArbin c;
+while (!error)
+{
+a=lee(error);
+
+
+b=lee(error);
+if (error) break;
+c=reconstruye(a,b,error);
+mostrar (c);
+};
+return 0;
+}

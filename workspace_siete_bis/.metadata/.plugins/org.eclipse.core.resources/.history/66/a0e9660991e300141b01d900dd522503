@@ -1,0 +1,90 @@
+/*
+ * main.cpp
+ *
+ *  Created on: 10/04/2015
+ *      Author: barfelix
+ */
+
+# include <limits.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+#include <iostream>
+#include "Arbin.h"
+using namespace std ;
+
+typedef Arbin<int> tArbin ;
+
+tArbin lee ()
+{
+int r;
+cin >> r;
+if (r==-1)
+	return tArbin(tArbin(),r,tArbin());
+else{
+	tArbin iz=lee();
+	tArbin der=lee();
+	return tArbin(iz,r,der);
+}
+
+}
+
+
+tArbin suma  (const tArbin& a, const tArbin& b)
+{
+	if (a.esVacio()) return b;
+	if (b.esVacio()) return a;
+
+tArbin iz=suma(a.hijoIz(),b.hijoIz());
+tArbin dr=suma(a.hijoDr(),b.hijoDr());
+
+
+if (a.raiz()<0)
+	return tArbin(iz,b.raiz(),dr);
+	else if (b.raiz()<0)
+	return tArbin(iz,a.raiz(),dr);
+	else
+	return tArbin(iz,a.raiz()+b.raiz(),dr);
+
+}
+
+bool mostrar (const tArbin& a)
+{
+	//saco lista de nodos
+	List<int> unaLista=a.preorden();
+
+	//si arbol vacío
+	if (unaLista.empty()) return true;
+
+	List<int>::ConstIterator unIterador=unaLista.cbegin();
+	List<int>::ConstIterator fin=unaLista.cend();
+
+	//si el arbol sólo tiene un nodo que vale -1 , me salgo
+	if (unaLista.size()==1 && unIterador.elem()==-1) return false;;
+
+	while(unIterador!=fin)
+	{
+		cout << unIterador.elem() << " ";
+		unIterador.next();
+	}
+
+	cout << "\n";
+	return true;
+}
+
+int main ()
+{
+bool error=false;
+
+tArbin a;
+tArbin b;
+tArbin c;
+while (!error)
+{
+a=lee();
+b=lee();
+c=suma(a,b);
+error= ! mostrar (c);
+};
+return 0;
+}

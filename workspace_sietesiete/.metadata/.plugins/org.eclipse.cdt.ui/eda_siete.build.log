@@ -1,0 +1,6 @@
+11:05:27 **** Incremental Build of configuration Debug for project eda_siete ****
+make all 
+make: No se hace nada para `all'.
+
+11:05:27 Build Finished (took 68ms)
+

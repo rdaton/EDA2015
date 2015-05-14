@@ -1,0 +1,1013 @@
+09:54:31 **** Build of configuration Debug for project eda_10_11 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: eda_10_11
+Invoking: GCC C++ Linker
+g++  -o "eda_10_11"  ./main.o   
+/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 0 has invalid symbol index 11
+/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 1 has invalid symbol index 12
+/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 2 has invalid symbol index 2
+/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 3 has invalid symbol index 2
+/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 4 has invalid symbol index 11
+/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 5 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 6 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 7 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 8 has invalid symbol index 12
+/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 9 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 10 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 11 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 12 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 13 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 14 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 15 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 16 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 17 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 18 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 19 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 20 has invalid symbol index 13
+/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_info): relocation 21 has invalid symbol index 21
+/usr/bin/ld: /usr/lib/debug/usr/lib/i386-linux-gnu/crt1.o(.debug_line): relocation 0 has invalid symbol index 2
+/usr/lib/gcc/i486-linux-gnu/4.7/../../../i386-linux-gnu/crt1.o: In function `_start':
+(.text+0x18): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+make: *** [eda_10_11] Error 1
+09:56:16 **** Incremental Build of configuration Debug for project eda_10_11 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:15:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+Finished building: ../main.cpp
+ 
+Building target: eda_10_11
+Invoking: GCC C++ Linker
+g++  -o "eda_10_11"  ./main.o   
+Finished building target: eda_10_11
+ 
+09:57:50 **** Incremental Build of configuration Debug for project eda_10_11 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:15:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘int main()’:
+../main.cpp:30:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../main.cpp:15:0:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = std::basic_string<char>]’:
+../main.cpp:31:24:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Finished building: ../main.cpp
+ 
+Building target: eda_10_11
+Invoking: GCC C++ Linker
+g++  -o "eda_10_11"  ./main.o   
+Finished building target: eda_10_11
+ 
+09:57:58 **** Incremental Build of configuration Debug for project eda_10_11 ****
+make all 
+make: No se hace nada para `all'.
+09:58:34 **** Incremental Build of configuration Debug for project eda_10_11 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:15:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘int main()’:
+../main.cpp:30:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../main.cpp:15:0:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = std::basic_string<char>]’:
+../main.cpp:31:24:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Finished building: ../main.cpp
+ 
+Building target: eda_10_11
+Invoking: GCC C++ Linker
+g++  -o "eda_10_11"  ./main.o   
+Finished building target: eda_10_11
+ 
+09:58:44 **** Incremental Build of configuration Debug for project eda_10_11 ****
+make all 
+make: No se hace nada para `all'.
+10:13:40 **** Incremental Build of configuration Debug for project eda_10_11 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:15:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘int main()’:
+../main.cpp:25:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Finished building: ../main.cpp
+ 
+Building target: eda_10_11
+Invoking: GCC C++ Linker
+g++  -o "eda_10_11"  ./main.o   
+Finished building target: eda_10_11
+ 
+10:18:44 **** Incremental Build of configuration Debug for project eda_10_11 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:15:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp:20:9: error: invalid use of template-name ‘List’ without an argument list
+../main.cpp: In function ‘arbolLetras reconstruir(const listaLetras&)’:
+../main.cpp:31:9: error: ‘unArbolLetra’ was not declared in this scope
+../main.cpp: In function ‘int main()’:
+../main.cpp:42:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp: In function ‘arbolLetras reconstruir(const listaLetras&)’:
+../main.cpp:32:1: warning: control reaches end of non-void function [-Wreturn-type]
+make: *** [main.o] Error 1
+10:19:04 **** Incremental Build of configuration Debug for project eda_10_11 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:15:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘arbolLetras reconstruir(const listaLetras&)’:
+../main.cpp:31:9: error: ‘unArbolLetra’ was not declared in this scope
+../main.cpp: In function ‘int main()’:
+../main.cpp:42:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp: In function ‘arbolLetras reconstruir(const listaLetras&)’:
+../main.cpp:32:1: warning: control reaches end of non-void function [-Wreturn-type]
+make: *** [main.o] Error 1
+10:22:54 **** Incremental Build of configuration Debug for project eda_10_11 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:15:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘arbolLetras reconstruir(const listaLetras&)’:
+../main.cpp:31:9: error: ‘unArbolLetra’ was not declared in this scope
+../main.cpp: In function ‘int main()’:
+../main.cpp:42:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp: In function ‘arbolLetras reconstruir(const listaLetras&)’:
+../main.cpp:32:1: warning: control reaches end of non-void function [-Wreturn-type]
+make: *** [main.o] Error 1
+10:23:04 **** Incremental Build of configuration Debug for project eda_10_11 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:15:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘arbolLetras reconstruirAux(iteradorLetras&, iteradorLetras&)’:
+../main.cpp:27:1: warning: no return statement in function returning non-void [-Wreturn-type]
+../main.cpp: In function ‘arbolLetras reconstruir(const listaLetras&)’:
+../main.cpp:32:13: error: expected unqualified-id before ‘=’ token
+../main.cpp: In function ‘int main()’:
+../main.cpp:47:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+make: *** [main.o] Error 1
+10:25:00 **** Incremental Build of configuration Debug for project eda_10_11 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:15:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘arbolLetras reconstruirAux(iteradorLetras&, iteradorLetras&)’:
+../main.cpp:27:1: warning: no return statement in function returning non-void [-Wreturn-type]
+../main.cpp: In function ‘arbolLetras reconstruir(const listaLetras&)’:
+../main.cpp:34:13: error: expected unqualified-id before ‘=’ token
+../main.cpp: In function ‘int main()’:
+../main.cpp:49:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+make: *** [main.o] Error 1
+10:25:36 **** Incremental Build of configuration Debug for project eda_10_11 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:15:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘arbolLetras reconstruirAux(iteradorLetras&, iteradorLetras&)’:
+../main.cpp:27:1: warning: no return statement in function returning non-void [-Wreturn-type]
+../main.cpp: In function ‘arbolLetras reconstruir(const listaLetras&)’:
+../main.cpp:35:2: error: ‘unAarbolLetras’ was not declared in this scope
+../main.cpp: In function ‘int main()’:
+../main.cpp:50:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+make: *** [main.o] Error 1
+10:25:51 **** Incremental Build of configuration Debug for project eda_10_11 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:15:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘arbolLetras reconstruirAux(iteradorLetras&, iteradorLetras&)’:
+../main.cpp:27:1: warning: no return statement in function returning non-void [-Wreturn-type]
+../main.cpp: In function ‘int main()’:
+../main.cpp:50:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Finished building: ../main.cpp
+ 
+Building target: eda_10_11
+Invoking: GCC C++ Linker
+g++  -o "eda_10_11"  ./main.o   
+Finished building target: eda_10_11
+ 
+13:27:55 **** Incremental Build of configuration Debug for project eda_10_11 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:15:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘arbolLetras reconstruirAux(iteradorLetras&, iteradorLetras&)’:
+../main.cpp:29:15: warning: comparison with string literal results in unspecified behaviour [-Waddress]
+../main.cpp:29:15: error: ISO C++ forbids comparison between pointer and integer [-fpermissive]
+../main.cpp: In function ‘int main()’:
+../main.cpp:95:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp:102:34: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../main.cpp:15:0:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:103:26:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+make: *** [main.o] Error 1
+13:29:23 **** Incremental Build of configuration Debug for project eda_10_11 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:15:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘arbolLetras reconstruirAux(iteradorLetras&, iteradorLetras&)’:
+../main.cpp:29:15: warning: comparison with string literal results in unspecified behaviour [-Waddress]
+../main.cpp:29:15: error: ISO C++ forbids comparison between pointer and integer [-fpermissive]
+../main.cpp: In function ‘int main()’:
+../main.cpp:95:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp:102:34: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../main.cpp:15:0:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:103:26:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+make: *** [main.o] Error 1
+13:29:38 **** Incremental Build of configuration Debug for project eda_10_11 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:15:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘arbolLetras reconstruirAux(iteradorLetras&, iteradorLetras&)’:
+../main.cpp:29:15: warning: comparison with string literal results in unspecified behaviour [-Waddress]
+../main.cpp:29:15: error: ISO C++ forbids comparison between pointer and integer [-fpermissive]
+../main.cpp: In function ‘int main()’:
+../main.cpp:95:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp:102:34: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../main.cpp:15:0:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:103:26:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+make: *** [main.o] Error 1
+13:29:46 **** Incremental Build of configuration Debug for project eda_10_11 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:15:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘arbolLetras reconstruirAux(iteradorLetras&, iteradorLetras&)’:
+../main.cpp:29:15: warning: comparison with string literal results in unspecified behaviour [-Waddress]
+../main.cpp:29:15: error: ISO C++ forbids comparison between pointer and integer [-fpermissive]
+../main.cpp: In function ‘int main()’:
+../main.cpp:95:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp:102:34: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../main.cpp:15:0:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:103:26:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+make: *** [main.o] Error 1
+13:29:53 **** Incremental Build of configuration Debug for project eda_10_11 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:15:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘arbolLetras reconstruirAux(iteradorLetras&, iteradorLetras&)’:
+../main.cpp:29:21: error: cast from ‘const char*’ to ‘char’ loses precision [-fpermissive]
+../main.cpp: In function ‘int main()’:
+../main.cpp:95:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp:102:34: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../main.cpp:15:0:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:103:26:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+make: *** [main.o] Error 1
+13:30:14 **** Incremental Build of configuration Debug for project eda_10_11 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:15:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘arbolLetras reconstruirAux(iteradorLetras&, iteradorLetras&)’:
+../main.cpp:27:32: error: invalid type argument of unary ‘*’ (have ‘char’)
+../main.cpp:29:15: warning: comparison with string literal results in unspecified behaviour [-Waddress]
+../main.cpp:29:15: error: ISO C++ forbids comparison between pointer and integer [-fpermissive]
+../main.cpp: In function ‘int main()’:
+../main.cpp:95:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp:102:34: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../main.cpp:15:0:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:103:26:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+make: *** [main.o] Error 1
+13:31:06 **** Clean-only build of configuration Debug for project eda_10_11 ****
+make clean 
+rm -rf  ./main.o  ./main.d  eda_10_11
+ 
+13:31:09 **** Build of configuration Debug for project eda_10_11 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:15:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘arbolLetras reconstruirAux(iteradorLetras&, iteradorLetras&)’:
+../main.cpp:29:15: warning: comparison with string literal results in unspecified behaviour [-Waddress]
+../main.cpp:29:15: error: ISO C++ forbids comparison between pointer and integer [-fpermissive]
+../main.cpp: In function ‘int main()’:
+../main.cpp:95:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp:102:34: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../main.cpp:15:0:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:103:26:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+make: *** [main.o] Error 1
+13:31:43 **** Incremental Build of configuration Debug for project eda_10_11 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:15:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘arbolLetras reconstruirAux(iteradorLetras&, iteradorLetras&)’:
+../main.cpp:29:21: warning: comparison with string literal results in unspecified behaviour [-Waddress]
+../main.cpp:29:21: error: ISO C++ forbids comparison between pointer and integer [-fpermissive]
+../main.cpp: In function ‘int main()’:
+../main.cpp:95:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp:102:34: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../main.cpp:15:0:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:103:26:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+make: *** [main.o] Error 1
+13:32:14 **** Incremental Build of configuration Debug for project eda_10_11 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:15:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘arbolLetras reconstruirAux(iteradorLetras&, iteradorLetras&)’:
+../main.cpp:29:21: warning: comparison with string literal results in unspecified behaviour [-Waddress]
+../main.cpp:29:21: error: ISO C++ forbids comparison between pointer and integer [-fpermissive]
+../main.cpp: In function ‘int main()’:
+../main.cpp:95:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp:102:34: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../main.cpp:15:0:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:103:26:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+make: *** [main.o] Error 1
+13:33:14 **** Incremental Build of configuration Debug for project eda_10_11 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:15:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘arbolLetras reconstruirAux(iteradorLetras&, iteradorLetras&)’:
+../main.cpp:29:21: warning: comparison with string literal results in unspecified behaviour [-Waddress]
+../main.cpp:29:21: error: ISO C++ forbids comparison between pointer and integer [-fpermissive]
+../main.cpp: In function ‘int main()’:
+../main.cpp:95:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp:102:34: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../main.cpp:15:0:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:103:26:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+make: *** [main.o] Error 1
+13:34:25 **** Incremental Build of configuration Debug for project eda_10_11 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:15:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘arbolLetras reconstruirAux(iteradorLetras&, iteradorLetras&)’:
+../main.cpp:29:24: error: ‘strcmp’ was not declared in this scope
+../main.cpp: In function ‘int main()’:
+../main.cpp:95:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp:102:34: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../main.cpp:15:0:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:103:26:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp: In function ‘arbolLetras reconstruirAux(iteradorLetras&, iteradorLetras&)’:
+../main.cpp:39:1: warning: control reaches end of non-void function [-Wreturn-type]
+make: *** [main.o] Error 1
+13:35:12 **** Incremental Build of configuration Debug for project eda_10_11 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:15:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘arbolLetras reconstruirAux(iteradorLetras&, iteradorLetras&)’:
+../main.cpp:30:24: error: invalid conversion from ‘char’ to ‘const char*’ [-fpermissive]
+In file included from ../main.cpp:16:0:
+/usr/include/string.h:144:12: error:   initializing argument 1 of ‘int strcmp(const char*, const char*)’ [-fpermissive]
+../main.cpp: In function ‘int main()’:
+../main.cpp:96:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp:103:34: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../main.cpp:15:0:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:104:26:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+make: *** [main.o] Error 1
+13:35:24 **** Incremental Build of configuration Debug for project eda_10_11 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:15:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘arbolLetras reconstruirAux(iteradorLetras&, iteradorLetras&)’:
+../main.cpp:30:24: error: invalid conversion from ‘char’ to ‘const char*’ [-fpermissive]
+In file included from ../main.cpp:16:0:
+/usr/include/string.h:144:12: error:   initializing argument 1 of ‘int strcmp(const char*, const char*)’ [-fpermissive]
+../main.cpp: In function ‘int main()’:
+../main.cpp:96:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp:103:34: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../main.cpp:15:0:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:104:26:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+make: *** [main.o] Error 1
+13:35:41 **** Incremental Build of configuration Debug for project eda_10_11 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:15:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘arbolLetras reconstruirAux(iteradorLetras&, iteradorLetras&)’:
+../main.cpp:30:24: error: invalid conversion from ‘char’ to ‘const char*’ [-fpermissive]
+In file included from ../main.cpp:16:0:
+/usr/include/string.h:144:12: error:   initializing argument 1 of ‘int strcmp(const char*, const char*)’ [-fpermissive]
+../main.cpp: In function ‘int main()’:
+../main.cpp:96:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp:103:34: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../main.cpp:15:0:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:104:26:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+make: *** [main.o] Error 1
+13:36:07 **** Incremental Build of configuration Debug for project eda_10_11 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:15:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘arbolLetras reconstruirAux(iteradorLetras&, iteradorLetras&)’:
+../main.cpp:28:33: error: invalid conversion from ‘char’ to ‘const char*’ [-fpermissive]
+In file included from /usr/include/c++/4.7/string:55:0,
+                 from /usr/include/c++/4.7/bits/locale_classes.h:42,
+                 from /usr/include/c++/4.7/bits/ios_base.h:43,
+                 from /usr/include/c++/4.7/ios:43,
+                 from /usr/include/c++/4.7/ostream:40,
+                 from /usr/include/c++/4.7/iostream:40,
+                 from ../main.cpp:14:
+/usr/include/c++/4.7/bits/basic_string.tcc:214:5: error:   initializing argument 1 of ‘std::basic_string<_CharT, _Traits, _Alloc>::basic_string(const _CharT*, const _Alloc&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]’ [-fpermissive]
+../main.cpp:30:33: error: cast from ‘const char*’ to ‘const char’ loses precision [-fpermissive]
+../main.cpp:30:36: error: cannot convert ‘std::string {aka std::basic_string<char>}’ to ‘const char*’ for argument ‘1’ to ‘int strcmp(const char*, const char*)’
+../main.cpp:35:43: error: no matching function for call to ‘Arbin<char>::Arbin(arbolLetras&, std::string&, arbolLetras&)’
+../main.cpp:35:43: note: candidates are:
+In file included from ../main.cpp:15:0:
+../bundleEDA.h:719:2: note: Arbin<T>::Arbin(Arbin<T>::Nodo*) [with T = char]
+../bundleEDA.h:719:2: note:   candidate expects 1 argument, 3 provided
+../bundleEDA.h:685:2: note: Arbin<T>::Arbin(const Arbin<T>&) [with T = char]
+../bundleEDA.h:685:2: note:   candidate expects 1 argument, 3 provided
+../bundleEDA.h:618:2: note: Arbin<T>::Arbin(const T&) [with T = char]
+../bundleEDA.h:618:2: note:   candidate expects 1 argument, 3 provided
+../bundleEDA.h:614:2: note: Arbin<T>::Arbin(const Arbin<T>&, const T&, const Arbin<T>&) [with T = char; Arbin<T> = Arbin<char>]
+../bundleEDA.h:614:2: note:   no known conversion for argument 2 from ‘std::string {aka std::basic_string<char>}’ to ‘const char&’
+../bundleEDA.h:612:2: note: Arbin<T>::Arbin() [with T = char]
+../bundleEDA.h:612:2: note:   candidate expects 0 arguments, 3 provided
+../main.cpp: In function ‘int main()’:
+../main.cpp:96:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp:103:34: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../main.cpp:15:0:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:104:26:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp: In function ‘arbolLetras reconstruirAux(iteradorLetras&, iteradorLetras&)’:
+../main.cpp:40:1: warning: control reaches end of non-void function [-Wreturn-type]
+make: *** [main.o] Error 1
+13:36:22 **** Incremental Build of configuration Debug for project eda_10_11 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:15:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘arbolLetras reconstruirAux(iteradorLetras&, iteradorLetras&)’:
+../main.cpp:30:33: error: cast from ‘const char*’ to ‘const char’ loses precision [-fpermissive]
+../main.cpp:30:36: error: invalid conversion from ‘char’ to ‘const char*’ [-fpermissive]
+In file included from ../main.cpp:16:0:
+/usr/include/string.h:144:12: error:   initializing argument 1 of ‘int strcmp(const char*, const char*)’ [-fpermissive]
+../main.cpp:30:36: error: invalid conversion from ‘const char’ to ‘const char*’ [-fpermissive]
+In file included from ../main.cpp:16:0:
+/usr/include/string.h:144:12: error:   initializing argument 2 of ‘int strcmp(const char*, const char*)’ [-fpermissive]
+../main.cpp: In function ‘arbolLetras reconstruir(const listaLetras&)’:
+../main.cpp:77:40: error: conversion from ‘List<char>::ConstIterator’ to non-scalar type ‘iteradorLetras {aka List<char>::Iterator}’ requested
+../main.cpp:78:35: error: conversion from ‘List<char>::ConstIterator’ to non-scalar type ‘iteradorLetras {aka List<char>::Iterator}’ requested
+../main.cpp: In function ‘int main()’:
+../main.cpp:96:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp:103:34: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../main.cpp:15:0:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:104:26:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+make: *** [main.o] Error 1
+13:36:31 **** Incremental Build of configuration Debug for project eda_10_11 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:15:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘arbolLetras reconstruirAux(iteradorLetras&, iteradorLetras&)’:
+../main.cpp:30:24: error: invalid conversion from ‘char’ to ‘const char*’ [-fpermissive]
+In file included from ../main.cpp:16:0:
+/usr/include/string.h:144:12: error:   initializing argument 1 of ‘int strcmp(const char*, const char*)’ [-fpermissive]
+../main.cpp: In function ‘arbolLetras reconstruir(const listaLetras&)’:
+../main.cpp:77:40: error: conversion from ‘List<char>::ConstIterator’ to non-scalar type ‘iteradorLetras {aka List<char>::Iterator}’ requested
+../main.cpp:78:35: error: conversion from ‘List<char>::ConstIterator’ to non-scalar type ‘iteradorLetras {aka List<char>::Iterator}’ requested
+../main.cpp: In function ‘int main()’:
+../main.cpp:96:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp:103:34: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../main.cpp:15:0:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:104:26:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+make: *** [main.o] Error 1
+13:36:46 **** Incremental Build of configuration Debug for project eda_10_11 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:15:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘arbolLetras reconstruirAux(iteradorLetras&, iteradorLetras&)’:
+../main.cpp:30:24: error: invalid conversion from ‘char’ to ‘const char*’ [-fpermissive]
+In file included from ../main.cpp:16:0:
+/usr/include/string.h:144:12: error:   initializing argument 1 of ‘int strcmp(const char*, const char*)’ [-fpermissive]
+../main.cpp: In function ‘arbolLetras reconstruir(const listaLetras&)’:
+../main.cpp:77:40: error: conversion from ‘List<char>::ConstIterator’ to non-scalar type ‘iteradorLetras {aka List<char>::Iterator}’ requested
+../main.cpp:78:35: error: conversion from ‘List<char>::ConstIterator’ to non-scalar type ‘iteradorLetras {aka List<char>::Iterator}’ requested
+../main.cpp: In function ‘int main()’:
+../main.cpp:96:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp:103:34: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../main.cpp:15:0:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:104:26:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+make: *** [main.o] Error 1
+13:37:07 **** Incremental Build of configuration Debug for project eda_10_11 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:15:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘arbolLetras reconstruirAux(iteradorLetras&, iteradorLetras&)’:
+../main.cpp:30:35: error: cast from ‘const char*’ to ‘const char’ loses precision [-fpermissive]
+../main.cpp:30:38: error: invalid conversion from ‘char’ to ‘const char*’ [-fpermissive]
+In file included from ../main.cpp:16:0:
+/usr/include/string.h:144:12: error:   initializing argument 1 of ‘int strcmp(const char*, const char*)’ [-fpermissive]
+../main.cpp:30:38: error: invalid conversion from ‘const char’ to ‘const char*’ [-fpermissive]
+In file included from ../main.cpp:16:0:
+/usr/include/string.h:144:12: error:   initializing argument 2 of ‘int strcmp(const char*, const char*)’ [-fpermissive]
+../main.cpp: In function ‘arbolLetras reconstruir(const listaLetras&)’:
+../main.cpp:77:40: error: conversion from ‘List<char>::ConstIterator’ to non-scalar type ‘iteradorLetras {aka List<char>::Iterator}’ requested
+../main.cpp:78:35: error: conversion from ‘List<char>::ConstIterator’ to non-scalar type ‘iteradorLetras {aka List<char>::Iterator}’ requested
+../main.cpp: In function ‘int main()’:
+../main.cpp:96:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp:103:34: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../main.cpp:15:0:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:104:26:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+make: *** [main.o] Error 1
+13:37:22 **** Incremental Build of configuration Debug for project eda_10_11 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:15:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘arbolLetras reconstruirAux(iteradorLetras&, iteradorLetras&)’:
+../main.cpp:30:15: warning: comparison with string literal results in unspecified behaviour [-Waddress]
+../main.cpp:30:15: error: ISO C++ forbids comparison between pointer and integer [-fpermissive]
+../main.cpp:30:19: error: expected ‘)’ before ‘return’
+../main.cpp: In function ‘arbolLetras reconstruir(const listaLetras&)’:
+../main.cpp:77:40: error: conversion from ‘List<char>::ConstIterator’ to non-scalar type ‘iteradorLetras {aka List<char>::Iterator}’ requested
+../main.cpp:78:35: error: conversion from ‘List<char>::ConstIterator’ to non-scalar type ‘iteradorLetras {aka List<char>::Iterator}’ requested
+../main.cpp: In function ‘int main()’:
+../main.cpp:96:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp:103:34: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../main.cpp:15:0:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:104:26:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp: In function ‘arbolLetras reconstruirAux(iteradorLetras&, iteradorLetras&)’:
+../main.cpp:40:1: warning: control reaches end of non-void function [-Wreturn-type]
+make: *** [main.o] Error 1
+13:37:30 **** Incremental Build of configuration Debug for project eda_10_11 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:15:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘arbolLetras reconstruirAux(iteradorLetras&, iteradorLetras&)’:
+../main.cpp:30:15: warning: comparison with string literal results in unspecified behaviour [-Waddress]
+../main.cpp:30:15: error: ISO C++ forbids comparison between pointer and integer [-fpermissive]
+../main.cpp: In function ‘arbolLetras reconstruir(const listaLetras&)’:
+../main.cpp:77:40: error: conversion from ‘List<char>::ConstIterator’ to non-scalar type ‘iteradorLetras {aka List<char>::Iterator}’ requested
+../main.cpp:78:35: error: conversion from ‘List<char>::ConstIterator’ to non-scalar type ‘iteradorLetras {aka List<char>::Iterator}’ requested
+../main.cpp: In function ‘int main()’:
+../main.cpp:96:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp:103:34: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../main.cpp:15:0:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:104:26:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+make: *** [main.o] Error 1
+13:37:45 **** Incremental Build of configuration Debug for project eda_10_11 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:15:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘arbolLetras reconstruirAux(iteradorLetras&, iteradorLetras&)’:
+../main.cpp:28:39: error: invalid type argument of unary ‘*’ (have ‘char’)
+../main.cpp:30:15: warning: comparison with string literal results in unspecified behaviour [-Waddress]
+../main.cpp:30:15: error: ISO C++ forbids comparison between pointer and integer [-fpermissive]
+../main.cpp: In function ‘arbolLetras reconstruir(const listaLetras&)’:
+../main.cpp:77:40: error: conversion from ‘List<char>::ConstIterator’ to non-scalar type ‘iteradorLetras {aka List<char>::Iterator}’ requested
+../main.cpp:78:35: error: conversion from ‘List<char>::ConstIterator’ to non-scalar type ‘iteradorLetras {aka List<char>::Iterator}’ requested
+../main.cpp: In function ‘int main()’:
+../main.cpp:96:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp:103:34: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../main.cpp:15:0:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:104:26:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+make: *** [main.o] Error 1
+13:38:24 **** Incremental Build of configuration Debug for project eda_10_11 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:15:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘arbolLetras reconstruirAux(iteradorLetras&, iteradorLetras&)’:
+../main.cpp:28:39: error: invalid type argument of unary ‘*’ (have ‘char’)
+../main.cpp:30:15: warning: comparison with string literal results in unspecified behaviour [-Waddress]
+../main.cpp:30:15: error: ISO C++ forbids comparison between pointer and integer [-fpermissive]
+../main.cpp: In function ‘arbolLetras reconstruir(const listaLetras&)’:
+../main.cpp:77:39: error: passing ‘const listaLetras {aka const List<char>}’ as ‘this’ argument of ‘List<T>::Iterator List<T>::begin() [with T = char]’ discards qualifiers [-fpermissive]
+../main.cpp: In function ‘int main()’:
+../main.cpp:96:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp:103:34: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../main.cpp:15:0:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:104:26:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+make: *** [main.o] Error 1
+13:38:51 **** Clean-only build of configuration Debug for project eda_10_11 ****
+make clean 
+rm -rf  ./main.o  ./main.d  eda_10_11
+ 
+13:38:53 **** Build of configuration Debug for project eda_10_11 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:15:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘arbolLetras reconstruirAux(iteradorLetras&, iteradorLetras&)’:
+../main.cpp:28:39: error: invalid type argument of unary ‘*’ (have ‘char’)
+../main.cpp:30:15: warning: comparison with string literal results in unspecified behaviour [-Waddress]
+../main.cpp:30:15: error: ISO C++ forbids comparison between pointer and integer [-fpermissive]
+../main.cpp: In function ‘arbolLetras reconstruir(const listaLetras&)’:
+../main.cpp:77:39: error: passing ‘const listaLetras {aka const List<char>}’ as ‘this’ argument of ‘List<T>::Iterator List<T>::begin() [with T = char]’ discards qualifiers [-fpermissive]
+../main.cpp: In function ‘int main()’:
+../main.cpp:96:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp:103:34: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../main.cpp:15:0:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:104:26:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+make: *** [main.o] Error 1
+13:46:16 **** Incremental Build of configuration Debug for project eda_10_11 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:15:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘arbolLetras reconstruirAux(iteradorLetras&, iteradorLetras&)’:
+../main.cpp:30:24: error: invalid conversion from ‘char’ to ‘const char*’ [-fpermissive]
+In file included from ../main.cpp:16:0:
+/usr/include/string.h:144:12: error:   initializing argument 1 of ‘int strcmp(const char*, const char*)’ [-fpermissive]
+../main.cpp: In function ‘arbolLetras reconstruir(const listaLetras&)’:
+../main.cpp:77:40: error: conversion from ‘List<char>::ConstIterator’ to non-scalar type ‘iteradorLetras {aka List<char>::Iterator}’ requested
+../main.cpp:78:35: error: conversion from ‘List<char>::ConstIterator’ to non-scalar type ‘iteradorLetras {aka List<char>::Iterator}’ requested
+../main.cpp: In function ‘int main()’:
+../main.cpp:96:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp:103:34: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../main.cpp:15:0:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:104:26:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+make: *** [main.o] Error 1
+13:46:48 **** Incremental Build of configuration Debug for project eda_10_11 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:15:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘arbolLetras reconstruirAux(iteradorLetras&, iteradorLetras&)’:
+../main.cpp:30:24: error: invalid conversion from ‘char’ to ‘const char*’ [-fpermissive]
+In file included from ../main.cpp:16:0:
+/usr/include/string.h:144:12: error:   initializing argument 1 of ‘int strcmp(const char*, const char*)’ [-fpermissive]
+../main.cpp: In function ‘int main()’:
+../main.cpp:96:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp:103:34: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../main.cpp:15:0:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:104:26:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+make: *** [main.o] Error 1
+13:47:45 **** Incremental Build of configuration Debug for project eda_10_11 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:15:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘arbolLetras reconstruirAux(iteradorLetras&, iteradorLetras&)’:
+../main.cpp:30:25: error: cast from ‘const char*’ to ‘char’ loses precision [-fpermissive]
+../main.cpp: In function ‘int main()’:
+../main.cpp:96:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp:103:34: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../main.cpp:15:0:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:104:26:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+make: *** [main.o] Error 1
+13:48:37 **** Incremental Build of configuration Debug for project eda_10_11 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:15:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘arbolLetras reconstruirAux(iteradorLetras&, iteradorLetras&)’:
+../main.cpp:28:17: error: invalid conversion from ‘const char*’ to ‘char’ [-fpermissive]
+../main.cpp:31:25: error: cast from ‘const char*’ to ‘char’ loses precision [-fpermissive]
+../main.cpp: In function ‘int main()’:
+../main.cpp:97:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp:104:34: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../main.cpp:15:0:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:105:26:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+make: *** [main.o] Error 1
+13:53:19 **** Incremental Build of configuration Debug for project eda_10_11 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:15:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘arbolLetras reconstruirAux(iteradorLetras&, iteradorLetras&)’:
+../main.cpp:31:25: error: cast from ‘const char*’ to ‘char’ loses precision [-fpermissive]
+../main.cpp: In function ‘int main()’:
+../main.cpp:97:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp:104:34: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../main.cpp:15:0:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:105:26:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+make: *** [main.o] Error 1
+13:53:29 **** Incremental Build of configuration Debug for project eda_10_11 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:15:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘arbolLetras reconstruirAux(iteradorLetras&, iteradorLetras&)’:
+../main.cpp:31:25: error: cast from ‘const char*’ to ‘char’ loses precision [-fpermissive]
+../main.cpp: In function ‘int main()’:
+../main.cpp:97:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp:104:34: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../main.cpp:15:0:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:105:26:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+make: *** [main.o] Error 1
+13:53:40 **** Incremental Build of configuration Debug for project eda_10_11 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:15:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘int main()’:
+../main.cpp:96:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp:103:34: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../main.cpp:15:0:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:104:26:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Finished building: ../main.cpp
+ 
+Building target: eda_10_11
+Invoking: GCC C++ Linker
+g++  -o "eda_10_11"  ./main.o   
+Finished building target: eda_10_11
+ 
+13:53:49 **** Incremental Build of configuration Debug for project eda_10_11 ****
+make all 
+make: No se hace nada para `all'.
+13:54:57 **** Incremental Build of configuration Debug for project eda_10_11 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:15:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘int main()’:
+../main.cpp:96:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp:103:34: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../main.cpp:15:0:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:104:26:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Finished building: ../main.cpp
+ 
+Building target: eda_10_11
+Invoking: GCC C++ Linker
+g++  -o "eda_10_11"  ./main.o   
+Finished building target: eda_10_11
+ 
+13:57:42 **** Incremental Build of configuration Debug for project eda_10_11 ****
+make all 
+make: No se hace nada para `all'.
+14:00:59 **** Incremental Build of configuration Debug for project eda_10_11 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:15:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘int main()’:
+../main.cpp:98:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp:105:34: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../main.cpp:15:0:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:106:26:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Finished building: ../main.cpp
+ 
+Building target: eda_10_11
+Invoking: GCC C++ Linker
+g++  -o "eda_10_11"  ./main.o   
+Finished building target: eda_10_11
+ 
+14:02:48 **** Incremental Build of configuration Debug for project eda_10_11 ****
+make all 
+make: No se hace nada para `all'.
+14:02:54 **** Incremental Build of configuration Debug for project eda_10_11 ****
+make all 
+make: No se hace nada para `all'.
+14:05:56 **** Incremental Build of configuration Debug for project eda_10_11 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:15:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘int main()’:
+../main.cpp:95:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp:102:34: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../main.cpp:15:0:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:103:26:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Finished building: ../main.cpp
+ 
+Building target: eda_10_11
+Invoking: GCC C++ Linker
+g++  -o "eda_10_11"  ./main.o   
+Finished building target: eda_10_11
+ 
+14:06:07 **** Incremental Build of configuration Debug for project eda_10_11 ****
+make all 
+make: No se hace nada para `all'.
+14:07:38 **** Incremental Build of configuration Debug for project eda_10_11 ****
+make all 
+make: No se hace nada para `all'.
+10:23:16 **** Incremental Build of configuration Debug for project eda_10_11 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:15:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘int main()’:
+../main.cpp:103:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp:110:34: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../main.cpp:15:0:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:111:26:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Finished building: ../main.cpp
+ 
+Building target: eda_10_11
+Invoking: GCC C++ Linker
+g++  -o "eda_10_11"  ./main.o   
+Finished building target: eda_10_11
+ 
+10:24:50 **** Incremental Build of configuration Debug for project eda_10_11 ****
+make all 
+make: No se hace nada para `all'.
+10:25:26 **** Incremental Build of configuration Debug for project eda_10_11 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:15:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘int main()’:
+../main.cpp:103:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp:108:34: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp:113:34: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../main.cpp:15:0:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:109:28:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Finished building: ../main.cpp
+ 
+Building target: eda_10_11
+Invoking: GCC C++ Linker
+g++  -o "eda_10_11"  ./main.o   
+Finished building target: eda_10_11
+ 
+10:25:30 **** Incremental Build of configuration Debug for project eda_10_11 ****
+make all 
+make: No se hace nada para `all'.
+10:40:36 **** Incremental Build of configuration Debug for project eda_10_11 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:15:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘listaLetras dameListaFrontera(const string&)’:
+../main.cpp:101:30: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp: In function ‘void mostrar(listaLetras&)’:
+../main.cpp:113:33: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../main.cpp:15:0:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:114:27:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Finished building: ../main.cpp
+ 
+Building target: eda_10_11
+Invoking: GCC C++ Linker
+g++  -o "eda_10_11"  ./main.o   
+Finished building target: eda_10_11
+ 
+10:40:39 **** Incremental Build of configuration Debug for project eda_10_11 ****
+make all 
+make: No se hace nada para `all'.

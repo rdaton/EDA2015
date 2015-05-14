@@ -1,0 +1,73 @@
+/*
+ * main.cpp
+ *
+ *  Created on: 10/04/2015
+ *      Author: barfelix
+ */
+# include <limits.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+#include <iostream>
+#include "Arbin.h"
+using namespace std ;
+
+typedef Arbin<int> tArbin ;
+typedef List<int> tLista;
+
+tLista lee ()
+{
+	tLista ret;
+int r;
+cin >> r;
+
+	while (r!=-1)
+	{
+		ret.push_back(r);
+		cin >> r ;
+	};
+return ret;
+}
+
+
+
+
+bool mostrar (const tArbin& a)
+{
+	//saco lista de nodos
+	tLista unaLista=a.inorden();
+
+	//si arbol vacío
+	if (unaLista.empty()) return true;
+
+	tLista::ConstIterator unIterador=unaLista.cbegin();
+	tLista::ConstIterator fin=unaLista.cend();
+
+	while(unIterador!=fin)
+	{
+		cout << unIterador.elem();
+		unIterador.next();
+		if (unIterador!=fin)
+			cout <<" "; //en serio, no sé por qué debo poner esto
+	}
+
+	cout << "\n";
+	return true;
+}
+
+int main ()
+{
+bool error=false;
+
+List<int> a;
+List<int> b;
+tArbin c;
+while (!error)
+{
+a=lee();
+b=lee();
+c=reconstruye(a,b,error);
+mostrar (c);
+};
+return 0;
+}

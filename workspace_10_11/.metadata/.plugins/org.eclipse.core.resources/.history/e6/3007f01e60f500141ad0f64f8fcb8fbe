@@ -1,0 +1,112 @@
+/*
+ * main.cpp
+ *
+ *  Created on: 08/05/2015
+ *      Author: barfelix
+ */
+
+
+
+# include <limits.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+#include <iostream>
+#include "bundleEDA.h"
+using namespace std;
+
+typedef Arbin<char> arbolLetras;
+typedef List <char> listaLetras;
+typedef List<char>::ConstIterator iteradorLetras;
+
+
+
+arbolLetras reconstruirAux(iteradorLetras& unIterador,iteradorLetras& fin )
+{
+arbolLetras unArbol;
+
+char unaLetra="Ç";
+if (unIterador==fin) return arbolLetras();
+
+while (unaLetra!=" ")
+{
+	unaLetra=unIterador.elem();
+
+
+	arbolLetras hijoIz=reconstruirAux(unIterador,fin);
+	unIterador.next();
+
+	}
+
+return  unArbol;
+}
+
+void fronteraAux(arbolLetras& unArbol, listaLetras& unaLista)
+{
+
+	if (unArbol.hijoDr().esVacio() && unArbol.hijoIz().esVacio())
+		unaLista.push_back(unArbol.raiz());
+	else
+	{
+		arbolLetras izq=unArbol.hijoIz();
+		fronteraAux(izq,unaLista);
+
+		arbolLetras der=unArbol.hijoDr();
+		fronteraAux(der,unaLista);
+
+	}
+
+
+}
+
+listaLetras frontera(arbolLetras& unArbol)
+{
+	listaLetras unaLista;
+
+	fronteraAux(unArbol,unaLista);
+
+
+
+
+	return unaLista;
+
+
+}
+
+arbolLetras reconstruir (const listaLetras& unaLista)
+{
+	arbolLetras unArbolLetras;
+	iteradorLetras inicio=unaLista.cbegin();
+	iteradorLetras fin=unaLista.cend();
+
+	unArbolLetras = reconstruirAux(inicio, fin);
+
+
+
+	return unArbolLetras;
+}
+
+int main()
+{
+	arbolLetras unArbolLetras;
+	listaLetras unaLista;
+	listaLetras otraLista;
+	string line="";
+	while (getline(cin,line))
+	{
+		if (line=="") break;
+		for (int i=0; i<line.length();i++)
+			unaLista.push_back(line[i]);
+		unArbolLetras=reconstruir(unaLista);
+		getchar();
+		otraLista=frontera(unArbolLetras);
+
+		for (int i=0; i<otraLista.size();i++)
+			cout << otraLista.at(i);
+		cout <<"\n";
+
+	};
+
+
+
+}
