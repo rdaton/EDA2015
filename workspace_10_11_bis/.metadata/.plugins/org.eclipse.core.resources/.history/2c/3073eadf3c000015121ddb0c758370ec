@@ -1,0 +1,123 @@
+/*
+ * main.cpp
+ *
+ *  Created on: 21/05/2015
+ *      Author: barfelix
+ */
+
+
+
+//List<List<string>>
+#include "bundleEDA.h"
+#include <string>
+#include <iostream>
+#include <sstream>
+using namespace std;
+
+
+TreeMap<string,int> cuenta(const List<string>  &unTexto)
+{
+TreeMap<string,int>	 resultado;
+
+
+	List<string>::ConstIterator otroIterador=unTexto.cbegin();
+	List<string>::ConstIterator otroFin=unTexto.cend();
+	while(otroIterador!=otroFin)
+	{
+	if (resultado.contains(otroIterador.elem()))
+				resultado[otroIterador.elem()]=resultado[otroIterador.elem()]+1;
+	else
+		resultado[otroIterador.elem()]=1;
+	otroIterador.next();
+
+}
+
+
+
+return resultado;
+
+}
+
+
+List<string>  lee()
+		{
+
+	List<string>  unTexto;
+		string unaLinea;
+		getline(cin,unaLinea);
+
+			if (unaLinea=="") return unTexto;
+
+			istringstream churroPalabras(unaLinea);
+			string unaPalabra;
+			while (churroPalabras>>unaPalabra)
+			{
+				unTexto.push_back(unaPalabra);
+			};
+return unTexto;
+
+		}
+
+
+void muestra (const TreeMap<string,int> &unArbolTexto)
+{
+TreeMap<string,int>::ConstIterator unIterador=unArbolTexto.cbegin();
+TreeMap<string,int>::ConstIterator fin=unArbolTexto.cend();
+
+while (unIterador!=fin)
+{
+	cout << unIterador.key();
+	cout << " ";
+	cout <<unIterador.value();
+	cout <<"\n";
+	unIterador.next();
+};
+
+
+}
+
+TreeMap<string,int> resta (const TreeMap<string,int> a, const TreeMap<string,int> b )
+{
+	TreeMap<string,int> unReturn;
+	TreeMap<string,int>::ConstIterator unIterador=a.cbegin();
+	TreeMap<string,int>::ConstIterator unFin=a.cend();
+
+	while (unIterador!=unFin)
+	{
+		string unaClave=unIterador.key();
+		if (b.contains(unaClave))
+			unReturn.insert(unaClave,unIterador.value()-b.find(unaClave).value());
+		else
+			unReturn.insert(unaClave,unIterador.value());
+
+		unIterador.next();
+	}
+
+
+
+	return unReturn;
+}
+
+
+int main()
+{
+
+	List<string> unTexto=lee();
+	List<string> otroTexto=lee();
+
+	TreeMap<string,int> unArbolTexto=cuenta(unTexto);
+	TreeMap<string,int> otroArbolTexto=cuenta(otroTexto);
+
+	muestra(unArbolTexto);
+	muestra(otroArbolTexto);
+
+	TreeMap<string,int> tercerArbol=resta(unArbolTexto,otroArbolTexto);
+
+	muestra(tercerArbol);
+
+
+
+	return 0;
+
+}
+

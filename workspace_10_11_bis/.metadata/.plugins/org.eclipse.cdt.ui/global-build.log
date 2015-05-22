@@ -1,0 +1,675 @@
+05:58:05 **** Build of configuration Debug for project eda_10_11_bis ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:11:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+Finished building: ../main.cpp
+ 
+Building target: eda_10_11_bis
+Invoking: GCC C++ Linker
+g++  -o "eda_10_11_bis"  ./main.o   
+Finished building target: eda_10_11_bis
+ 
+05:58:09 **** Incremental Build of configuration Debug for project eda_10_11_bis ****
+make all 
+make: No se hace nada para `all'.
+06:23:37 **** Incremental Build of configuration Debug for project eda_10_11_bis ****
+make all 
+make: No se hace nada para `all'.
+06:23:40 **** Incremental Build of configuration Debug for project eda_10_11_bis ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:11:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘List<std::basic_string<char> > lee()’:
+../main.cpp:49:22: error: break statement not within loop or switch
+../main.cpp: In function ‘TreeMap<std::basic_string<char>, int> resta(TreeMap<std::basic_string<char>, int>, TreeMap<std::basic_string<char>, int>)’:
+../main.cpp:87:31: error: cannot convert ‘const std::basic_string<char>’ to ‘int’ in initialization
+../main.cpp:88:26: error: invalid user-defined conversion from ‘int’ to ‘const std::basic_string<char>&’ [-fpermissive]
+In file included from /usr/include/c++/4.7/string:55:0,
+                 from ../bundleEDA.h:1,
+                 from ../main.cpp:11:
+/usr/include/c++/4.7/bits/basic_string.tcc:214:5: note: candidate is: std::basic_string<_CharT, _Traits, _Alloc>::basic_string(const _CharT*, const _Alloc&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>] <near match>
+/usr/include/c++/4.7/bits/basic_string.tcc:214:5: note:   no known conversion for argument 1 from ‘int’ to ‘const char*’
+../main.cpp:88:26: error: invalid conversion from ‘int’ to ‘const char*’ [-fpermissive]
+In file included from /usr/include/c++/4.7/string:55:0,
+                 from ../bundleEDA.h:1,
+                 from ../main.cpp:11:
+/usr/include/c++/4.7/bits/basic_string.tcc:214:5: error:   initializing argument 1 of ‘std::basic_string<_CharT, _Traits, _Alloc>::basic_string(const _CharT*, const _Alloc&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]’ [-fpermissive]
+../main.cpp:89:63: error: passing ‘const TreeMap<std::basic_string<char>, int>’ as ‘this’ argument of ‘TreeMap<Clave, Valor>::Iterator TreeMap<Clave, Valor>::find(const Clave&) [with Clave = std::basic_string<char>; Valor = int]’ discards qualifiers [-fpermissive]
+../main.cpp:89:63: error: invalid user-defined conversion from ‘int’ to ‘const std::basic_string<char>&’ [-fpermissive]
+In file included from /usr/include/c++/4.7/string:55:0,
+                 from ../bundleEDA.h:1,
+                 from ../main.cpp:11:
+/usr/include/c++/4.7/bits/basic_string.tcc:214:5: note: candidate is: std::basic_string<_CharT, _Traits, _Alloc>::basic_string(const _CharT*, const _Alloc&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>] <near match>
+/usr/include/c++/4.7/bits/basic_string.tcc:214:5: note:   no known conversion for argument 1 from ‘int’ to ‘const char*’
+../main.cpp:89:63: error: invalid conversion from ‘int’ to ‘const char*’ [-fpermissive]
+In file included from /usr/include/c++/4.7/string:55:0,
+                 from ../bundleEDA.h:1,
+                 from ../main.cpp:11:
+/usr/include/c++/4.7/bits/basic_string.tcc:214:5: error:   initializing argument 1 of ‘std::basic_string<_CharT, _Traits, _Alloc>::basic_string(const _CharT*, const _Alloc&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]’ [-fpermissive]
+../main.cpp:89:72: error: invalid user-defined conversion from ‘int’ to ‘const std::basic_string<char>&’ [-fpermissive]
+In file included from /usr/include/c++/4.7/string:55:0,
+                 from ../bundleEDA.h:1,
+                 from ../main.cpp:11:
+/usr/include/c++/4.7/bits/basic_string.tcc:214:5: note: candidate is: std::basic_string<_CharT, _Traits, _Alloc>::basic_string(const _CharT*, const _Alloc&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>] <near match>
+/usr/include/c++/4.7/bits/basic_string.tcc:214:5: note:   no known conversion for argument 1 from ‘int’ to ‘const char*’
+../main.cpp:89:72: error: invalid conversion from ‘int’ to ‘const char*’ [-fpermissive]
+In file included from /usr/include/c++/4.7/string:55:0,
+                 from ../bundleEDA.h:1,
+                 from ../main.cpp:11:
+/usr/include/c++/4.7/bits/basic_string.tcc:214:5: error:   initializing argument 1 of ‘std::basic_string<_CharT, _Traits, _Alloc>::basic_string(const _CharT*, const _Alloc&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]’ [-fpermissive]
+../main.cpp:91:47: error: invalid user-defined conversion from ‘int’ to ‘const std::basic_string<char>&’ [-fpermissive]
+In file included from /usr/include/c++/4.7/string:55:0,
+                 from ../bundleEDA.h:1,
+                 from ../main.cpp:11:
+/usr/include/c++/4.7/bits/basic_string.tcc:214:5: note: candidate is: std::basic_string<_CharT, _Traits, _Alloc>::basic_string(const _CharT*, const _Alloc&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>] <near match>
+/usr/include/c++/4.7/bits/basic_string.tcc:214:5: note:   no known conversion for argument 1 from ‘int’ to ‘const char*’
+../main.cpp:91:47: error: invalid conversion from ‘int’ to ‘const char*’ [-fpermissive]
+In file included from /usr/include/c++/4.7/string:55:0,
+                 from ../bundleEDA.h:1,
+                 from ../main.cpp:11:
+/usr/include/c++/4.7/bits/basic_string.tcc:214:5: error:   initializing argument 1 of ‘std::basic_string<_CharT, _Traits, _Alloc>::basic_string(const _CharT*, const _Alloc&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]’ [-fpermissive]
+../main.cpp:98:31: error: cannot convert ‘const std::basic_string<char>’ to ‘int’ in initialization
+../main.cpp:99:33: error: invalid user-defined conversion from ‘int’ to ‘const std::basic_string<char>&’ [-fpermissive]
+In file included from /usr/include/c++/4.7/string:55:0,
+                 from ../bundleEDA.h:1,
+                 from ../main.cpp:11:
+/usr/include/c++/4.7/bits/basic_string.tcc:214:5: note: candidate is: std::basic_string<_CharT, _Traits, _Alloc>::basic_string(const _CharT*, const _Alloc&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>] <near match>
+/usr/include/c++/4.7/bits/basic_string.tcc:214:5: note:   no known conversion for argument 1 from ‘int’ to ‘const char*’
+../main.cpp:99:33: error: invalid conversion from ‘int’ to ‘const char*’ [-fpermissive]
+In file included from /usr/include/c++/4.7/string:55:0,
+                 from ../bundleEDA.h:1,
+                 from ../main.cpp:11:
+/usr/include/c++/4.7/bits/basic_string.tcc:214:5: error:   initializing argument 1 of ‘std::basic_string<_CharT, _Traits, _Alloc>::basic_string(const _CharT*, const _Alloc&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]’ [-fpermissive]
+../main.cpp:100:47: error: invalid user-defined conversion from ‘int’ to ‘const std::basic_string<char>&’ [-fpermissive]
+In file included from /usr/include/c++/4.7/string:55:0,
+                 from ../bundleEDA.h:1,
+                 from ../main.cpp:11:
+/usr/include/c++/4.7/bits/basic_string.tcc:214:5: note: candidate is: std::basic_string<_CharT, _Traits, _Alloc>::basic_string(const _CharT*, const _Alloc&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>] <near match>
+/usr/include/c++/4.7/bits/basic_string.tcc:214:5: note:   no known conversion for argument 1 from ‘int’ to ‘const char*’
+../main.cpp:100:47: error: invalid conversion from ‘int’ to ‘const char*’ [-fpermissive]
+In file included from /usr/include/c++/4.7/string:55:0,
+                 from ../bundleEDA.h:1,
+                 from ../main.cpp:11:
+/usr/include/c++/4.7/bits/basic_string.tcc:214:5: error:   initializing argument 1 of ‘std::basic_string<_CharT, _Traits, _Alloc>::basic_string(const _CharT*, const _Alloc&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]’ [-fpermissive]
+../main.cpp: In function ‘int main()’:
+../main.cpp:119:69: error: ‘procesa’ was not declared in this scope
+../main.cpp:119:22: warning: unused variable ‘tercerArbol’ [-Wunused-variable]
+make: *** [main.o] Error 1
+06:24:43 **** Incremental Build of configuration Debug for project eda_10_11_bis ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:11:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘List<std::basic_string<char> > lee()’:
+../main.cpp:49:22: error: break statement not within loop or switch
+../main.cpp: In function ‘int main()’:
+../main.cpp:112:69: error: ‘procesa’ was not declared in this scope
+../main.cpp:112:22: warning: unused variable ‘tercerArbol’ [-Wunused-variable]
+make: *** [main.o] Error 1
+06:24:53 **** Incremental Build of configuration Debug for project eda_10_11_bis ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:11:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘List<std::basic_string<char> > lee()’:
+../main.cpp:49:22: error: break statement not within loop or switch
+../main.cpp: In function ‘int main()’:
+../main.cpp:112:69: error: ‘procesa’ was not declared in this scope
+../main.cpp:112:22: warning: unused variable ‘tercerArbol’ [-Wunused-variable]
+make: *** [main.o] Error 1
+06:25:22 **** Incremental Build of configuration Debug for project eda_10_11_bis ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:11:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘int main()’:
+../main.cpp:112:69: error: ‘procesa’ was not declared in this scope
+../main.cpp:112:22: warning: unused variable ‘tercerArbol’ [-Wunused-variable]
+make: *** [main.o] Error 1
+06:25:47 **** Incremental Build of configuration Debug for project eda_10_11_bis ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:11:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘int main()’:
+../main.cpp:112:69: error: ‘procesa’ was not declared in this scope
+../main.cpp:112:22: warning: unused variable ‘tercerArbol’ [-Wunused-variable]
+make: *** [main.o] Error 1
+06:25:53 **** Incremental Build of configuration Debug for project eda_10_11_bis ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:11:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+Finished building: ../main.cpp
+ 
+Building target: eda_10_11_bis
+Invoking: GCC C++ Linker
+g++  -o "eda_10_11_bis"  ./main.o   
+Finished building target: eda_10_11_bis
+ 
+06:25:58 **** Incremental Build of configuration Debug for project eda_10_11_bis ****
+make all 
+make: No se hace nada para `all'.
+06:40:47 **** Incremental Build of configuration Debug for project eda_10_11_bis ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:11:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+Finished building: ../main.cpp
+ 
+Building target: eda_10_11_bis
+Invoking: GCC C++ Linker
+g++  -o "eda_10_11_bis"  ./main.o   
+Finished building target: eda_10_11_bis
+ 
+06:40:49 **** Incremental Build of configuration Debug for project eda_10_11_bis ****
+make all 
+make: No se hace nada para `all'.
+06:41:02 **** Incremental Build of configuration Debug for project eda_10_11_bis ****
+make all 
+make: No se hace nada para `all'.
+06:41:58 **** Incremental Build of configuration Debug for project eda_10_11_bis ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:11:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+Finished building: ../main.cpp
+ 
+Building target: eda_10_11_bis
+Invoking: GCC C++ Linker
+g++  -o "eda_10_11_bis"  ./main.o   
+Finished building target: eda_10_11_bis
+ 
+06:42:01 **** Incremental Build of configuration Debug for project eda_10_11_bis ****
+make all 
+make: No se hace nada para `all'.
+10:21:53 **** Incremental Build of configuration Debug for project eda_10_11_bis ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:11:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘List<std::basic_string<char> > lee(int, List<std::basic_string<char> >&, List<std::basic_string<char> >&)’:
+../main.cpp:52:11: error: no matching function for call to ‘getline()’
+../main.cpp:52:11: note: candidates are:
+In file included from /usr/include/c++/4.7/string:55:0,
+                 from ../bundleEDA.h:1,
+                 from ../main.cpp:11:
+/usr/include/c++/4.7/bits/basic_string.tcc:1070:5: note: template<class _CharT, class _Traits, class _Alloc> std::basic_istream<_CharT, _Traits>& std::getline(std::basic_istream<_CharT, _Traits>&, std::basic_string<_CharT, _Traits, _Alloc>&, _CharT)
+/usr/include/c++/4.7/bits/basic_string.tcc:1070:5: note:   template argument deduction/substitution failed:
+../main.cpp:52:11: note:   candidate expects 3 arguments, 0 provided
+In file included from /usr/include/c++/4.7/string:54:0,
+                 from ../bundleEDA.h:1,
+                 from ../main.cpp:11:
+/usr/include/c++/4.7/bits/basic_string.h:2792:5: note: template<class _CharT, class _Traits, class _Alloc> std::basic_istream<_CharT, _Traits>& std::getline(std::basic_istream<_CharT, _Traits>&, std::basic_string<_CharT, _Traits, _Alloc>&)
+/usr/include/c++/4.7/bits/basic_string.h:2792:5: note:   template argument deduction/substitution failed:
+../main.cpp:52:11: note:   candidate expects 2 arguments, 0 provided
+../main.cpp:54:4: error: expected ‘;’ before ‘if’
+../main.cpp:68:1: error: a function-definition is not allowed here before ‘{’ token
+../main.cpp:135:1: error: expected ‘}’ at end of input
+../main.cpp:135:1: warning: control reaches end of non-void function [-Wreturn-type]
+make: *** [main.o] Error 1
+10:24:46 **** Incremental Build of configuration Debug for project eda_10_11_bis ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:11:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘void lee(int, List<std::basic_string<char> >&, List<std::basic_string<char> >&)’:
+../main.cpp:63:1: error: a function-definition is not allowed here before ‘{’ token
+../main.cpp:130:1: error: expected ‘}’ at end of input
+make: *** [main.o] Error 1
+10:25:05 **** Incremental Build of configuration Debug for project eda_10_11_bis ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:11:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+Finished building: ../main.cpp
+ 
+Building target: eda_10_11_bis
+Invoking: GCC C++ Linker
+g++  -o "eda_10_11_bis"  ./main.o   
+Finished building target: eda_10_11_bis
+ 
+10:27:59 **** Incremental Build of configuration Debug for project eda_10_11_bis ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:11:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+Finished building: ../main.cpp
+ 
+Building target: eda_10_11_bis
+Invoking: GCC C++ Linker
+g++  -o "eda_10_11_bis"  ./main.o   
+Finished building target: eda_10_11_bis
+ 
+10:29:51 **** Incremental Build of configuration Debug for project eda_10_11_bis ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:11:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+Finished building: ../main.cpp
+ 
+Building target: eda_10_11_bis
+Invoking: GCC C++ Linker
+g++  -o "eda_10_11_bis"  ./main.o   
+Finished building target: eda_10_11_bis
+ 
+10:30:00 **** Incremental Build of configuration Debug for project eda_10_11_bis ****
+make all 
+make: No se hace nada para `all'.
+10:30:05 **** Incremental Build of configuration Debug for project eda_10_11_bis ****
+make all 
+make: No se hace nada para `all'.
+10:30:43 **** Incremental Build of configuration Debug for project eda_10_11_bis ****
+make all 
+make: No se hace nada para `all'.
+10:31:55 **** Incremental Build of configuration Debug for project eda_10_11_bis ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:11:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+Finished building: ../main.cpp
+ 
+Building target: eda_10_11_bis
+Invoking: GCC C++ Linker
+g++  -o "eda_10_11_bis"  ./main.o   
+Finished building target: eda_10_11_bis
+ 
+10:32:45 **** Incremental Build of configuration Debug for project eda_10_11_bis ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:11:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+Finished building: ../main.cpp
+ 
+Building target: eda_10_11_bis
+Invoking: GCC C++ Linker
+g++  -o "eda_10_11_bis"  ./main.o   
+Finished building target: eda_10_11_bis
+ 
+10:32:50 **** Incremental Build of configuration Debug for project eda_10_11_bis ****
+make all 
+make: No se hace nada para `all'.
+10:33:51 **** Incremental Build of configuration Debug for project eda_10_11_bis ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:11:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+Finished building: ../main.cpp
+ 
+Building target: eda_10_11_bis
+Invoking: GCC C++ Linker
+g++  -o "eda_10_11_bis"  ./main.o   
+Finished building target: eda_10_11_bis
+ 
+10:33:54 **** Incremental Build of configuration Debug for project eda_10_11_bis ****
+make all 
+make: No se hace nada para `all'.
+10:35:08 **** Incremental Build of configuration Debug for project eda_10_11_bis ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:11:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+Finished building: ../main.cpp
+ 
+Building target: eda_10_11_bis
+Invoking: GCC C++ Linker
+g++  -o "eda_10_11_bis"  ./main.o   
+Finished building target: eda_10_11_bis
+ 
+10:40:55 **** Incremental Build of configuration Debug for project eda_10_11_bis ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:11:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘void lee(int, List<std::basic_string<char> >&, List<std::basic_string<char> >&)’:
+../main.cpp:47:13: error: no matching function for call to ‘getline(std::istream&)’
+../main.cpp:47:13: note: candidates are:
+In file included from ../main.cpp:15:0:
+/usr/include/stdio.h:678:20: note: __ssize_t getline(char**, size_t*, FILE*)
+/usr/include/stdio.h:678:20: note:   candidate expects 3 arguments, 1 provided
+In file included from /usr/include/c++/4.7/string:54:0,
+                 from ../bundleEDA.h:1,
+                 from ../main.cpp:11:
+/usr/include/c++/4.7/bits/basic_string.h:2792:5: note: template<class _CharT, class _Traits, class _Alloc> std::basic_istream<_CharT, _Traits>& std::getline(std::basic_istream<_CharT, _Traits>&, std::basic_string<_CharT, _Traits, _Alloc>&)
+/usr/include/c++/4.7/bits/basic_string.h:2792:5: note:   template argument deduction/substitution failed:
+../main.cpp:47:13: note:   candidate expects 2 arguments, 1 provided
+In file included from /usr/include/c++/4.7/string:55:0,
+                 from ../bundleEDA.h:1,
+                 from ../main.cpp:11:
+/usr/include/c++/4.7/bits/basic_string.tcc:1070:5: note: template<class _CharT, class _Traits, class _Alloc> std::basic_istream<_CharT, _Traits>& std::getline(std::basic_istream<_CharT, _Traits>&, std::basic_string<_CharT, _Traits, _Alloc>&, _CharT)
+/usr/include/c++/4.7/bits/basic_string.tcc:1070:5: note:   template argument deduction/substitution failed:
+../main.cpp:47:13: note:   candidate expects 3 arguments, 1 provided
+make: *** [main.o] Error 1
+10:41:05 **** Incremental Build of configuration Debug for project eda_10_11_bis ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:11:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+Finished building: ../main.cpp
+ 
+Building target: eda_10_11_bis
+Invoking: GCC C++ Linker
+g++  -o "eda_10_11_bis"  ./main.o   
+Finished building target: eda_10_11_bis
+ 
+10:41:12 **** Incremental Build of configuration Debug for project eda_10_11_bis ****
+make all 
+make: No se hace nada para `all'.
+10:43:26 **** Incremental Build of configuration Debug for project eda_10_11_bis ****
+make all 
+make: No se hace nada para `all'.
+10:44:14 **** Incremental Build of configuration Debug for project eda_10_11_bis ****
+make all 
+make: No se hace nada para `all'.
+10:45:24 **** Incremental Build of configuration Debug for project eda_10_11_bis ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:11:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+Finished building: ../main.cpp
+ 
+Building target: eda_10_11_bis
+Invoking: GCC C++ Linker
+g++  -o "eda_10_11_bis"  ./main.o   
+Finished building target: eda_10_11_bis
+ 
+10:45:30 **** Incremental Build of configuration Debug for project eda_10_11_bis ****
+make all 
+make: No se hace nada para `all'.
+10:46:12 **** Incremental Build of configuration Debug for project eda_10_11_bis ****
+make all 
+make: No se hace nada para `all'.
+10:50:18 **** Incremental Build of configuration Debug for project eda_10_11_bis ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:11:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+Finished building: ../main.cpp
+ 
+Building target: eda_10_11_bis
+Invoking: GCC C++ Linker
+g++  -o "eda_10_11_bis"  ./main.o   
+Finished building target: eda_10_11_bis
+ 
+10:52:51 **** Incremental Build of configuration Debug for project eda_10_11_bis ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:11:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+Finished building: ../main.cpp
+ 
+Building target: eda_10_11_bis
+Invoking: GCC C++ Linker
+g++  -o "eda_10_11_bis"  ./main.o   
+Finished building target: eda_10_11_bis
+ 
+10:53:33 **** Incremental Build of configuration Debug for project eda_10_11_bis ****
+make all 
+make: No se hace nada para `all'.
+10:54:53 **** Incremental Build of configuration Debug for project eda_10_11_bis ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:11:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+Finished building: ../main.cpp
+ 
+Building target: eda_10_11_bis
+Invoking: GCC C++ Linker
+g++  -o "eda_10_11_bis"  ./main.o   
+Finished building target: eda_10_11_bis
+ 
+10:55:01 **** Incremental Build of configuration Debug for project eda_10_11_bis ****
+make all 
+make: No se hace nada para `all'.
+10:57:02 **** Incremental Build of configuration Debug for project eda_10_11_bis ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:11:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+Finished building: ../main.cpp
+ 
+Building target: eda_10_11_bis
+Invoking: GCC C++ Linker
+g++  -o "eda_10_11_bis"  ./main.o   
+Finished building target: eda_10_11_bis
+ 
+10:57:21 **** Incremental Build of configuration Debug for project eda_10_11_bis ****
+make all 
+make: No se hace nada para `all'.
+10:58:50 **** Incremental Build of configuration Debug for project eda_10_11_bis ****
+make all 
+make: No se hace nada para `all'.
+10:58:58 **** Incremental Build of configuration Debug for project eda_10_11_bis ****
+make all 
+make: No se hace nada para `all'.
+10:59:09 **** Incremental Build of configuration Debug for project eda_10_11_bis ****
+make all 
+make: No se hace nada para `all'.
+11:06:18 **** Incremental Build of configuration Debug for project eda_10_11_bis ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:11:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+Finished building: ../main.cpp
+ 
+Building target: eda_10_11_bis
+Invoking: GCC C++ Linker
+g++  -o "eda_10_11_bis"  ./main.o   
+Finished building target: eda_10_11_bis
+ 
+11:06:26 **** Incremental Build of configuration Debug for project eda_10_11_bis ****
+make all 
+make: No se hace nada para `all'.
+11:06:28 **** Incremental Build of configuration Debug for project eda_10_11_bis ****
+make all 
+make: No se hace nada para `all'.
+11:07:26 **** Incremental Build of configuration Debug for project eda_10_11_bis ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:11:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+Finished building: ../main.cpp
+ 
+Building target: eda_10_11_bis
+Invoking: GCC C++ Linker
+g++  -o "eda_10_11_bis"  ./main.o   
+Finished building target: eda_10_11_bis
+ 
+11:09:13 **** Incremental Build of configuration Debug for project eda_10_11_bis ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:11:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+Finished building: ../main.cpp
+ 
+Building target: eda_10_11_bis
+Invoking: GCC C++ Linker
+g++  -o "eda_10_11_bis"  ./main.o   
+Finished building target: eda_10_11_bis
+ 
+11:15:38 **** Incremental Build of configuration Debug for project eda_10_11_bis ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:11:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘TreeMap<std::basic_string<char>, int> resta(TreeMap<std::basic_string<char>, int>, TreeMap<std::basic_string<char>, int>)’:
+../main.cpp:109:73: error: no match for ‘operator-’ in ‘TreeMap<Clave, Valor>::find(const Clave&) const [with Clave = std::basic_string<char>; Valor = int]((*(const std::basic_string<char>*)(& otraClave))).TreeMap<Clave, Valor>::ConstIterator::value<std::basic_string<char>, int>() - otroIterador.TreeMap<Clave, Valor>::ConstIterator::key<std::basic_string<char>, int>()’
+../main.cpp:109:73: note: candidates are:
+In file included from /usr/include/c++/4.7/bits/stl_algobase.h:68:0,
+                 from /usr/include/c++/4.7/bits/char_traits.h:41,
+                 from /usr/include/c++/4.7/string:42,
+                 from ../bundleEDA.h:1,
+                 from ../main.cpp:11:
+/usr/include/c++/4.7/bits/stl_iterator.h:329:5: note: template<class _Iterator> typename std::reverse_iterator::difference_type std::operator-(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)
+/usr/include/c++/4.7/bits/stl_iterator.h:329:5: note:   template argument deduction/substitution failed:
+../main.cpp:109:73: note:   mismatched types ‘const std::reverse_iterator<_Iterator>’ and ‘const int’
+In file included from /usr/include/c++/4.7/bits/stl_algobase.h:68:0,
+                 from /usr/include/c++/4.7/bits/char_traits.h:41,
+                 from /usr/include/c++/4.7/string:42,
+                 from ../bundleEDA.h:1,
+                 from ../main.cpp:11:
+/usr/include/c++/4.7/bits/stl_iterator.h:386:5: note: template<class _IteratorL, class _IteratorR> typename std::reverse_iterator<_IteratorL>::difference_type std::operator-(const std::reverse_iterator<_IteratorL>&, const std::reverse_iterator<_IteratorR>&)
+/usr/include/c++/4.7/bits/stl_iterator.h:386:5: note:   template argument deduction/substitution failed:
+../main.cpp:109:73: note:   mismatched types ‘const std::reverse_iterator<_IteratorL>’ and ‘const int’
+In file included from /usr/include/c++/4.7/bits/stl_algobase.h:68:0,
+                 from /usr/include/c++/4.7/bits/char_traits.h:41,
+                 from /usr/include/c++/4.7/string:42,
+                 from ../bundleEDA.h:1,
+                 from ../main.cpp:11:
+/usr/include/c++/4.7/bits/stl_iterator.h:898:5: note: template<class _Iterator, class _Container> typename __gnu_cxx::__normal_iterator::difference_type __gnu_cxx::operator-(const __gnu_cxx::__normal_iterator<_Iterator, _Container>&, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)
+/usr/include/c++/4.7/bits/stl_iterator.h:898:5: note:   template argument deduction/substitution failed:
+../main.cpp:109:73: note:   mismatched types ‘const __gnu_cxx::__normal_iterator<_Iterator, _Container>’ and ‘const int’
+In file included from /usr/include/c++/4.7/bits/stl_algobase.h:68:0,
+                 from /usr/include/c++/4.7/bits/char_traits.h:41,
+                 from /usr/include/c++/4.7/string:42,
+                 from ../bundleEDA.h:1,
+                 from ../main.cpp:11:
+/usr/include/c++/4.7/bits/stl_iterator.h:891:5: note: template<class _IteratorL, class _IteratorR, class _Container> typename __gnu_cxx::__normal_iterator<_IteratorL, _Container>::difference_type __gnu_cxx::operator-(const __gnu_cxx::__normal_iterator<_IteratorL, _Container>&, const __gnu_cxx::__normal_iterator<_IteratorR, _Container>&)
+/usr/include/c++/4.7/bits/stl_iterator.h:891:5: note:   template argument deduction/substitution failed:
+../main.cpp:109:73: note:   mismatched types ‘const __gnu_cxx::__normal_iterator<_IteratorL, _Container>’ and ‘const int’
+make: *** [main.o] Error 1
+11:15:49 **** Incremental Build of configuration Debug for project eda_10_11_bis ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:11:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+Finished building: ../main.cpp
+ 
+Building target: eda_10_11_bis
+Invoking: GCC C++ Linker
+g++  -o "eda_10_11_bis"  ./main.o   
+Finished building target: eda_10_11_bis
+ 
+11:15:52 **** Incremental Build of configuration Debug for project eda_10_11_bis ****
+make all 
+make: No se hace nada para `all'.
+11:16:03 **** Incremental Build of configuration Debug for project eda_10_11_bis ****
+make all 
+make: No se hace nada para `all'.
+11:16:47 **** Incremental Build of configuration Debug for project eda_10_11_bis ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:11:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+Finished building: ../main.cpp
+ 
+Building target: eda_10_11_bis
+Invoking: GCC C++ Linker
+g++  -o "eda_10_11_bis"  ./main.o   
+Finished building target: eda_10_11_bis
+ 
+11:17:54 **** Incremental Build of configuration Debug for project eda_10_11_bis ****
+make all 
+make: No se hace nada para `all'.
+11:18:31 **** Incremental Build of configuration Debug for project eda_10_11_bis ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:11:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+Finished building: ../main.cpp
+ 
+Building target: eda_10_11_bis
+Invoking: GCC C++ Linker
+g++  -o "eda_10_11_bis"  ./main.o   
+Finished building target: eda_10_11_bis
+ 
+11:19:26 **** Incremental Build of configuration Debug for project eda_10_11_bis ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:11:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+Finished building: ../main.cpp
+ 
+Building target: eda_10_11_bis
+Invoking: GCC C++ Linker
+g++  -o "eda_10_11_bis"  ./main.o   
+Finished building target: eda_10_11_bis
+ 
+11:19:42 **** Incremental Build of configuration Debug for project eda_10_11_bis ****
+make all 
+make: No se hace nada para `all'.
+11:22:39 **** Incremental Build of configuration Debug for project eda_10_11_bis ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:11:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+Finished building: ../main.cpp
+ 
+Building target: eda_10_11_bis
+Invoking: GCC C++ Linker
+g++  -o "eda_10_11_bis"  ./main.o   
+Finished building target: eda_10_11_bis
+ 
+11:22:55 **** Incremental Build of configuration Debug for project eda_10_11_bis ****
+make all 
+make: No se hace nada para `all'.
