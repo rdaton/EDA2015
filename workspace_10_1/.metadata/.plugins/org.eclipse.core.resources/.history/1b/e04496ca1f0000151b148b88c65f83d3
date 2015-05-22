@@ -1,0 +1,126 @@
+/*
+ * Conjunto.h
+ *
+ *  Created on: 21/05/2015
+ *      Author: barfelix
+ */
+#include "bundleEDA.h"
+#ifndef CONJUNTO_H_
+#define CONJUNTO_H_
+
+class Conjunto
+{
+
+private:
+HashMap<char,int> _data;
+
+
+
+public:
+
+Conjunto()
+{
+	ConjuntoVacio();
+}
+
+List<char> dameListaElementos()
+{
+	List <char> unaListaElementos;
+	HashMap<char,int>::ConstIterator unIterador=_data.cbegin();
+	HashMap<char,int>::ConstIterator fin=_data.cend();
+	while(unIterador!=fin)
+	{
+		char unaClave=unIterador.key();
+		unaListaElementos.push_back(unaClave);
+		unIterador.next();
+	}
+	return unaListaElementos;
+
+};
+
+void ConjuntoVacio()
+{
+	_data=HashMap<char,int>();
+
+}
+void inserta(const char &unElem)
+{
+	_data.insert(unElem,1);
+
+
+}
+void borra(const char &unElem)
+{
+	_data.erase(unElem);
+
+}
+
+bool esta(const char &unElem)
+{
+	bool enc=_data.contains(unElem);
+	return enc;
+}
+
+Conjunto _union( Conjunto  a,  Conjunto b)
+{
+Conjunto unConjunto;
+List<char>::ConstIterator unIterador=a.dameListaElementos().cbegin();
+List<char>::ConstIterator unFin=a.dameListaElementos().cend();
+List<char>::ConstIterator otroIterador=b.dameListaElementos().cbegin();
+List<char>::ConstIterator otroFin=b.dameListaElementos().cend();
+
+while(unIterador!=unFin)
+{
+	if (!unConjunto.esta(unIterador.elem()))
+		unConjunto.inserta(unIterador.elem());
+	unIterador.next();
+}
+
+while(otroIterador!=otroFin)
+{
+	if(!unConjunto.esta(otroIterador.elem()))
+		unConjunto.inserta(otroIterador.elem());
+	otroIterador.next();
+}
+return unConjunto;
+}
+
+Conjunto interseccion( Conjunto a,  Conjunto b)
+{
+	Conjunto unConjunto;
+	List<char>::ConstIterator unIterador=a.dameListaElementos().cbegin();
+	List<char>::ConstIterator unFin=a.dameListaElementos().cend();
+	while(unIterador!=unFin)
+	{
+		if (a.esta(unIterador.elem())&&b.esta(unIterador.elem()))
+			unConjunto.inserta(unIterador.elem());
+		unIterador.next();
+	}
+	return unConjunto;
+}
+// a / b
+Conjunto diferencia( Conjunto a,  Conjunto b)
+{
+	Conjunto unConjunto;
+		List<char>::ConstIterator unIterador=a.dameListaElementos().cbegin();
+		List<char>::ConstIterator unFin=a.dameListaElementos().cend();
+
+		while(unIterador!=unFin)
+		{
+			if (!b.esta(unIterador.elem()))
+				unConjunto.inserta(unIterador.elem());
+			unIterador.next();
+		}
+
+
+		return unConjunto;
+}
+
+
+
+
+
+};
+
+
+#endif /* CONJUNTO_H_ */

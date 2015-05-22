@@ -1,0 +1,59 @@
+/*
+ * main.cpp
+ *
+ *  Created on: 21/05/2015
+ *      Author: barfelix
+ */
+
+#include "Conjunto.h"
+#include <iostream>
+using namespace std;
+
+
+Conjunto lee()
+{
+Conjunto unConjunto;
+char unaLetra;
+while(cin >> unaLetra)
+{
+unConjunto.inserta(unaLetra);
+};
+return unConjunto;
+
+}
+
+
+void mostrar( Conjunto c)
+{
+	List<char> unaLista=c.dameListaElementos();
+
+	for (int i=0;i<unaLista.size();i++)
+	{
+		cout << unaLista.at(i);
+	}
+cout <<"\n";
+}
+
+
+//prueba untaria para ejercicio 7
+int main()
+{
+//Conjunto unConjunto=lee();
+//Conjunto otroConjunto=lee();
+Conjunto unConjunto;
+Conjunto otroConjunto;
+unConjunto.inserta('a');
+unConjunto.inserta('b');
+unConjunto.inserta('c');
+
+otroConjunto.inserta('a');
+otroConjunto.inserta('b');
+otroConjunto.inserta('c');
+
+mostrar (unConjunto);
+mostrar (otroConjunto);
+
+
+
+	return 0;
+}

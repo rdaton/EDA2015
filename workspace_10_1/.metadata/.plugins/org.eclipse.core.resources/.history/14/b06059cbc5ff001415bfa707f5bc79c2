@@ -1,0 +1,141 @@
+/*
+ * Conjunto.h
+ *
+ *  Created on: 21/05/2015
+ *      Author: barfelix
+ */
+#include "bundleEDA.h"
+#ifndef CONJUNTO_H_
+#define CONJUNTO_H_
+
+typedef char T;
+class Conjunto
+{
+
+private:
+HashMap<T,int> _data;
+
+
+
+public:
+
+List<T> dameListaElementos()
+{
+	List <T> unaListaElementos;
+	HashMap<T,int>::ConstIterator unIterador=_data.cbegin();
+	HashMap<T,int>::ConstIterator fin=_data.cend();
+	while(unIterador!=fin)
+	{
+		unaListaElementos.push_back(unIterador.key());
+		unIterador.next();
+	}
+	return unaListaElementos;
+
+};
+
+void ConjuntoVacio()
+{
+	_data=HashMap<T,int>();
+
+}
+void inserta(const T &unElem)
+{
+	_data.insert(unElem,1);
+
+
+}
+void borra(const T &unElem)
+{
+	_data.erase(unElem);
+
+}
+
+bool esta(const T &unElem)
+{
+	bool enc=_data.contains(unElem);
+	return enc;
+}
+
+Conjunto _union( Conjunto  a,  Conjunto b)
+{
+Conjunto unConjunto;
+List<T> unaListaElementos=a.dameListaElementos();
+List<T> otraListaElementos=b.dameListaElementos();
+List<T>::ConstIterator unIterador=unaListaElementos.cbegin();
+List<T>::ConstIterator unFin=unaListaElementos.cend();
+List<T>::ConstIterator otroIterador=otraListaElementos.cbegin();
+List<T>::ConstIterator otroFin=otraListaElementos.cend();
+
+while(unIterador!=unFin)
+{
+	if (!unConjunto.esta(unIterador.elem()))
+		unConjunto.inserta(unIterador.elem());
+	unIterador.next();
+}
+
+while(otroIterador!=otroFin)
+{
+	if(!unConjunto.esta(otroIterador.elem()))
+		unConjunto.inserta(otroIterador.elem());
+	otroIterador.next();
+}
+return unConjunto;
+}
+
+Conjunto interseccion( Conjunto a,  Conjunto b)
+{
+	Conjunto unConjunto;
+	List<T> unaListaElementos=a.dameListaElementos();
+	List<T> otraListaElementos=b.dameListaElementos();
+	List<T>::ConstIterator unIterador=unaListaElementos.cbegin();
+	List<T>::ConstIterator unFin=unaListaElementos.cend();
+	List<T>::ConstIterator otroIterador=otraListaElementos.cbegin();
+	List<T>::ConstIterator otroFin=otraListaElementos.cend();
+
+	while(unIterador!=unFin)
+	{
+		if ((!unConjunto.esta(unIterador.elem()))&&b.esta(unIterador.elem()))
+			unConjunto.inserta(unIterador.elem());
+		unIterador.next();
+	}
+
+	while(otroIterador!=otroFin)
+	{
+		if((!unConjunto.esta(otroIterador.elem()))&&a.esta(unIterador.elem()))
+			unConjunto.inserta(otroIterador.elem());
+		otroIterador.next();
+	}
+	return unConjunto;
+}
+// a / b
+Conjunto diferencia( Conjunto a,  Conjunto b)
+{
+	Conjunto unConjunto;
+		List<T> unaListaElementos=a.dameListaElementos();
+		List<T> otraListaElementos=b.dameListaElementos();
+		List<T>::ConstIterator unIterador=unaListaElementos.cbegin();
+		List<T>::ConstIterator unFin=unaListaElementos.cend();
+		List<T>::ConstIterator otroIterador=otraListaElementos.cbegin();
+		List<T>::ConstIterator otroFin=otraListaElementos.cend();
+
+		while(unIterador!=unFin)
+		{
+			if ((!unConjunto.esta(unIterador.elem()))&&b.esta(unIterador.elem()))
+				unConjunto.inserta(unIterador.elem());
+			unIterador.next();
+		}
+
+
+		return unConjunto;
+}
+
+
+
+
+
+
+
+};
+
+
+#endif /* CONJUNTO_H_ */

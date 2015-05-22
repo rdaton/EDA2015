@@ -1,0 +1,23 @@
+/*
+ * main.cpp
+ *
+ *  Created on: 21/05/2015
+ *      Author: barfelix
+ */
+
+
+
+//List<List<string>>
+#include "bundleEDA.h"
+#include <string.h>
+
+int main()
+{
+	List<string> listaPalabras;
+
+
+
+	return 0;
+}
+
+

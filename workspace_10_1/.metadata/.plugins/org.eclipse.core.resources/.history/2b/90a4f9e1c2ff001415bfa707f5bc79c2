@@ -1,0 +1,88 @@
+/*
+ * Conjunto.h
+ *
+ *  Created on: 21/05/2015
+ *      Author: barfelix
+ */
+#include "bundleEDA.h"
+#ifndef CONJUNTO_H_
+#define CONJUNTO_H_
+
+typedef char T;
+class Conjunto
+{
+private:
+HashMap<T,int> _data;
+int _nElem;
+public:
+
+List<T> dameListaElementos()
+{
+	List <T> unaListaElementos;
+	HashMap<T,int>::ConstIterator unIterador=_data.cbegin();
+	HashMap<T,int>::ConstIterator fin=_data.cend();
+	while(unIterador!=fin)
+	{
+		unaListaElementos.push_back(unIterador.key());
+		unIterador.next();
+	}
+	return unaListaElementos;
+
+};
+
+void ConjuntoVacio()
+{
+	_data=HashMap<T,int>();
+	_nElem=0;
+}
+void inserta(const T &unElem)
+{
+	_data.insert(unElem,1);
+
+}
+void borra(const T &unElem)
+{
+	_data.erase(unElem);
+
+}
+
+bool esta(const T &unElem)
+{
+	bool enc=_data.contains(unElem);
+	return enc;
+}
+
+Conjunto _union(const Conjunto &a, const Conjunto &b)
+{
+
+List<T> unaListaElementos=ths->dameListaElementos();
+
+
+}
+
+Conjunto interseccion(const Conjunto &a, const Conjunto &b)
+{
+Conjunto unConjunto;
+//hago cosas
+
+return unConjunto;
+}
+
+Conjunto diferencia(const Conjunto &a, const Conjunto &b)
+{
+Conjunto unConjunto;
+//hago cosas
+
+return unConjunto;
+}
+
+
+
+
+
+
+
+};
+
+
+#endif /* CONJUNTO_H_ */

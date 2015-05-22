@@ -1,0 +1,424 @@
+13:12:44 **** Build of configuration Debug for project eda_diez_seis ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:11:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘int main()’:
+../main.cpp:16:12: error: ‘string’ was not declared in this scope
+../main.cpp:16:12: note: suggested alternative:
+In file included from /usr/include/c++/4.7/string:41:0,
+                 from ../bundleEDA.h:1,
+                 from ../main.cpp:11:
+/usr/include/c++/4.7/bits/stringfwd.h:65:33: note:   ‘std::string’
+../main.cpp:16:18: warning: ‘>>’ operator is treated as two right angle brackets in C++11 [-Wc++0x-compat]
+../main.cpp:16:18: note: suggest parentheses around ‘>>’ expression
+../main.cpp:16:21: error: ‘listaPalabras’ was not declared in this scope
+../main.cpp:16:21: error: template argument 1 is invalid
+../main.cpp:16:7: error: template argument 1 is invalid
+make: *** [main.o] Error 1
+13:13:25 **** Incremental Build of configuration Debug for project eda_diez_seis ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:11:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘int main()’:
+../main.cpp:16:7: error: ‘string’ was not declared in this scope
+../main.cpp:16:7: note: suggested alternative:
+In file included from /usr/include/c++/4.7/string:41:0,
+                 from ../bundleEDA.h:1,
+                 from ../main.cpp:11:
+/usr/include/c++/4.7/bits/stringfwd.h:65:33: note:   ‘std::string’
+../main.cpp:16:13: error: template argument 1 is invalid
+../main.cpp:16:28: error: invalid type in declaration before ‘;’ token
+../main.cpp:16:15: warning: unused variable ‘listaPalabras’ [-Wunused-variable]
+make: *** [main.o] Error 1
+13:13:47 **** Incremental Build of configuration Debug for project eda_diez_seis ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:11:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘int main()’:
+../main.cpp:17:7: error: ‘string’ was not declared in this scope
+../main.cpp:17:7: note: suggested alternative:
+In file included from /usr/include/c++/4.7/string:41:0,
+                 from ../bundleEDA.h:1,
+                 from ../main.cpp:11:
+/usr/include/c++/4.7/bits/stringfwd.h:65:33: note:   ‘std::string’
+../main.cpp:17:13: error: template argument 1 is invalid
+../main.cpp:17:28: error: invalid type in declaration before ‘;’ token
+../main.cpp:17:15: warning: unused variable ‘listaPalabras’ [-Wunused-variable]
+make: *** [main.o] Error 1
+13:14:01 **** Incremental Build of configuration Debug for project eda_diez_seis ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:11:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp:18:3: error: invalid suffix "List" on integer constant
+../main.cpp: In function ‘int main()’:
+../main.cpp:17:2: error: ‘string’ was not declared in this scope
+../main.cpp:17:2: note: suggested alternative:
+In file included from /usr/include/c++/4.7/string:41:0,
+                 from ../bundleEDA.h:1,
+                 from ../main.cpp:11:
+/usr/include/c++/4.7/bits/stringfwd.h:65:33: note:   ‘std::string’
+../main.cpp:17:9: error: expected ‘;’ before ‘unapalabra’
+../main.cpp:18:2: error: expected primary-expression before ‘/’ token
+../main.cpp:18:17: error: ‘listaPalabras’ was not declared in this scope
+make: *** [main.o] Error 1
+13:14:18 **** Incremental Build of configuration Debug for project eda_diez_seis ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:11:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp:18:3: error: invalid suffix "List" on integer constant
+../main.cpp: In function ‘int main()’:
+../main.cpp:18:2: error: expected primary-expression before ‘/’ token
+../main.cpp:18:15: error: expected primary-expression before ‘>’ token
+../main.cpp:18:17: error: ‘listaPalabras’ was not declared in this scope
+make: *** [main.o] Error 1
+13:14:28 **** Incremental Build of configuration Debug for project eda_diez_seis ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:11:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+Finished building: ../main.cpp
+ 
+Building target: eda_diez_seis
+Invoking: GCC C++ Linker
+g++  -o "eda_diez_seis"  ./main.o   
+Finished building target: eda_diez_seis
+ 
+13:14:41 **** Incremental Build of configuration Debug for project eda_diez_seis ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:11:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘int main()’:
+../main.cpp:18:18: error: ‘>>’ should be ‘> >’ within a nested template argument list
+make: *** [main.o] Error 1
+13:14:56 **** Incremental Build of configuration Debug for project eda_diez_seis ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:11:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘int main()’:
+../main.cpp:22:10: error: expected ‘}’ at end of input
+make: *** [main.o] Error 1
+13:15:03 **** Incremental Build of configuration Debug for project eda_diez_seis ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:11:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+Finished building: ../main.cpp
+ 
+Building target: eda_diez_seis
+Invoking: GCC C++ Linker
+g++  -o "eda_diez_seis"  ./main.o   
+Finished building target: eda_diez_seis
+ 
+13:22:39 **** Incremental Build of configuration Debug for project eda_diez_seis ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:11:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘int main()’:
+../main.cpp:30:3: error: expected ‘;’ before ‘}’ token
+make: *** [main.o] Error 1
+13:22:44 **** Incremental Build of configuration Debug for project eda_diez_seis ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:11:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+Finished building: ../main.cpp
+ 
+Building target: eda_diez_seis
+Invoking: GCC C++ Linker
+g++  -o "eda_diez_seis"  ./main.o   
+Finished building target: eda_diez_seis
+ 
+13:34:27 **** Incremental Build of configuration Debug for project eda_diez_seis ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:11:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘TreeMap<std::basic_string<char>, int> cuenta(List<List<std::basic_string<char> > >)’:
+../main.cpp:24:3: warning: no return statement in function returning non-void [-Wreturn-type]
+../main.cpp: At global scope:
+../main.cpp:27:17: error: ‘>>’ should be ‘> >’ within a nested template argument list
+../main.cpp: In function ‘void muestra(TreeMap<std::basic_string<char>, int>)’:
+../main.cpp:49:1: error: ‘template<class Clave, class Valor> class TreeMap’ used without template parameters
+../main.cpp:49:24: error: expected ‘;’ before ‘unIterador’
+../main.cpp: In function ‘int main()’:
+../main.cpp:57:18: error: ‘>>’ should be ‘> >’ within a nested template argument list
+../main.cpp:62:10: error: ‘unArbolunTexto’ was not declared in this scope
+make: *** [main.o] Error 1
+13:34:47 **** Incremental Build of configuration Debug for project eda_diez_seis ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:11:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘TreeMap<std::basic_string<char>, int> cuenta(List<List<std::basic_string<char> > >)’:
+../main.cpp:24:3: warning: no return statement in function returning non-void [-Wreturn-type]
+../main.cpp: At global scope:
+../main.cpp:27:17: error: ‘>>’ should be ‘> >’ within a nested template argument list
+../main.cpp: In function ‘void muestra(TreeMap<std::basic_string<char>, int>)’:
+../main.cpp:49:1: error: ‘template<class Clave, class Valor> class TreeMap’ used without template parameters
+../main.cpp:49:24: error: expected ‘;’ before ‘unIterador’
+../main.cpp: In function ‘int main()’:
+../main.cpp:57:18: error: ‘>>’ should be ‘> >’ within a nested template argument list
+../main.cpp:62:10: error: ‘unArbolunTexto’ was not declared in this scope
+make: *** [main.o] Error 1
+13:34:56 **** Incremental Build of configuration Debug for project eda_diez_seis ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:11:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘TreeMap<std::basic_string<char>, int> cuenta(List<List<std::basic_string<char> > >)’:
+../main.cpp:24:3: warning: no return statement in function returning non-void [-Wreturn-type]
+../main.cpp: At global scope:
+../main.cpp:27:17: error: ‘>>’ should be ‘> >’ within a nested template argument list
+../main.cpp: In function ‘int main()’:
+../main.cpp:57:18: error: ‘>>’ should be ‘> >’ within a nested template argument list
+../main.cpp:62:10: error: ‘unArbolunTexto’ was not declared in this scope
+make: *** [main.o] Error 1
+13:35:10 **** Incremental Build of configuration Debug for project eda_diez_seis ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:11:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘TreeMap<std::basic_string<char>, int> cuenta(List<List<std::basic_string<char> > >)’:
+../main.cpp:24:3: warning: no return statement in function returning non-void [-Wreturn-type]
+../main.cpp: In function ‘int main()’:
+../main.cpp:57:18: error: ‘>>’ should be ‘> >’ within a nested template argument list
+../main.cpp:62:10: error: ‘unArbolunTexto’ was not declared in this scope
+make: *** [main.o] Error 1
+13:35:20 **** Incremental Build of configuration Debug for project eda_diez_seis ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:11:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘TreeMap<std::basic_string<char>, int> cuenta(List<List<std::basic_string<char> > >)’:
+../main.cpp:24:3: warning: no return statement in function returning non-void [-Wreturn-type]
+../main.cpp: In function ‘int main()’:
+../main.cpp:62:10: error: ‘unArbolunTexto’ was not declared in this scope
+make: *** [main.o] Error 1
+13:35:37 **** Incremental Build of configuration Debug for project eda_diez_seis ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:11:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘TreeMap<std::basic_string<char>, int> cuenta(List<List<std::basic_string<char> > >)’:
+../main.cpp:24:3: warning: no return statement in function returning non-void [-Wreturn-type]
+../main.cpp: In function ‘int main()’:
+../main.cpp:62:10: error: ‘unArbolunTexto’ was not declared in this scope
+make: *** [main.o] Error 1
+13:35:48 **** Incremental Build of configuration Debug for project eda_diez_seis ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:11:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘TreeMap<std::basic_string<char>, int> cuenta(List<List<std::basic_string<char> > >)’:
+../main.cpp:24:3: warning: no return statement in function returning non-void [-Wreturn-type]
+Finished building: ../main.cpp
+ 
+Building target: eda_diez_seis
+Invoking: GCC C++ Linker
+g++  -o "eda_diez_seis"  ./main.o   
+Finished building target: eda_diez_seis
+ 
+13:36:25 **** Incremental Build of configuration Debug for project eda_diez_seis ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:11:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘TreeMap<std::basic_string<char>, int> cuenta(List<List<std::basic_string<char> > >)’:
+../main.cpp:24:3: warning: no return statement in function returning non-void [-Wreturn-type]
+../main.cpp: In function ‘void muestra(TreeMap<std::basic_string<char>, int>)’:
+../main.cpp:49:1: error: ‘template<class Clave, class Valor> class TreeMap’ used without template parameters
+../main.cpp:49:24: error: expected ‘;’ before ‘unIterador’
+make: *** [main.o] Error 1
+13:36:42 **** Incremental Build of configuration Debug for project eda_diez_seis ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:11:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘TreeMap<std::basic_string<char>, int> cuenta(List<List<std::basic_string<char> > >)’:
+../main.cpp:24:3: warning: no return statement in function returning non-void [-Wreturn-type]
+Finished building: ../main.cpp
+ 
+Building target: eda_diez_seis
+Invoking: GCC C++ Linker
+g++  -o "eda_diez_seis"  ./main.o   
+Finished building target: eda_diez_seis
+ 
+14:01:41 **** Incremental Build of configuration Debug for project eda_diez_seis ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:11:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘TreeMap<std::basic_string<char>, int> cuenta(List<List<std::basic_string<char> > >)’:
+../main.cpp:23:52: error: conversion from ‘List<List<std::basic_string<char> > >::Iterator’ to non-scalar type ‘List<List<std::basic_string<char> > >::ConstIterator’ requested
+../main.cpp:36:1: warning: no return statement in function returning non-void [-Wreturn-type]
+../main.cpp: At global scope:
+../main.cpp:40:1: error: expected unqualified-id before ‘return’
+../main.cpp:42:1: error: expected declaration before ‘}’ token
+make: *** [main.o] Error 1
+14:03:02 **** Incremental Build of configuration Debug for project eda_diez_seis ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:11:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘TreeMap<std::basic_string<char>, int> cuenta(List<List<std::basic_string<char> > >)’:
+../main.cpp:28:30: warning: variable ‘otrofin’ set but not used [-Wunused-but-set-variable]
+../main.cpp:36:1: warning: no return statement in function returning non-void [-Wreturn-type]
+../main.cpp: At global scope:
+../main.cpp:40:1: error: expected unqualified-id before ‘return’
+../main.cpp:42:1: error: expected declaration before ‘}’ token
+make: *** [main.o] Error 1
+14:03:55 **** Incremental Build of configuration Debug for project eda_diez_seis ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:11:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+Finished building: ../main.cpp
+ 
+Building target: eda_diez_seis
+Invoking: GCC C++ Linker
+g++  -o "eda_diez_seis"  ./main.o   
+Finished building target: eda_diez_seis
+ 
+14:03:58 **** Incremental Build of configuration Debug for project eda_diez_seis ****
+make all 
+make: No se hace nada para `all'.
+14:04:56 **** Incremental Build of configuration Debug for project eda_diez_seis ****
+make all 
+make: No se hace nada para `all'.
+14:05:35 **** Incremental Build of configuration Debug for project eda_diez_seis ****
+make all 
+make: No se hace nada para `all'.
+14:07:08 **** Incremental Build of configuration Debug for project eda_diez_seis ****
+make all 
+make: No se hace nada para `all'.
+14:08:12 **** Incremental Build of configuration Debug for project eda_diez_seis ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:11:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘List<List<std::basic_string<char> > > lee()’:
+../main.cpp:53:19: error: could not convert ‘unaLinea.std::basic_string<_CharT, _Traits, _Alloc>::operator=<char, std::char_traits<char>, std::allocator<char> >(((const char*)""))’ from ‘std::basic_string<char>’ to ‘bool’
+make: *** [main.o] Error 1
+14:08:36 **** Incremental Build of configuration Debug for project eda_diez_seis ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:11:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+Finished building: ../main.cpp
+ 
+Building target: eda_diez_seis
+Invoking: GCC C++ Linker
+g++  -o "eda_diez_seis"  ./main.o   
+Finished building target: eda_diez_seis
+ 
+14:09:12 **** Incremental Build of configuration Debug for project eda_diez_seis ****
+make all 
+make: No se hace nada para `all'.
+14:11:52 **** Incremental Build of configuration Debug for project eda_diez_seis ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../main.cpp:11:0:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+Finished building: ../main.cpp
+ 
+Building target: eda_diez_seis
+Invoking: GCC C++ Linker
+g++  -o "eda_diez_seis"  ./main.o   
+Finished building target: eda_diez_seis
+ 
+14:12:38 **** Incremental Build of configuration Debug for project eda_diez_seis ****
+make all 
+make: No se hace nada para `all'.
+14:13:01 **** Incremental Build of configuration Debug for project eda_diez_seis ****
+make all 
+make: No se hace nada para `all'.
+14:13:31 **** Incremental Build of configuration Debug for project eda_diez_seis ****
+make all 
+make: No se hace nada para `all'.
+14:15:26 **** Incremental Build of configuration Debug for project eda_diez_seis ****
+make all 
+make: No se hace nada para `all'.
+14:15:53 **** Incremental Build of configuration Debug for project eda_diez_seis ****
+make all 
+make: No se hace nada para `all'.
+14:17:15 **** Incremental Build of configuration Debug for project eda_diez_seis ****
+make all 
+make: No se hace nada para `all'.
+14:17:16 **** Incremental Build of configuration Debug for project eda_diez_seis ****
+make all 
+make: No se hace nada para `all'.
+14:17:30 **** Incremental Build of configuration Debug for project eda_diez_seis ****
+make all 
+make: No se hace nada para `all'.
+14:18:23 **** Incremental Build of configuration Debug for project eda_diez_seis ****
+make all 
+make: No se hace nada para `all'.
+14:19:06 **** Incremental Build of configuration Debug for project eda_diez_seis ****
+make all 
+make: No se hace nada para `all'.
+14:19:31 **** Incremental Build of configuration Debug for project eda_diez_seis ****
+make all 
+make: No se hace nada para `all'.
+14:19:37 **** Incremental Build of configuration Debug for project eda_diez_seis ****
+make all 
+make: No se hace nada para `all'.

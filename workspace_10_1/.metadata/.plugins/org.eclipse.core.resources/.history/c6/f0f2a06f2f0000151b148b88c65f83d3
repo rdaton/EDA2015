@@ -1,0 +1,17 @@
+/*
+ * vectorDisp.h
+ *
+ *  Created on: 22/05/2015
+ *      Author: barfelix
+ */
+
+#ifndef VECTORDISP_H_
+#define VECTORDISP_H_
+#include "bundleEDA.h"
+
+typedef  HashTable<int,float> tVectorDisp;
+
+
+
+
+#endif /* VECTORDISP_H_ */

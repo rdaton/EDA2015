@@ -1,0 +1,39 @@
+/*
+ * main.cpp
+ *
+ *  Created on: 21/05/2015
+ *      Author: barfelix
+ */
+
+
+
+//List<List<string>>
+#include "bundleEDA.h"
+#include <string>
+#include <iostream>
+#include <sstream>
+using namespace std;
+
+int main()
+{
+
+	List<List<string> > unTexto;
+	string unaLinea;
+	while (getline(cin,unaLinea))
+	{
+		List<string> unaLineaDeTexto;
+		istringstream churroPalabras(unaLinea);
+		string unaPalabra;
+		while (churroPalabras>>unaPalabra)
+		{
+			unaLineaDeTexto.push_back(unaPalabra)
+		};
+
+
+
+	}
+
+	return 0;
+
+}
+

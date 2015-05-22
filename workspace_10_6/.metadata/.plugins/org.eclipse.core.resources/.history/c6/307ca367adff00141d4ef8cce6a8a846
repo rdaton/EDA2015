@@ -1,0 +1,72 @@
+/*
+ * main.cpp
+ *
+ *  Created on: 21/05/2015
+ *      Author: barfelix
+ */
+
+
+
+//List<List<string>>
+#include "bundleEDA.h"
+#include <string>
+#include <iostream>
+#include <sstream>
+using namespace std;
+
+
+TreeMap<string,int> cuenta(List<List<string> > unTexto)
+		{
+
+
+
+
+		}
+
+
+List<List<string>> lee()
+		{
+	List<List<string> > unTexto;
+		string unaLinea;
+		while (getline(cin,unaLinea))
+		{
+			List<string> unaLineaDeTexto;
+			istringstream churroPalabras(unaLinea);
+			string unaPalabra;
+			while (churroPalabras>>unaPalabra)
+			{
+				unaLineaDeTexto.push_back(unaPalabra);
+			};
+			unTexto.push_back(unaLineaDeTexto);
+		}
+return unTexto;
+
+		}
+
+
+void muestra (TreeMap<string,int> unArbolTexto)
+{
+TreeMap::ConstIterator unIterador;
+
+
+}
+
+int main()
+{
+
+	List<List<string>> unTexto=lee();
+
+
+	TreeMap<string,int> unArbolTexto=cuenta(unTexto);
+
+	muestra(unArbolunTexto);
+
+
+
+
+
+
+	return 0;
+
+}
+

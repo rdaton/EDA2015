@@ -1,14 +1,14 @@
 /**
  *  @file HashMap.h
  * 
- *  Implementación dinámica del TAD Dictionary utilizando
- *  tablas de búsqueda
+ *  Implementaciï¿½n dinï¿½mica del TAD Dictionary utilizando
+ *  tablas de bï¿½squeda
  * 
  *  Estructura de Datos y Algoritmos
- *  Facultad de Informática
+ *  Facultad de Informï¿½tica
  *  Universidad Complutense de Madrid
  * 
- * (c) Antonio Sánchez Ruiz-Granados, 2012
+ * (c) Antonio Sï¿½nchez Ruiz-Granados, 2012
  */
 #ifndef __HASHMAP_H
 #define __HASHMAP_H
@@ -19,33 +19,33 @@
 #include "Hash.h"
 
 /**
- * Implementación dinámica del TAD Dictionary utilizando 
+ * Implementaciï¿½n dinï¿½mica del TAD Dictionary utilizando 
  * una tabla hash abierta
  * 
  * Las operaciones son:
  * 
- * - HashMapVacio: operación generadora que construye
- * una tabla hash vacía
+ * - HashMapVacio: operaciï¿½n generadora que construye
+ * una tabla hash vacï¿½a
  * 
- * - Insert(clave, valor): generadora que añade una 
+ * - Insert(clave, valor): generadora que aï¿½ade una 
  * nueva pareja (clave, valor) a la tabla. Si la
  * clave ya estaba se sustituye el valor.
  * 
- * - erase(clave): operación modificadora. Elimina la
- * clave de la tabla. Si la clave no está,
- * la operación no tiene efecto.
+ * - erase(clave): operaciï¿½n modificadora. Elimina la
+ * clave de la tabla. Si la clave no estï¿½,
+ * la operaciï¿½n no tiene efecto.
  * 
- * - at(clave): operación observadora que devuelve
+ * - at(clave): operaciï¿½n observadora que devuelve
  * el valor asociado a una clave. Es un error preguntar
  * por una clave que no existe.
  * 
- * - contains(clave): operación observadora. Sirve para
- * averiguar si una clave está presente en la tabla.
+ * - contains(clave): operaciï¿½n observadora. Sirve para
+ * averiguar si una clave estï¿½ presente en la tabla.
  * 
  * - empty(): operacion observadora que indica si
  * la tabla tiene alguna clave introducida.
  * 
- * @author Antonio Sánchez Ruiz-Granados
+ * @author Antonio Sï¿½nchez Ruiz-Granados
  */
 template <class Clave, class Valor>
 class HashMap {
@@ -63,7 +63,7 @@ private:
 		Nodo(const Clave &clave, const Valor &valor, Nodo *sig) : 
 		_clave(clave), _valor(valor), _sig(sig) {};
 		
-		/* Atributos públicos. */
+		/* Atributos pï¿½blicos. */
 		Clave _clave;    
 		Valor _valor;   
 		Nodo *_sig;  // Puntero al siguiente nodo.
@@ -72,7 +72,7 @@ private:
 public:
 	
 	/**
-	 * Tamaño inicial de la tabla.
+	 * Tamaï¿½o inicial de la tabla.
 	 */
 	static const int TAM_INICIAL = 8;    
 	
@@ -89,28 +89,28 @@ public:
 	}
 	
 	/**
-	 *	 Operación generadora que añade una nueva clave/valor
+	 *	 Operaciï¿½n generadora que aï¿½ade una nueva clave/valor
 	 *	 a esta tabla
 	 *	 @param clave Clave nueva.
 	 *	 @param valor Valor asociado a esa clave. Si la clave
-	 *	 ya se había insertado previamente, sustituimos el valor
+	 *	 ya se habï¿½a insertado previamente, sustituimos el valor
 	 *	 viejo por el nuevo.
 	 */
 	void insert(const Clave &clave, const Valor &valor) {        
-		// Si la ocupación es muy alta ampliamos la tabla
+		// Si la ocupaciï¿½n es muy alta ampliamos la tabla
 		float ocupacion = 100 * ((float) _numElems) / _tam; 
 		if (ocupacion > MAX_OCUPACION)
 			amplia();
 		
-		// Obtenemos el índice asociado a la clave.
+		// Obtenemos el ï¿½ndice asociado a la clave.
 		unsigned int ind = ::hash(clave) % _tam;
 		
-		// Si la clave ya existía, actualizamos su valor
+		// Si la clave ya existï¿½a, actualizamos su valor
 		Nodo *nodo = buscaNodo(clave, _v[ind]);
 		if (nodo != NULL) {
 			nodo->_valor = valor;
 		} else {            
-			// Si la clave no existía, creamos un nuevo nodo y lo insertamos
+			// Si la clave no existï¿½a, creamos un nuevo nodo y lo insertamos
 			// al principio
 			_v[ind] = new Nodo(clave, valor, _v[ind]);
 			_numElems++;
@@ -118,8 +118,8 @@ public:
 	}
 	
 	/**
-	 *	 Operación modificadora que elimina una clave de la tabla.
-	 *	 Si la clave no existía la operación no tiene efecto.
+	 *	 Operaciï¿½n modificadora que elimina una clave de la tabla.
+	 *	 Si la clave no existï¿½a la operaciï¿½n no tiene efecto.
 	 * 
 	 *	   erase(elem, EmptyHashMap) = HashMapVacio
 	 *	   erase(e, insert(c, v, arbol)) = 
@@ -129,7 +129,7 @@ public:
 	 *	 @param clave Clave a eliminar.
 	 */
 	void erase(const Clave &clave) {
-		// Obtenemos el índice asociado a la clave.
+		// Obtenemos el ï¿½ndice asociado a la clave.
 		unsigned int ind = ::hash(clave) % _tam;
 		
 		// Buscamos el nodo que contiene esa clave y el nodo anterior.
@@ -146,14 +146,14 @@ public:
 				_v[ind] = act->_sig;
 			}
 			
-			// Borramos el nodo extraído.
+			// Borramos el nodo extraï¿½do.
 			delete act;
 			_numElems--;
 		}        
 	}
 	
 	/**
-	 *	 Operación observadora que devuelve el valor asociado
+	 *	 Operaciï¿½n observadora que devuelve el valor asociado
 	 *	 a una clave dada.
 	 * 
 	 *	 at(e, insert(c, v, tabla)) = v si e == c
@@ -163,7 +163,7 @@ public:
 	 *	 @param clave Clave por la que se pregunta.
 	 */
 	const Valor &at(const Clave &clave) const {
-		// Obtenemos el índice asociado a la clave.
+		// Obtenemos el ï¿½ndice asociado a la clave.
 		unsigned int ind = ::hash(clave) % _tam;
 		
 		// Buscamos un nodo que contenga esa clave.
@@ -175,8 +175,8 @@ public:
 	}
 	
 	/**
-	 *	 Operación observadora que permite averiguar si una clave
-	 *	 determinada está o no en la tabla hash.
+	 *	 Operaciï¿½n observadora que permite averiguar si una clave
+	 *	 determinada estï¿½ o no en la tabla hash.
 	 * 
 	 *	 contains(e, EmptyHashMap) = false
 	 *	 contains(e, insert(c, v, arbol)) = true si e == c
@@ -187,7 +187,7 @@ public:
 	 *	 a esa clave.
 	 */
 	bool contains(const Clave &clave) const {
-		// Obtenemos el índice asociado a la clave.
+		// Obtenemos el ï¿½ndice asociado a la clave.
 		unsigned int ind = ::hash(clave) % _tam;
 		
 		// Buscamos un nodo que contenga esa clave.
@@ -196,8 +196,8 @@ public:
 	}
 	
 	/**
-	 *	 Operación observadora que devuelve si el árbol
-	 *	 es vacío (no contiene elementos) o no.
+	 *	 Operaciï¿½n observadora que devuelve si el ï¿½rbol
+	 *	 es vacï¿½o (no contiene elementos) o no.
 	 * 
 	 *	 empty(EmptyHashMap) = true
 	 *	 empty(insert(c, v, arbol)) = false
@@ -213,13 +213,13 @@ public:
 	 *	 con el valor por defecto del tipo Valor.
 	 */
 	Valor &operator[](const Clave &clave) {
-		// Obtenemos el índice asociado a la clave.
+		// Obtenemos el ï¿½ndice asociado a la clave.
 		unsigned int ind = ::hash(clave) % _tam;
 		
 		// Buscamos un nodo que contenga esa clave.
 		Nodo *nodo = buscaNodo(clave, _v[ind]);
 		if (nodo == NULL) {
-			// No está, lo añadimos y vemos dónde quedó. 
+			// No estï¿½, lo aï¿½adimos y vemos dï¿½nde quedï¿½. 
 			insert(clave, Valor());
 			// ind puede cambiar si al insertar hubo expansion!
 			ind = ::hash(clave) % _tam;
@@ -289,16 +289,16 @@ public:
 		ConstIterator(const HashMap* tabla, Nodo* act, unsigned int ind) 
 			: _tabla(tabla), _act(act), _ind(ind) { }
 		
-		const HashMap *_tabla;  ///< Tabla que se está recorriendo
+		const HashMap *_tabla;  ///< Tabla que se estï¿½ recorriendo
 		Nodo* _act;             ///< Puntero al nodo actual del recorrido
-		unsigned int _ind;      ///< Índice actual en el vector _v
+		unsigned int _ind;      ///< ï¿½ndice actual en el vector _v
 	};
 	
 	/**
 	 *	 Devuelve el iterador constante al principio del
-	 *	 diccionario (clave más pequeña).
+	 *	 diccionario (clave mï¿½s pequeï¿½a).
 	 *	 @return iterador al principio del recorrido;
-	 *	 coincidirá con cend() si el diccionario está vacío.
+	 *	 coincidirï¿½ con cend() si el diccionario estï¿½ vacï¿½o.
 	 */
 	ConstIterator cbegin() const {
 		unsigned int ind = 0;
@@ -311,7 +311,7 @@ public:
 	
 	/**
 	 *	 @return Devuelve un iterador al final del recorrido
-	 *	 (fuera de éste).
+	 *	 (fuera de ï¿½ste).
 	 */
 	ConstIterator cend() const {
 		return ConstIterator(this, NULL, 0);
@@ -322,7 +322,7 @@ public:
 	 *	 clave, o al final del recorrido si clave no encontrada
 	 */
 	ConstIterator find(const Clave &clave) const {
-		// Obtenemos el índice asociado a la clave.
+		// Obtenemos el ï¿½ndice asociado a la clave.
 		unsigned int ind = ::hash(clave) % _tam;
 		
 		// Buscamos un nodo que contenga esa clave.
@@ -338,7 +338,7 @@ public:
 	
 	/**
 	 *	 Clase interna que implementa un iterador sobre
-	 *	 la árbol de búsqueda que permite recorrer la lista e incluso
+	 *	 la ï¿½rbol de bï¿½squeda que permite recorrer la lista e incluso
 	 *	 alterar el valor de sus elementos.
 	 */
 	class Iterator {
@@ -393,15 +393,15 @@ public:
 		Iterator(const HashMap* tabla, Nodo* act, unsigned int ind) 
 		: _tabla(tabla), _act(act), _ind(ind) { }
 		
-		const HashMap *_tabla;  ///< Tabla que se está recorriendo
+		const HashMap *_tabla;  ///< Tabla que se estï¿½ recorriendo
 		Nodo* _act;             ///< Puntero al nodo actual del recorrido
-		unsigned int _ind;      ///< Índice actual en el vector _v
+		unsigned int _ind;      ///< ï¿½ndice actual en el vector _v
 	};
 	
 	/**
 	 *	 Devuelve el iterador al principio de la lista.
 	 *	 @return iterador al principio de la lista;
-	 *	 coincidirá con final() si la lista está vacía.
+	 *	 coincidirï¿½ con final() si la lista estï¿½ vacï¿½a.
 	 */
 	Iterator begin() {
 		unsigned int ind = 0;
@@ -414,7 +414,7 @@ public:
 	
 	/**
 	 *	 @return Devuelve un iterador al final del recorrido
-	 *	 (fuera de éste).
+	 *	 (fuera de ï¿½ste).
 	 */
 	Iterator end() const {
 		return Iterator(this, NULL, 0);
@@ -425,7 +425,7 @@ public:
 	 *	 clave, o al final del recorrido si clave no encontrada
 	 */
 	Iterator find(const Clave &clave) {
-		// Obtenemos el índice asociado a la clave.
+		// Obtenemos el ï¿½ndice asociado a la clave.
 		unsigned int ind = ::hash(clave) % _tam;
 		
 		// Buscamos un nodo que contenga esa clave.
@@ -437,7 +437,7 @@ public:
 	
 	
 	// //
-	// MÉTODOS DE "FONTANERÍA" DE C++ QUE HACEN VERSÁTIL
+	// Mï¿½TODOS DE "FONTANERï¿½A" DE C++ QUE HACEN VERSï¿½TIL
 	// A LA CLASE
 	// //
 	
@@ -446,7 +446,7 @@ public:
 		copia(other);
 	}
 	
-	/** Operador de asignación */
+	/** Operador de asignaciï¿½n */
 	HashMap<Clave, Valor> &operator=(const HashMap<Clave, Valor> &other) {
 		if (this != &other) {
 			libera();
@@ -461,7 +461,7 @@ private:
 	friend class Iterador;    
 	
 	/**
-	 * Libera toda la memoria dinámica reservada para la tabla.
+	 * Libera toda la memoria dinï¿½mica reservada para la tabla.
 	 */
 	void libera() {
 		
@@ -492,8 +492,8 @@ private:
 	}
 	
 	/**
-	 * Hace una copia de la tabla que recibe como parámetro. Antes de llamar
-	 * a este método se debe invocar al método "libera".
+	 * Hace una copia de la tabla que recibe como parï¿½metro. Antes de llamar
+	 * a este mï¿½todo se debe invocar al mï¿½todo "libera".
 	 *
 	 * @param other tabla que se quiere copiar.
 	 */
@@ -517,24 +517,24 @@ private:
 	}
 	
 	/**
-	 * Este método duplica la capacidad del array de punteros actual.
+	 * Este mï¿½todo duplica la capacidad del array de punteros actual.
 	 */
 	void amplia() {
-		// Creamos un puntero al array actual y anotamos su tamaño.
+		// Creamos un puntero al array actual y anotamos su tamaï¿½o.
 		Nodo **vAnt = _v;
 		unsigned int tamAnt = _tam;
 		
-		// Duplicamos el array en otra posición de memoria.
+		// Duplicamos el array en otra posiciï¿½n de memoria.
 		_tam *= 2; 
 		_v = new Nodo*[_tam];
 		for (unsigned int i=0; i<_tam; ++i)
 			_v[i] = NULL;
 		
 		// Recorremos el array original moviendo cada nodo a la nueva 
-		// posición que le corresponde en el nuevo array.
+		// posiciï¿½n que le corresponde en el nuevo array.
 		for (unsigned int i=0; i<tamAnt; ++i) {
 			
-			// IMPORTANTE: Al modificar el tamaño también se modifica el índice
+			// IMPORTANTE: Al modificar el tamaï¿½o tambiï¿½n se modifica el ï¿½ndice
 			// asociado a cada nodo. Es decir, los nodos se mueven a posiciones
 			// distintas en el nuevo array.
 			
@@ -547,7 +547,7 @@ private:
 				Nodo *aux = nodo;
 				nodo = nodo->_sig;
 				
-				// Calculamos el nuevo índice del nodo, lo desenganchamos del 
+				// Calculamos el nuevo ï¿½ndice del nodo, lo desenganchamos del 
 				// array antiguo y lo enganchamos al nuevo.
 				unsigned int ind = ::hash(aux->_clave) % _tam;
 				aux->_sig = _v[ind];
@@ -555,17 +555,17 @@ private:
 			}
 		}
 		
-		// Borramos el array antiguo (ya no contiene ningún nodo).
+		// Borramos el array antiguo (ya no contiene ningï¿½n nodo).
 		delete[] vAnt;
 	}
 	
 	/**
 	 * Busca un nodo a partir del nodo "act" que contenga la clave dada. Si lo 
-	 * encuentra, "act" quedará apuntando a dicho nodo y "ant" al nodo anterior.
-	 * Si no lo encuentra "act" quedará apuntando a NULL.
+	 * encuentra, "act" quedarï¿½ apuntando a dicho nodo y "ant" al nodo anterior.
+	 * Si no lo encuentra "act" quedarï¿½ apuntando a NULL.
 	 *
 	 * @param clave clave del nodo que se busca.
-	 * @param act [in/out] inicialmente indica el primer nodo de la búsqueda y 
+	 * @param act [in/out] inicialmente indica el primer nodo de la bï¿½squeda y 
 	 *            al finalizar indica el nodo encontrado o NULL.
 	 * @param ant [out] puntero al nodo anterior a "act" o NULL.
 	 */
@@ -586,11 +586,11 @@ private:
 	
 	/**
 	 * Busca un nodo a partir de "prim" que contenga la clave dada. A 
-	 * diferencia del otro método "buscaNodo", este no devuelve un puntero al
+	 * diferencia del otro mï¿½todo "buscaNodo", este no devuelve un puntero al
 	 * nodo anterior.
 	 *
 	 * @param clave clave del nodo que se busca.
-	 * @param prim nodo a partir del cual realizar la búsqueda. 
+	 * @param prim nodo a partir del cual realizar la bï¿½squeda. 
 	 * @return nodo encontrado o NULL.
 	 */
 	static Nodo* buscaNodo(const Clave &clave, Nodo* prim) {
@@ -601,14 +601,44 @@ private:
 	}
 	
 	/**
-	 * Ocupación máxima permitida antes de ampliar la tabla en tanto por cientos.
+	 * Ocupaciï¿½n mï¿½xima permitida antes de ampliar la tabla en tanto por cientos.
 	 */
 	static const unsigned int MAX_OCUPACION = 80;
 	
 	
 	Nodo **_v;               ///< Array de punteros a Nodo.
-	unsigned int _tam;       ///< Tamaño del array _v.
-	unsigned int _numElems;  ///< Número de elementos en la tabla.      
+	unsigned int _tam;       ///< Tamaï¿½o del array _v.
+	unsigned int _numElems;  ///< Nï¿½mero de elementos en la tabla.      
+private:
+	int dameLong(Nodo* v)
+	{
+		int i=0;
+		if (v==NULL) return i;
+		Nodo* unPuntero=v;
+		while (unPuntero->_sig!=NULL)
+		{
+			i++;
+			unPuntero=unPuntero->_sig;
+		}
+		return i;
+	}
+public:
+
+	int indiceRadial()
+	{
+
+		//buscar longitud de lista colision mÃ¡s larga
+		int max_l=0;
+		for (int i=0; i<_tam; i++)
+		{
+			int unLong=dameLong(_v[i]);
+			if (unLong>max_l) max_l=unLong;
+		}
+
+
+		return _numElems*max_l;
+	};
+
 };
 
 #endif // __HASHMAP_H

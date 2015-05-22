@@ -38,3 +38,2699 @@ Nothing to build for project diez_uno
 **** Build of configuration Debug for project diez_uno ****
 
 Nothing to build for project diez_uno
+
+**** Build of configuration Debug for project diez_uno ****
+
+Nothing to build for project diez_uno
+
+**** Build of configuration Debug for project diez_uno ****
+
+Nothing to build for project diez_uno
+
+**** Build of configuration Debug for project diez_uno ****
+
+Nothing to build for project diez_uno
+
+**** Build of configuration Debug for project diez_uno ****
+
+Nothing to build for project diez_uno
+
+**** Build of configuration Debug for project diez_uno ****
+
+Nothing to build for project diez_uno
+
+**** Build of configuration Debug for project diez_uno ****
+
+Nothing to build for project diez_uno
+
+**** Build of configuration Debug for project diez_uno ****
+
+Nothing to build for project diez_uno
+
+**** Build of configuration Debug for project diez_uno ****
+
+Nothing to build for project diez_uno
+15:11:43 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h:34:20: error: expected identifier before ‘(’ token
+../Conjunto.h:34:21: error: expected unqualified-id before ‘)’ token
+make: *** [main.o] Error 1
+15:11:54 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h:34:15: error: expected identifier before ‘(’ token
+../Conjunto.h:34:16: error: expected unqualified-id before ‘)’ token
+make: *** [main.o] Error 1
+15:11:57 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h:34:15: error: expected identifier before ‘(’ token
+../Conjunto.h:34:16: error: expected unqualified-id before ‘)’ token
+make: *** [main.o] Error 1
+15:12:54 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h:34:42: error: ‘Conjuento’ does not name a type
+../Conjunto.h:34:53: error: ISO C++ forbids declaration of ‘b’ with no type [-fpermissive]
+make: *** [main.o] Error 1
+15:13:05 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+Finished building: ../main.cpp
+ 
+Building target: diez_uno
+Invoking: GCC C++ Linker
+g++  -o "diez_uno"  ./main.o   
+Finished building target: diez_uno
+ 
+15:28:48 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h:27:1: error: need ‘typename’ before ‘HashMap<T, int>::ConstIterator’ because ‘HashMap<T, int>’ is a dependent scope
+../Conjunto.h:32:1: error: need ‘typename’ before ‘HashMap<T, int>::ConstIterator’ because ‘HashMap<T, int>’ is a dependent scope
+../Conjunto.h: In member function ‘bool Conjunto<T>::esta(const T&)’:
+../Conjunto.h:56:1: warning: no return statement in function returning non-void [-Wreturn-type]
+../Conjunto.h: In member function ‘Conjunto<T> Conjunto<T>::_union(const Conjunto<T>&, const Conjunto<T>&)’:
+../Conjunto.h:60:1: error: need ‘typename’ before ‘HashMap<T, int>::ConstIterator’ because ‘HashMap<T, int>’ is a dependent scope
+../Conjunto.h:60:31: error: expected ‘;’ before ‘unIterador’
+make: *** [main.o] Error 1
+15:32:52 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h:21:1: error: need ‘typename’ before ‘HashMap<T, int>::ConstIterator’ because ‘HashMap<T, int>’ is a dependent scope
+../Conjunto.h:26:1: error: need ‘typename’ before ‘HashMap<T, int>::ConstIterator’ because ‘HashMap<T, int>’ is a dependent scope
+../Conjunto.h: In member function ‘Conjunto<T> Conjunto<T>::_union(const Conjunto<T>&, const Conjunto<T>&)’:
+../Conjunto.h:55:1: error: need ‘typename’ before ‘HashMap<T, int>::ConstIterator’ because ‘HashMap<T, int>’ is a dependent scope
+../Conjunto.h:55:31: error: expected ‘;’ before ‘unIterador’
+make: *** [main.o] Error 1
+15:33:01 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto<T> Conjunto<T>::_union(const Conjunto<T>&, const Conjunto<T>&)’:
+../Conjunto.h:47:1: error: need ‘typename’ before ‘HashMap<T, int>::ConstIterator’ because ‘HashMap<T, int>’ is a dependent scope
+../Conjunto.h:47:31: error: expected ‘;’ before ‘unIterador’
+make: *** [main.o] Error 1
+15:33:22 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto<T> Conjunto<T>::_union(const Conjunto<T>&, const Conjunto<T>&)’:
+../Conjunto.h:47:1: error: need ‘typename’ before ‘HashMap<T, int>::ConstIterator’ because ‘HashMap<T, int>’ is a dependent scope
+../Conjunto.h:47:31: error: expected ‘;’ before ‘unIterador’
+make: *** [main.o] Error 1
+15:33:40 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto<T> Conjunto<T>::_union(const Conjunto<T>&, const Conjunto<T>&)’:
+../Conjunto.h:47:1: error: need ‘typename’ before ‘HashMap<T, int>::ConstIterator’ because ‘HashMap<T, int>’ is a dependent scope
+../Conjunto.h:47:31: error: expected ‘;’ before ‘unIterador’
+make: *** [main.o] Error 1
+15:42:20 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+Finished building: ../main.cpp
+ 
+Building target: diez_uno
+Invoking: GCC C++ Linker
+g++  -o "diez_uno"  ./main.o   
+Finished building target: diez_uno
+ 
+15:42:45 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘List<T> Conjunto<T>::dameListaElementos()’:
+../Conjunto.h:80:2: error: need ‘typename’ before ‘HashMap<T, int>::ConstIterator’ because ‘HashMap<T, int>’ is a dependent scope
+../Conjunto.h:80:32: error: expected ‘;’ before ‘unIterador’
+../Conjunto.h:81:2: error: need ‘typename’ before ‘HashMap<T, int>::ConstIterator’ because ‘HashMap<T, int>’ is a dependent scope
+../Conjunto.h:81:32: error: expected ‘;’ before ‘fin’
+../Conjunto.h:82:9: error: ‘unIterador’ was not declared in this scope
+../Conjunto.h:82:21: error: ‘fin’ was not declared in this scope
+make: *** [main.o] Error 1
+15:46:34 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h:14:9: error: ‘tipoHash’ does not name a type
+../Conjunto.h: In member function ‘List<T> Conjunto<T>::dameListaElementos()’:
+../Conjunto.h:81:2: error: need ‘typename’ before ‘HashMap<T, int>::ConstIterator’ because ‘HashMap<T, int>’ is a dependent scope
+../Conjunto.h:81:32: error: expected ‘;’ before ‘unIterador’
+../Conjunto.h:82:2: error: need ‘typename’ before ‘HashMap<T, int>::ConstIterator’ because ‘HashMap<T, int>’ is a dependent scope
+../Conjunto.h:82:32: error: expected ‘;’ before ‘fin’
+../Conjunto.h:83:9: error: ‘unIterador’ was not declared in this scope
+../Conjunto.h:83:21: error: ‘fin’ was not declared in this scope
+make: *** [main.o] Error 1
+15:46:50 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘List<T> Conjunto<T>::dameListaElementos()’:
+../Conjunto.h:81:2: error: need ‘typename’ before ‘HashMap<T, int>::ConstIterator’ because ‘HashMap<T, int>’ is a dependent scope
+../Conjunto.h:81:32: error: expected ‘;’ before ‘unIterador’
+../Conjunto.h:82:2: error: need ‘typename’ before ‘HashMap<T, int>::ConstIterator’ because ‘HashMap<T, int>’ is a dependent scope
+../Conjunto.h:82:32: error: expected ‘;’ before ‘fin’
+../Conjunto.h:83:9: error: ‘unIterador’ was not declared in this scope
+../Conjunto.h:83:21: error: ‘fin’ was not declared in this scope
+make: *** [main.o] Error 1
+15:47:01 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘List<T> Conjunto<T>::dameListaElementos()’:
+../Conjunto.h:81:2: error: need ‘typename’ before ‘HashMap<T, int>::ConstIterator’ because ‘HashMap<T, int>’ is a dependent scope
+../Conjunto.h:81:32: error: expected ‘;’ before ‘unIterador’
+../Conjunto.h:82:2: error: need ‘typename’ before ‘HashMap<T, int>::ConstIterator’ because ‘HashMap<T, int>’ is a dependent scope
+../Conjunto.h:82:32: error: expected ‘;’ before ‘fin’
+../Conjunto.h:83:9: error: ‘unIterador’ was not declared in this scope
+../Conjunto.h:83:21: error: ‘fin’ was not declared in this scope
+make: *** [main.o] Error 1
+15:47:02 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘List<T> Conjunto<T>::dameListaElementos()’:
+../Conjunto.h:81:2: error: need ‘typename’ before ‘Conjunto<T>::tipoHash:: ConstIterator’ because ‘Conjunto<T>::tipoHash’ is a dependent scope
+../Conjunto.h:81:26: error: expected ‘;’ before ‘unIterador’
+../Conjunto.h:82:2: error: need ‘typename’ before ‘HashMap<T, int>::ConstIterator’ because ‘HashMap<T, int>’ is a dependent scope
+../Conjunto.h:82:32: error: expected ‘;’ before ‘fin’
+../Conjunto.h:83:9: error: ‘unIterador’ was not declared in this scope
+../Conjunto.h:83:21: error: ‘fin’ was not declared in this scope
+make: *** [main.o] Error 1
+15:48:11 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘List<T> Conjunto<T>::dameListaElementos()’:
+../Conjunto.h:80:2: error: need ‘typename’ before ‘Conjunto<T>::tipoHash:: ConstIterator’ because ‘Conjunto<T>::tipoHash’ is a dependent scope
+../Conjunto.h:80:26: error: expected ‘;’ before ‘unIterador’
+../Conjunto.h:81:2: error: need ‘typename’ before ‘HashMap<T, int>::ConstIterator’ because ‘HashMap<T, int>’ is a dependent scope
+../Conjunto.h:81:32: error: expected ‘;’ before ‘fin’
+../Conjunto.h:82:9: error: ‘unIterador’ was not declared in this scope
+../Conjunto.h:82:21: error: ‘fin’ was not declared in this scope
+make: *** [main.o] Error 1
+15:48:24 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘List<T> Conjunto<T>::dameListaElementos()’:
+../Conjunto.h:81:2: error: need ‘typename’ before ‘HashMap<T, int>::ConstIterator’ because ‘HashMap<T, int>’ is a dependent scope
+../Conjunto.h:81:32: error: expected ‘;’ before ‘fin’
+../Conjunto.h:82:21: error: ‘fin’ was not declared in this scope
+make: *** [main.o] Error 1
+15:48:29 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘List<T> Conjunto<T>::dameListaElementos()’:
+../Conjunto.h:80:2: error: need ‘typename’ before ‘Conjunto<T>::tipoHash:: ConstIterator’ because ‘Conjunto<T>::tipoHash’ is a dependent scope
+../Conjunto.h:80:26: error: expected ‘;’ before ‘unIterador’
+../Conjunto.h:81:2: error: need ‘typename’ before ‘HashMap<T, int>::ConstIterator’ because ‘HashMap<T, int>’ is a dependent scope
+../Conjunto.h:81:32: error: expected ‘;’ before ‘fin’
+../Conjunto.h:82:9: error: ‘unIterador’ was not declared in this scope
+../Conjunto.h:82:21: error: ‘fin’ was not declared in this scope
+make: *** [main.o] Error 1
+15:50:21 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+Finished building: ../main.cpp
+ 
+Building target: diez_uno
+Invoking: GCC C++ Linker
+g++  -o "diez_uno"  ./main.o   
+Finished building target: diez_uno
+ 
+16:00:58 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::_union(const Conjunto&, const Conjunto&)’:
+../Conjunto.h:57:39: error: passing ‘const Conjunto’ as ‘this’ argument of ‘List<char> Conjunto::dameListaElementos()’ discards qualifiers [-fpermissive]
+../Conjunto.h:60:1: warning: no return statement in function returning non-void [-Wreturn-type]
+../Conjunto.h: In member function ‘Conjunto Conjunto::interseccion(const Conjunto&, const Conjunto&)’:
+../Conjunto.h:64:1: error: ‘Conjunto’ is not a template
+../Conjunto.h: In member function ‘Conjunto Conjunto::diferencia(const Conjunto&, const Conjunto&)’:
+../Conjunto.h:72:1: error: ‘Conjunto’ is not a template
+../main.cpp: In function ‘int main()’:
+../main.cpp:13:1: error: ‘Conjunto’ is not a template
+make: *** [main.o] Error 1
+16:01:09 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::_union(const Conjunto&, const Conjunto&)’:
+../Conjunto.h:57:39: error: passing ‘const Conjunto’ as ‘this’ argument of ‘List<char> Conjunto::dameListaElementos()’ discards qualifiers [-fpermissive]
+../Conjunto.h:60:1: warning: no return statement in function returning non-void [-Wreturn-type]
+../Conjunto.h: In member function ‘Conjunto Conjunto::interseccion(const Conjunto&, const Conjunto&)’:
+../Conjunto.h:64:1: error: ‘Conjunto’ is not a template
+../Conjunto.h: In member function ‘Conjunto Conjunto::diferencia(const Conjunto&, const Conjunto&)’:
+../Conjunto.h:72:1: error: ‘Conjunto’ is not a template
+make: *** [main.o] Error 1
+16:01:18 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::_union(const Conjunto&, const Conjunto&)’:
+../Conjunto.h:57:39: error: passing ‘const Conjunto’ as ‘this’ argument of ‘List<char> Conjunto::dameListaElementos()’ discards qualifiers [-fpermissive]
+../Conjunto.h:60:1: warning: no return statement in function returning non-void [-Wreturn-type]
+../Conjunto.h: In member function ‘Conjunto Conjunto::interseccion(const Conjunto&, const Conjunto&)’:
+../Conjunto.h:64:1: error: ‘Conjunto’ is not a template
+../Conjunto.h: In member function ‘Conjunto Conjunto::diferencia(const Conjunto&, const Conjunto&)’:
+../Conjunto.h:72:1: error: ‘Conjunto’ is not a template
+make: *** [main.o] Error 1
+16:01:20 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::_union(const Conjunto&, const Conjunto&)’:
+../Conjunto.h:57:39: error: passing ‘const Conjunto’ as ‘this’ argument of ‘List<char> Conjunto::dameListaElementos()’ discards qualifiers [-fpermissive]
+../Conjunto.h:60:1: warning: no return statement in function returning non-void [-Wreturn-type]
+../Conjunto.h: In member function ‘Conjunto Conjunto::interseccion(const Conjunto&, const Conjunto&)’:
+../Conjunto.h:64:1: error: ‘Conjunto’ is not a template
+../Conjunto.h: In member function ‘Conjunto Conjunto::diferencia(const Conjunto&, const Conjunto&)’:
+../Conjunto.h:72:1: error: ‘Conjunto’ is not a template
+make: *** [main.o] Error 1
+16:01:51 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::_union(const Conjunto&, const Conjunto&)’:
+../Conjunto.h:57:39: error: passing ‘const Conjunto’ as ‘this’ argument of ‘List<char> Conjunto::dameListaElementos()’ discards qualifiers [-fpermissive]
+../Conjunto.h:60:1: warning: no return statement in function returning non-void [-Wreturn-type]
+make: *** [main.o] Error 1
+16:01:54 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::_union(const Conjunto&, const Conjunto&)’:
+../Conjunto.h:57:39: error: passing ‘const Conjunto’ as ‘this’ argument of ‘List<char> Conjunto::dameListaElementos()’ discards qualifiers [-fpermissive]
+../Conjunto.h:60:1: warning: no return statement in function returning non-void [-Wreturn-type]
+make: *** [main.o] Error 1
+16:02:27 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::_union(const Conjunto&, const Conjunto&)’:
+../Conjunto.h:57:42: error: passing ‘const Conjunto’ as ‘this’ argument of ‘List<char> Conjunto::dameListaElementos()’ discards qualifiers [-fpermissive]
+../Conjunto.h:60:1: warning: no return statement in function returning non-void [-Wreturn-type]
+make: *** [main.o] Error 1
+16:02:37 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::_union(const Conjunto&, const Conjunto&)’:
+../Conjunto.h:57:42: error: passing ‘const Conjunto’ as ‘this’ argument of ‘List<char> Conjunto::dameListaElementos()’ discards qualifiers [-fpermissive]
+../Conjunto.h:60:1: warning: no return statement in function returning non-void [-Wreturn-type]
+make: *** [main.o] Error 1
+16:02:39 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::_union(const Conjunto&, const Conjunto&)’:
+../Conjunto.h:57:42: error: passing ‘const Conjunto’ as ‘this’ argument of ‘List<char> Conjunto::dameListaElementos()’ discards qualifiers [-fpermissive]
+../Conjunto.h:60:1: warning: no return statement in function returning non-void [-Wreturn-type]
+make: *** [main.o] Error 1
+16:02:44 **** Clean-only build of configuration Debug for project diez_uno ****
+make clean 
+rm -rf  ./main.o  ./main.d  diez_uno
+ 
+16:02:46 **** Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::_union(const Conjunto&, const Conjunto&)’:
+../Conjunto.h:57:42: error: passing ‘const Conjunto’ as ‘this’ argument of ‘List<char> Conjunto::dameListaElementos()’ discards qualifiers [-fpermissive]
+../Conjunto.h:60:1: warning: no return statement in function returning non-void [-Wreturn-type]
+make: *** [main.o] Error 1
+16:03:06 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::_union(const Conjunto&, const Conjunto&)’:
+../Conjunto.h:57:42: error: passing ‘const Conjunto’ as ‘this’ argument of ‘List<char> Conjunto::dameListaElementos()’ discards qualifiers [-fpermissive]
+../Conjunto.h:60:1: warning: no return statement in function returning non-void [-Wreturn-type]
+make: *** [main.o] Error 1
+16:03:19 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::_union(const Conjunto&, const Conjunto&)’:
+../Conjunto.h:61:1: warning: no return statement in function returning non-void [-Wreturn-type]
+Finished building: ../main.cpp
+ 
+Building target: diez_uno
+Invoking: GCC C++ Linker
+g++  -o "diez_uno"  ./main.o   
+Finished building target: diez_uno
+ 
+16:03:58 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::_union(const Conjunto&, const Conjunto&)’:
+../Conjunto.h:61:1: warning: no return statement in function returning non-void [-Wreturn-type]
+Finished building: ../main.cpp
+ 
+Building target: diez_uno
+Invoking: GCC C++ Linker
+g++  -o "diez_uno"  ./main.o   
+Finished building target: diez_uno
+ 
+16:04:22 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::_union(const Conjunto&, const Conjunto&)’:
+../Conjunto.h:59:40: error: passing ‘const Conjunto’ as ‘this’ argument of ‘List<char> Conjunto::dameListaElementos()’ discards qualifiers [-fpermissive]
+../Conjunto.h:62:1: warning: no return statement in function returning non-void [-Wreturn-type]
+make: *** [main.o] Error 1
+16:04:51 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::_union(const Conjunto&, const Conjunto&)’:
+../Conjunto.h:59:40: error: passing ‘const Conjunto’ as ‘this’ argument of ‘List<char> Conjunto::dameListaElementos()’ discards qualifiers [-fpermissive]
+../Conjunto.h:62:1: warning: no return statement in function returning non-void [-Wreturn-type]
+make: *** [main.o] Error 1
+16:05:01 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::_union(const Conjunto&, const Conjunto&)’:
+../Conjunto.h:59:40: error: passing ‘const Conjunto’ as ‘this’ argument of ‘List<char> Conjunto::dameListaElementos()’ discards qualifiers [-fpermissive]
+../Conjunto.h:62:1: warning: no return statement in function returning non-void [-Wreturn-type]
+make: *** [main.o] Error 1
+16:05:03 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::_union(const Conjunto&, const Conjunto&)’:
+../Conjunto.h:59:40: error: passing ‘const Conjunto’ as ‘this’ argument of ‘List<char> Conjunto::dameListaElementos()’ discards qualifiers [-fpermissive]
+../Conjunto.h:62:1: warning: no return statement in function returning non-void [-Wreturn-type]
+make: *** [main.o] Error 1
+16:06:02 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::_union(const Conjunto&, const Conjunto&)’:
+../Conjunto.h:59:39: error: passing ‘const Conjunto’ as ‘this’ argument of ‘void Conjunto::dameListaElementos(List<char>&)’ discards qualifiers [-fpermissive]
+../Conjunto.h:62:1: warning: no return statement in function returning non-void [-Wreturn-type]
+make: *** [main.o] Error 1
+16:06:05 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::_union(const Conjunto&, const Conjunto&)’:
+../Conjunto.h:59:39: error: passing ‘const Conjunto’ as ‘this’ argument of ‘void Conjunto::dameListaElementos(List<char>&)’ discards qualifiers [-fpermissive]
+../Conjunto.h:62:1: warning: no return statement in function returning non-void [-Wreturn-type]
+make: *** [main.o] Error 1
+16:06:20 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::_union(const Conjunto&, const Conjunto&)’:
+../Conjunto.h:61:1: warning: no return statement in function returning non-void [-Wreturn-type]
+Finished building: ../main.cpp
+ 
+Building target: diez_uno
+Invoking: GCC C++ Linker
+g++  -o "diez_uno"  ./main.o   
+Finished building target: diez_uno
+ 
+16:06:36 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘List<char> Conjunto::dameListaElementos()’:
+../Conjunto.h:29:2: error: ‘unaLista’ was not declared in this scope
+../Conjunto.h:31:1: warning: no return statement in function returning non-void [-Wreturn-type]
+../Conjunto.h: In member function ‘Conjunto Conjunto::_union(const Conjunto&, const Conjunto&)’:
+../Conjunto.h:61:1: warning: no return statement in function returning non-void [-Wreturn-type]
+make: *** [main.o] Error 1
+16:06:44 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::_union(const Conjunto&, const Conjunto&)’:
+../Conjunto.h:61:1: warning: no return statement in function returning non-void [-Wreturn-type]
+Finished building: ../main.cpp
+ 
+Building target: diez_uno
+Invoking: GCC C++ Linker
+g++  -o "diez_uno"  ./main.o   
+Finished building target: diez_uno
+ 
+16:07:00 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::_union(const Conjunto&, const Conjunto&)’:
+../Conjunto.h:61:1: warning: no return statement in function returning non-void [-Wreturn-type]
+Finished building: ../main.cpp
+ 
+Building target: diez_uno
+Invoking: GCC C++ Linker
+g++  -o "diez_uno"  ./main.o   
+Finished building target: diez_uno
+ 
+16:07:03 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+make: No se hace nada para `all'.
+16:07:16 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::_union(const Conjunto&, const Conjunto&)’:
+../Conjunto.h:61:1: warning: no return statement in function returning non-void [-Wreturn-type]
+Finished building: ../main.cpp
+ 
+Building target: diez_uno
+Invoking: GCC C++ Linker
+g++  -o "diez_uno"  ./main.o   
+Finished building target: diez_uno
+ 
+16:07:28 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::_union(const Conjunto&, const Conjunto&)’:
+../Conjunto.h:61:1: warning: no return statement in function returning non-void [-Wreturn-type]
+Finished building: ../main.cpp
+ 
+Building target: diez_uno
+Invoking: GCC C++ Linker
+g++  -o "diez_uno"  ./main.o   
+Finished building target: diez_uno
+ 
+16:07:31 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+make: No se hace nada para `all'.
+16:07:45 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::_union(const Conjunto&, const Conjunto&)’:
+../Conjunto.h:58:28: error: base operand of ‘->’ has non-pointer type ‘const Conjunto’
+../Conjunto.h:58:9: warning: unused variable ‘unaListaElementos’ [-Wunused-variable]
+../Conjunto.h:61:1: warning: no return statement in function returning non-void [-Wreturn-type]
+make: *** [main.o] Error 1
+16:07:49 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::_union(const Conjunto&, const Conjunto&)’:
+../Conjunto.h:58:48: error: passing ‘const Conjunto’ as ‘this’ argument of ‘List<char> Conjunto::dameListaElementos()’ discards qualifiers [-fpermissive]
+../Conjunto.h:61:1: warning: no return statement in function returning non-void [-Wreturn-type]
+make: *** [main.o] Error 1
+16:07:52 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::_union(const Conjunto&, const Conjunto&)’:
+../Conjunto.h:58:48: error: passing ‘const Conjunto’ as ‘this’ argument of ‘List<char> Conjunto::dameListaElementos()’ discards qualifiers [-fpermissive]
+../Conjunto.h:61:1: warning: no return statement in function returning non-void [-Wreturn-type]
+make: *** [main.o] Error 1
+16:08:14 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::_union(const Conjunto&, const Conjunto&)’:
+../Conjunto.h:58:48: error: passing ‘const Conjunto’ as ‘this’ argument of ‘List<char> Conjunto::dameListaElementos()’ discards qualifiers [-fpermissive]
+../Conjunto.h:61:1: warning: no return statement in function returning non-void [-Wreturn-type]
+make: *** [main.o] Error 1
+16:08:20 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::_union(const Conjunto&, const Conjunto&)’:
+../Conjunto.h:58:27: error: ‘ths’ was not declared in this scope
+../Conjunto.h:58:9: warning: unused variable ‘unaListaElementos’ [-Wunused-variable]
+../Conjunto.h:61:1: warning: no return statement in function returning non-void [-Wreturn-type]
+make: *** [main.o] Error 1
+16:08:23 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::_union(const Conjunto&, const Conjunto&)’:
+../Conjunto.h:58:27: error: ‘ths’ was not declared in this scope
+../Conjunto.h:58:9: warning: unused variable ‘unaListaElementos’ [-Wunused-variable]
+../Conjunto.h:61:1: warning: no return statement in function returning non-void [-Wreturn-type]
+make: *** [main.o] Error 1
+16:08:30 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::_union(const Conjunto&, const Conjunto&)’:
+../Conjunto.h:58:27: error: ‘ths’ was not declared in this scope
+../Conjunto.h:58:9: warning: unused variable ‘unaListaElementos’ [-Wunused-variable]
+../Conjunto.h:61:1: warning: no return statement in function returning non-void [-Wreturn-type]
+../main.cpp: In function ‘int main()’:
+../main.cpp:14:5: warning: unused variable ‘r’ [-Wunused-variable]
+make: *** [main.o] Error 1
+16:08:39 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::_union(const Conjunto&, const Conjunto&)’:
+../Conjunto.h:58:27: error: ‘ths’ was not declared in this scope
+../Conjunto.h:58:9: warning: unused variable ‘unaListaElementos’ [-Wunused-variable]
+../Conjunto.h:61:1: warning: no return statement in function returning non-void [-Wreturn-type]
+../main.cpp: In function ‘int main()’:
+../main.cpp:14:5: warning: unused variable ‘r’ [-Wunused-variable]
+make: *** [main.o] Error 1
+16:08:41 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::_union(const Conjunto&, const Conjunto&)’:
+../Conjunto.h:61:1: warning: no return statement in function returning non-void [-Wreturn-type]
+../main.cpp: In function ‘int main()’:
+../main.cpp:14:5: warning: unused variable ‘r’ [-Wunused-variable]
+Finished building: ../main.cpp
+ 
+Building target: diez_uno
+Invoking: GCC C++ Linker
+g++  -o "diez_uno"  ./main.o   
+Finished building target: diez_uno
+ 
+16:09:02 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::_union(const Conjunto&, const Conjunto&)’:
+../Conjunto.h:58:28: error: base operand of ‘->’ has non-pointer type ‘const Conjunto’
+../Conjunto.h:58:9: warning: unused variable ‘unaListaElementos’ [-Wunused-variable]
+../Conjunto.h:61:1: warning: no return statement in function returning non-void [-Wreturn-type]
+../main.cpp: In function ‘int main()’:
+../main.cpp:14:5: warning: unused variable ‘r’ [-Wunused-variable]
+make: *** [main.o] Error 1
+16:09:11 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::_union(const Conjunto&, const Conjunto&)’:
+../Conjunto.h:58:48: error: passing ‘const Conjunto’ as ‘this’ argument of ‘List<char> Conjunto::dameListaElementos()’ discards qualifiers [-fpermissive]
+../Conjunto.h:61:1: warning: no return statement in function returning non-void [-Wreturn-type]
+../main.cpp: In function ‘int main()’:
+../main.cpp:14:5: warning: unused variable ‘r’ [-Wunused-variable]
+make: *** [main.o] Error 1
+16:09:50 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::_union(const Conjunto&, const Conjunto&)’:
+../Conjunto.h:58:48: error: passing ‘const Conjunto’ as ‘this’ argument of ‘List<char> Conjunto::dameListaElementos()’ discards qualifiers [-fpermissive]
+../Conjunto.h:61:1: warning: no return statement in function returning non-void [-Wreturn-type]
+../main.cpp: In function ‘int main()’:
+../main.cpp:14:5: warning: unused variable ‘r’ [-Wunused-variable]
+make: *** [main.o] Error 1
+16:09:56 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::_union(const Conjunto&, const Conjunto&)’:
+../Conjunto.h:61:1: warning: no return statement in function returning non-void [-Wreturn-type]
+../main.cpp: In function ‘int main()’:
+../main.cpp:14:5: warning: unused variable ‘r’ [-Wunused-variable]
+Finished building: ../main.cpp
+ 
+Building target: diez_uno
+Invoking: GCC C++ Linker
+g++  -o "diez_uno"  ./main.o   
+Finished building target: diez_uno
+ 
+16:10:56 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::_union(Conjunto, Conjunto)’:
+../Conjunto.h:61:1: warning: no return statement in function returning non-void [-Wreturn-type]
+Finished building: ../main.cpp
+ 
+Building target: diez_uno
+Invoking: GCC C++ Linker
+g++  -o "diez_uno"  ./main.o   
+Finished building target: diez_uno
+ 
+16:11:03 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::_union(Conjunto, Conjunto)’:
+../Conjunto.h:61:1: warning: no return statement in function returning non-void [-Wreturn-type]
+Finished building: ../main.cpp
+ 
+Building target: diez_uno
+Invoking: GCC C++ Linker
+g++  -o "diez_uno"  ./main.o   
+Finished building target: diez_uno
+ 
+16:11:32 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::_union(Conjunto, Conjunto)’:
+../Conjunto.h:62:1: warning: no return statement in function returning non-void [-Wreturn-type]
+Finished building: ../main.cpp
+ 
+Building target: diez_uno
+Invoking: GCC C++ Linker
+g++  -o "diez_uno"  ./main.o   
+Finished building target: diez_uno
+ 
+16:18:27 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+Finished building: ../main.cpp
+ 
+Building target: diez_uno
+Invoking: GCC C++ Linker
+g++  -o "diez_uno"  ./main.o   
+Finished building target: diez_uno
+ 
+16:23:22 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::interseccion(const Conjunto&, const Conjunto&)’:
+../Conjunto.h:88:49: error: passing ‘const Conjunto’ as ‘this’ argument of ‘List<char> Conjunto::dameListaElementos()’ discards qualifiers [-fpermissive]
+../Conjunto.h:89:50: error: passing ‘const Conjunto’ as ‘this’ argument of ‘List<char> Conjunto::dameListaElementos()’ discards qualifiers [-fpermissive]
+make: *** [main.o] Error 1
+16:23:48 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+Finished building: ../main.cpp
+ 
+Building target: diez_uno
+Invoking: GCC C++ Linker
+g++  -o "diez_uno"  ./main.o   
+Finished building target: diez_uno
+ 
+16:34:12 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::diferencia(Conjunto, Conjunto)’:
+../Conjunto.h:118:26: warning: variable ‘otroIterador’ set but not used [-Wunused-but-set-variable]
+../Conjunto.h:119:26: warning: variable ‘otroFin’ set but not used [-Wunused-but-set-variable]
+../main.cpp: In function ‘List<char> lee()’:
+../main.cpp:17:1: warning: no return statement in function returning non-void [-Wreturn-type]
+../main.cpp: In function ‘int main()’:
+../main.cpp:26:25: error: conversion from ‘List<char>’ to non-scalar type ‘Conjunto’ requested
+../main.cpp:27:27: error: conversion from ‘List<char>’ to non-scalar type ‘Conjunto’ requested
+make: *** [main.o] Error 1
+16:34:29 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::diferencia(Conjunto, Conjunto)’:
+../Conjunto.h:118:26: warning: variable ‘otroIterador’ set but not used [-Wunused-but-set-variable]
+../Conjunto.h:119:26: warning: variable ‘otroFin’ set but not used [-Wunused-but-set-variable]
+../main.cpp: In function ‘Conjunto lee()’:
+../main.cpp:16:15: error: invalid conversion from ‘const char*’ to ‘char’ [-fpermissive]
+make: *** [main.o] Error 1
+16:34:36 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::diferencia(Conjunto, Conjunto)’:
+../Conjunto.h:118:26: warning: variable ‘otroIterador’ set but not used [-Wunused-but-set-variable]
+../Conjunto.h:119:26: warning: variable ‘otroFin’ set but not used [-Wunused-but-set-variable]
+Finished building: ../main.cpp
+ 
+Building target: diez_uno
+Invoking: GCC C++ Linker
+g++  -o "diez_uno"  ./main.o   
+Finished building target: diez_uno
+ 
+16:39:48 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::diferencia(Conjunto, Conjunto)’:
+../Conjunto.h:118:26: warning: variable ‘otroIterador’ set but not used [-Wunused-but-set-variable]
+../Conjunto.h:119:26: warning: variable ‘otroFin’ set but not used [-Wunused-but-set-variable]
+Finished building: ../main.cpp
+ 
+Building target: diez_uno
+Invoking: GCC C++ Linker
+g++  -o "diez_uno"  ./main.o   
+Finished building target: diez_uno
+ 
+16:40:11 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+make: No se hace nada para `all'.
+16:40:18 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+make: No se hace nada para `all'.
+16:41:48 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+make: No se hace nada para `all'.
+16:42:10 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+make: No se hace nada para `all'.
+16:44:02 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+make: No se hace nada para `all'.
+16:45:30 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+make: No se hace nada para `all'.
+16:45:46 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+make: No se hace nada para `all'.
+16:46:21 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+make: No se hace nada para `all'.
+16:47:03 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::diferencia(Conjunto, Conjunto)’:
+../Conjunto.h:118:26: warning: variable ‘otroIterador’ set but not used [-Wunused-but-set-variable]
+../Conjunto.h:119:26: warning: variable ‘otroFin’ set but not used [-Wunused-but-set-variable]
+Finished building: ../main.cpp
+ 
+Building target: diez_uno
+Invoking: GCC C++ Linker
+g++  -o "diez_uno"  ./main.o   
+Finished building target: diez_uno
+ 
+16:47:07 **** Clean-only build of configuration Debug for project diez_uno ****
+make clean 
+rm -rf  ./main.o  ./main.d  diez_uno
+ 
+16:47:09 **** Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::diferencia(Conjunto, Conjunto)’:
+../Conjunto.h:118:26: warning: variable ‘otroIterador’ set but not used [-Wunused-but-set-variable]
+../Conjunto.h:119:26: warning: variable ‘otroFin’ set but not used [-Wunused-but-set-variable]
+Finished building: ../main.cpp
+ 
+Building target: diez_uno
+Invoking: GCC C++ Linker
+g++  -o "diez_uno"  ./main.o   
+Finished building target: diez_uno
+ 
+16:47:26 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::diferencia(Conjunto, Conjunto)’:
+../Conjunto.h:118:26: warning: variable ‘otroIterador’ set but not used [-Wunused-but-set-variable]
+../Conjunto.h:119:26: warning: variable ‘otroFin’ set but not used [-Wunused-but-set-variable]
+Finished building: ../main.cpp
+ 
+Building target: diez_uno
+Invoking: GCC C++ Linker
+g++  -o "diez_uno"  ./main.o   
+Finished building target: diez_uno
+ 
+16:47:30 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+make: No se hace nada para `all'.
+16:48:59 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+make: No se hace nada para `all'.
+16:49:47 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::diferencia(Conjunto, Conjunto)’:
+../Conjunto.h:118:26: warning: variable ‘otroIterador’ set but not used [-Wunused-but-set-variable]
+../Conjunto.h:119:26: warning: variable ‘otroFin’ set but not used [-Wunused-but-set-variable]
+Finished building: ../main.cpp
+ 
+Building target: diez_uno
+Invoking: GCC C++ Linker
+g++  -o "diez_uno"  ./main.o   
+Finished building target: diez_uno
+ 
+16:49:50 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+make: No se hace nada para `all'.
+16:50:18 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+make: No se hace nada para `all'.
+16:53:33 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::diferencia(Conjunto, Conjunto)’:
+../Conjunto.h:118:26: warning: variable ‘otroIterador’ set but not used [-Wunused-but-set-variable]
+../Conjunto.h:119:26: warning: variable ‘otroFin’ set but not used [-Wunused-but-set-variable]
+Finished building: ../main.cpp
+ 
+Building target: diez_uno
+Invoking: GCC C++ Linker
+g++  -o "diez_uno"  ./main.o   
+Finished building target: diez_uno
+ 
+16:53:35 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+make: No se hace nada para `all'.
+16:53:50 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+make: No se hace nada para `all'.
+16:55:51 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::diferencia(Conjunto, Conjunto)’:
+../Conjunto.h:119:26: warning: variable ‘otroIterador’ set but not used [-Wunused-but-set-variable]
+../Conjunto.h:120:26: warning: variable ‘otroFin’ set but not used [-Wunused-but-set-variable]
+Finished building: ../main.cpp
+ 
+Building target: diez_uno
+Invoking: GCC C++ Linker
+g++  -o "diez_uno"  ./main.o   
+Finished building target: diez_uno
+ 
+18:18:14 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::diferencia(Conjunto, Conjunto)’:
+../Conjunto.h:119:26: warning: variable ‘otroIterador’ set but not used [-Wunused-but-set-variable]
+../Conjunto.h:120:26: warning: variable ‘otroFin’ set but not used [-Wunused-but-set-variable]
+../main.cpp: In function ‘void mostrar(Conjunto)’:
+../main.cpp:30:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp:32:21: error: no match for ‘operator[]’ in ‘unaLista[i]’
+make: *** [main.o] Error 1
+18:18:33 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::diferencia(Conjunto, Conjunto)’:
+../Conjunto.h:119:26: warning: variable ‘otroIterador’ set but not used [-Wunused-but-set-variable]
+../Conjunto.h:120:26: warning: variable ‘otroFin’ set but not used [-Wunused-but-set-variable]
+../main.cpp: In function ‘void mostrar(Conjunto)’:
+../main.cpp:30:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:32:24:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Finished building: ../main.cpp
+ 
+Building target: diez_uno
+Invoking: GCC C++ Linker
+g++  -o "diez_uno"  ./main.o   
+Finished building target: diez_uno
+ 
+18:18:50 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::diferencia(Conjunto, Conjunto)’:
+../Conjunto.h:119:26: warning: variable ‘otroIterador’ set but not used [-Wunused-but-set-variable]
+../Conjunto.h:120:26: warning: variable ‘otroFin’ set but not used [-Wunused-but-set-variable]
+../main.cpp: In function ‘void mostrar(Conjunto)’:
+../main.cpp:30:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:32:24:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Finished building: ../main.cpp
+ 
+Building target: diez_uno
+Invoking: GCC C++ Linker
+g++  -o "diez_uno"  ./main.o   
+Finished building target: diez_uno
+ 
+18:19:17 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::diferencia(Conjunto, Conjunto)’:
+../Conjunto.h:119:26: warning: variable ‘otroIterador’ set but not used [-Wunused-but-set-variable]
+../Conjunto.h:120:26: warning: variable ‘otroFin’ set but not used [-Wunused-but-set-variable]
+../main.cpp: In function ‘void mostrar(Conjunto)’:
+../main.cpp:30:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:32:30:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Finished building: ../main.cpp
+ 
+Building target: diez_uno
+Invoking: GCC C++ Linker
+g++  -o "diez_uno"  ./main.o   
+Finished building target: diez_uno
+ 
+18:19:22 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+make: No se hace nada para `all'.
+18:20:30 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::diferencia(Conjunto, Conjunto)’:
+../Conjunto.h:119:26: warning: variable ‘otroIterador’ set but not used [-Wunused-but-set-variable]
+../Conjunto.h:120:26: warning: variable ‘otroFin’ set but not used [-Wunused-but-set-variable]
+../main.cpp: In function ‘void mostrar(Conjunto)’:
+../main.cpp:30:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:32:30:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Finished building: ../main.cpp
+ 
+Building target: diez_uno
+Invoking: GCC C++ Linker
+g++  -o "diez_uno"  ./main.o   
+Finished building target: diez_uno
+ 
+18:20:39 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+make: No se hace nada para `all'.
+18:22:05 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::diferencia(Conjunto, Conjunto)’:
+../Conjunto.h:119:26: warning: variable ‘otroIterador’ set but not used [-Wunused-but-set-variable]
+../Conjunto.h:120:26: warning: variable ‘otroFin’ set but not used [-Wunused-but-set-variable]
+../main.cpp: In function ‘void mostrar(Conjunto)’:
+../main.cpp:30:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:32:30:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Finished building: ../main.cpp
+ 
+Building target: diez_uno
+Invoking: GCC C++ Linker
+g++  -o "diez_uno"  ./main.o   
+Finished building target: diez_uno
+ 
+18:22:07 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+make: No se hace nada para `all'.
+18:22:35 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::diferencia(Conjunto, Conjunto)’:
+../Conjunto.h:119:26: warning: variable ‘otroIterador’ set but not used [-Wunused-but-set-variable]
+../Conjunto.h:120:26: warning: variable ‘otroFin’ set but not used [-Wunused-but-set-variable]
+../main.cpp: In function ‘void mostrar(Conjunto)’:
+../main.cpp:30:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:32:30:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Finished building: ../main.cpp
+ 
+Building target: diez_uno
+Invoking: GCC C++ Linker
+g++  -o "diez_uno"  ./main.o   
+Finished building target: diez_uno
+ 
+18:25:01 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::diferencia(Conjunto, Conjunto)’:
+../Conjunto.h:119:26: warning: variable ‘otroIterador’ set but not used [-Wunused-but-set-variable]
+../Conjunto.h:120:26: warning: variable ‘otroFin’ set but not used [-Wunused-but-set-variable]
+../main.cpp: In function ‘void mostrar(Conjunto)’:
+../main.cpp:30:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:32:30:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Finished building: ../main.cpp
+ 
+Building target: diez_uno
+Invoking: GCC C++ Linker
+g++  -o "diez_uno"  ./main.o   
+Finished building target: diez_uno
+ 
+18:32:23 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::diferencia(Conjunto, Conjunto)’:
+../Conjunto.h:118:29: warning: variable ‘otroIterador’ set but not used [-Wunused-but-set-variable]
+../Conjunto.h:119:29: warning: variable ‘otroFin’ set but not used [-Wunused-but-set-variable]
+../main.cpp: In function ‘void mostrar(Conjunto)’:
+../main.cpp:30:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:32:30:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Finished building: ../main.cpp
+ 
+Building target: diez_uno
+Invoking: GCC C++ Linker
+g++  -o "diez_uno"  ./main.o   
+Finished building target: diez_uno
+ 
+00:50:36 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+make: No se hace nada para `all'.
+00:52:37 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+make: No se hace nada para `all'.
+00:54:31 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::diferencia(Conjunto, Conjunto)’:
+../Conjunto.h:118:29: warning: variable ‘otroIterador’ set but not used [-Wunused-but-set-variable]
+../Conjunto.h:119:29: warning: variable ‘otroFin’ set but not used [-Wunused-but-set-variable]
+../main.cpp: In function ‘void mostrar(Conjunto)’:
+../main.cpp:30:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:32:30:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Finished building: ../main.cpp
+ 
+Building target: diez_uno
+Invoking: GCC C++ Linker
+g++  -o "diez_uno"  ./main.o   
+Finished building target: diez_uno
+ 
+00:54:37 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+make: No se hace nada para `all'.
+00:54:39 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+make: No se hace nada para `all'.
+00:55:01 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::diferencia(Conjunto, Conjunto)’:
+../Conjunto.h:118:29: warning: variable ‘otroIterador’ set but not used [-Wunused-but-set-variable]
+../Conjunto.h:119:29: warning: variable ‘otroFin’ set but not used [-Wunused-but-set-variable]
+../main.cpp: In function ‘void mostrar(Conjunto)’:
+../main.cpp:30:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:32:30:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Finished building: ../main.cpp
+ 
+Building target: diez_uno
+Invoking: GCC C++ Linker
+g++  -o "diez_uno"  ./main.o   
+Finished building target: diez_uno
+ 
+00:55:05 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+make: No se hace nada para `all'.
+00:55:14 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::diferencia(Conjunto, Conjunto)’:
+../Conjunto.h:118:29: warning: variable ‘otroIterador’ set but not used [-Wunused-but-set-variable]
+../Conjunto.h:119:29: warning: variable ‘otroFin’ set but not used [-Wunused-but-set-variable]
+../main.cpp: In function ‘void mostrar(Conjunto)’:
+../main.cpp:30:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:32:30:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Finished building: ../main.cpp
+ 
+Building target: diez_uno
+Invoking: GCC C++ Linker
+g++  -o "diez_uno"  ./main.o   
+Finished building target: diez_uno
+ 
+00:55:21 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+make: No se hace nada para `all'.
+00:56:13 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::diferencia(Conjunto, Conjunto)’:
+../Conjunto.h:118:29: warning: variable ‘otroIterador’ set but not used [-Wunused-but-set-variable]
+../Conjunto.h:119:29: warning: variable ‘otroFin’ set but not used [-Wunused-but-set-variable]
+../main.cpp: In function ‘void mostrar(Conjunto)’:
+../main.cpp:30:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:32:30:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Finished building: ../main.cpp
+ 
+Building target: diez_uno
+Invoking: GCC C++ Linker
+g++  -o "diez_uno"  ./main.o   
+Finished building target: diez_uno
+ 
+00:56:15 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+make: No se hace nada para `all'.
+01:05:08 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::diferencia(Conjunto, Conjunto)’:
+../Conjunto.h:118:29: warning: variable ‘otroIterador’ set but not used [-Wunused-but-set-variable]
+../Conjunto.h:119:29: warning: variable ‘otroFin’ set but not used [-Wunused-but-set-variable]
+../main.cpp: In function ‘void mostrar(Conjunto)’:
+../main.cpp:30:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:32:30:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Finished building: ../main.cpp
+ 
+Building target: diez_uno
+Invoking: GCC C++ Linker
+g++  -o "diez_uno"  ./main.o   
+Finished building target: diez_uno
+ 
+01:05:11 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+make: No se hace nada para `all'.
+01:05:30 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+make: No se hace nada para `all'.
+01:05:34 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+make: No se hace nada para `all'.
+01:06:42 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp:46:20: warning: multi-character character constant [-Wmultichar]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::diferencia(Conjunto, Conjunto)’:
+../Conjunto.h:118:29: warning: variable ‘otroIterador’ set but not used [-Wunused-but-set-variable]
+../Conjunto.h:119:29: warning: variable ‘otroFin’ set but not used [-Wunused-but-set-variable]
+../main.cpp: In function ‘void mostrar(Conjunto)’:
+../main.cpp:30:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp: In function ‘int main()’:
+../main.cpp:46:24: warning: overflow in implicit constant conversion [-Woverflow]
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:32:30:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Finished building: ../main.cpp
+ 
+Building target: diez_uno
+Invoking: GCC C++ Linker
+g++  -o "diez_uno"  ./main.o   
+Finished building target: diez_uno
+ 
+01:06:56 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::diferencia(Conjunto, Conjunto)’:
+../Conjunto.h:118:29: warning: variable ‘otroIterador’ set but not used [-Wunused-but-set-variable]
+../Conjunto.h:119:29: warning: variable ‘otroFin’ set but not used [-Wunused-but-set-variable]
+../main.cpp: In function ‘void mostrar(Conjunto)’:
+../main.cpp:30:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:32:30:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Finished building: ../main.cpp
+ 
+Building target: diez_uno
+Invoking: GCC C++ Linker
+g++  -o "diez_uno"  ./main.o   
+Finished building target: diez_uno
+ 
+01:06:58 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+make: No se hace nada para `all'.
+01:08:30 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::diferencia(Conjunto, Conjunto)’:
+../Conjunto.h:118:29: warning: variable ‘otroIterador’ set but not used [-Wunused-but-set-variable]
+../Conjunto.h:119:29: warning: variable ‘otroFin’ set but not used [-Wunused-but-set-variable]
+../main.cpp: In function ‘void mostrar(Conjunto)’:
+../main.cpp:29:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:31:30:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Finished building: ../main.cpp
+ 
+Building target: diez_uno
+Invoking: GCC C++ Linker
+g++  -o "diez_uno"  ./main.o   
+Finished building target: diez_uno
+ 
+01:08:56 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+make: No se hace nada para `all'.
+01:09:04 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::diferencia(Conjunto, Conjunto)’:
+../Conjunto.h:118:29: warning: variable ‘otroIterador’ set but not used [-Wunused-but-set-variable]
+../Conjunto.h:119:29: warning: variable ‘otroFin’ set but not used [-Wunused-but-set-variable]
+../main.cpp: In function ‘void mostrar(Conjunto)’:
+../main.cpp:29:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp: In function ‘int main()’:
+../main.cpp:56:10: error: ‘otroConjunto’ was not declared in this scope
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:31:30:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+make: *** [main.o] Error 1
+01:09:17 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::diferencia(Conjunto, Conjunto)’:
+../Conjunto.h:118:29: warning: variable ‘otroIterador’ set but not used [-Wunused-but-set-variable]
+../Conjunto.h:119:29: warning: variable ‘otroFin’ set but not used [-Wunused-but-set-variable]
+../main.cpp: In function ‘void mostrar(Conjunto)’:
+../main.cpp:29:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:31:30:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Finished building: ../main.cpp
+ 
+Building target: diez_uno
+Invoking: GCC C++ Linker
+g++  -o "diez_uno"  ./main.o   
+Finished building target: diez_uno
+ 
+01:09:21 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::diferencia(Conjunto, Conjunto)’:
+../Conjunto.h:118:29: warning: variable ‘otroIterador’ set but not used [-Wunused-but-set-variable]
+../Conjunto.h:119:29: warning: variable ‘otroFin’ set but not used [-Wunused-but-set-variable]
+../main.cpp: In function ‘void mostrar(Conjunto)’:
+../main.cpp:29:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:31:30:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Finished building: ../main.cpp
+ 
+Building target: diez_uno
+Invoking: GCC C++ Linker
+g++  -o "diez_uno"  ./main.o   
+Finished building target: diez_uno
+ 
+01:10:30 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::diferencia(Conjunto, Conjunto)’:
+../Conjunto.h:123:29: warning: variable ‘otroIterador’ set but not used [-Wunused-but-set-variable]
+../Conjunto.h:124:29: warning: variable ‘otroFin’ set but not used [-Wunused-but-set-variable]
+../main.cpp: In function ‘void mostrar(Conjunto)’:
+../main.cpp:29:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:31:30:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Finished building: ../main.cpp
+ 
+Building target: diez_uno
+Invoking: GCC C++ Linker
+g++  -o "diez_uno"  ./main.o   
+Finished building target: diez_uno
+ 
+01:10:32 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+make: No se hace nada para `all'.
+01:11:09 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+make: No se hace nada para `all'.
+01:11:14 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+make: No se hace nada para `all'.
+01:12:49 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::diferencia(Conjunto, Conjunto)’:
+../Conjunto.h:123:29: warning: variable ‘otroIterador’ set but not used [-Wunused-but-set-variable]
+../Conjunto.h:124:29: warning: variable ‘otroFin’ set but not used [-Wunused-but-set-variable]
+../main.cpp: In function ‘void mostrar(Conjunto)’:
+../main.cpp:29:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:31:30:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Finished building: ../main.cpp
+ 
+Building target: diez_uno
+Invoking: GCC C++ Linker
+g++  -o "diez_uno"  ./main.o   
+Finished building target: diez_uno
+ 
+01:13:43 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::diferencia(Conjunto, Conjunto)’:
+../Conjunto.h:123:29: warning: variable ‘otroIterador’ set but not used [-Wunused-but-set-variable]
+../Conjunto.h:124:29: warning: variable ‘otroFin’ set but not used [-Wunused-but-set-variable]
+../main.cpp: In function ‘void mostrar(Conjunto)’:
+../main.cpp:29:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:31:30:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Finished building: ../main.cpp
+ 
+Building target: diez_uno
+Invoking: GCC C++ Linker
+g++  -o "diez_uno"  ./main.o   
+Finished building target: diez_uno
+ 
+01:17:16 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::diferencia(Conjunto, Conjunto)’:
+../Conjunto.h:123:29: warning: variable ‘otroIterador’ set but not used [-Wunused-but-set-variable]
+../Conjunto.h:124:29: warning: variable ‘otroFin’ set but not used [-Wunused-but-set-variable]
+../main.cpp: In function ‘void mostrar(Conjunto)’:
+../main.cpp:29:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:31:30:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Finished building: ../main.cpp
+ 
+Building target: diez_uno
+Invoking: GCC C++ Linker
+g++  -o "diez_uno"  ./main.o   
+Finished building target: diez_uno
+ 
+01:19:11 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::diferencia(Conjunto, Conjunto)’:
+../Conjunto.h:123:29: warning: variable ‘otroIterador’ set but not used [-Wunused-but-set-variable]
+../Conjunto.h:124:29: warning: variable ‘otroFin’ set but not used [-Wunused-but-set-variable]
+../main.cpp: In function ‘void lee(Conjunto&)’:
+../main.cpp:19:5: error: ‘c’ was not declared in this scope
+../main.cpp:22:1: error: expected ‘(’ before ‘}’ token
+../main.cpp: In function ‘void mostrar(Conjunto)’:
+../main.cpp:33:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:35:30:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+make: *** [main.o] Error 1
+01:19:19 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::diferencia(Conjunto, Conjunto)’:
+../Conjunto.h:123:29: warning: variable ‘otroIterador’ set but not used [-Wunused-but-set-variable]
+../Conjunto.h:124:29: warning: variable ‘otroFin’ set but not used [-Wunused-but-set-variable]
+../main.cpp: In function ‘void lee(Conjunto&)’:
+../main.cpp:19:15: warning: comparison with string literal results in unspecified behaviour [-Waddress]
+../main.cpp:19:15: error: ISO C++ forbids comparison between pointer and integer [-fpermissive]
+../main.cpp:22:1: error: expected ‘(’ before ‘}’ token
+../main.cpp: In function ‘void mostrar(Conjunto)’:
+../main.cpp:33:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:35:30:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+make: *** [main.o] Error 1
+01:19:24 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::diferencia(Conjunto, Conjunto)’:
+../Conjunto.h:123:29: warning: variable ‘otroIterador’ set but not used [-Wunused-but-set-variable]
+../Conjunto.h:124:29: warning: variable ‘otroFin’ set but not used [-Wunused-but-set-variable]
+../main.cpp: In function ‘void lee(Conjunto&)’:
+../main.cpp:19:15: warning: comparison with string literal results in unspecified behaviour [-Waddress]
+../main.cpp:19:15: error: ISO C++ forbids comparison between pointer and integer [-fpermissive]
+../main.cpp: In function ‘void mostrar(Conjunto)’:
+../main.cpp:33:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:35:30:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+make: *** [main.o] Error 1
+01:19:39 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::diferencia(Conjunto, Conjunto)’:
+../Conjunto.h:123:29: warning: variable ‘otroIterador’ set but not used [-Wunused-but-set-variable]
+../Conjunto.h:124:29: warning: variable ‘otroFin’ set but not used [-Wunused-but-set-variable]
+../main.cpp: In function ‘void mostrar(Conjunto)’:
+../main.cpp:33:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:35:30:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Finished building: ../main.cpp
+ 
+Building target: diez_uno
+Invoking: GCC C++ Linker
+g++  -o "diez_uno"  ./main.o   
+Finished building target: diez_uno
+ 
+01:19:52 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+make: No se hace nada para `all'.
+01:20:15 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+make: No se hace nada para `all'.
+01:22:55 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::diferencia(Conjunto, Conjunto)’:
+../Conjunto.h:123:29: warning: variable ‘otroIterador’ set but not used [-Wunused-but-set-variable]
+../Conjunto.h:124:29: warning: variable ‘otroFin’ set but not used [-Wunused-but-set-variable]
+../main.cpp: In function ‘void mostrar(Conjunto)’:
+../main.cpp:32:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:34:30:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Finished building: ../main.cpp
+ 
+Building target: diez_uno
+Invoking: GCC C++ Linker
+g++  -o "diez_uno"  ./main.o   
+Finished building target: diez_uno
+ 
+01:26:39 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::diferencia(Conjunto, Conjunto)’:
+../Conjunto.h:123:29: warning: variable ‘otroIterador’ set but not used [-Wunused-but-set-variable]
+../Conjunto.h:124:29: warning: variable ‘otroFin’ set but not used [-Wunused-but-set-variable]
+../main.cpp: In function ‘void lee(Conjunto&)’:
+../main.cpp:20:30: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp: In function ‘void mostrar(Conjunto)’:
+../main.cpp:33:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:35:30:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Finished building: ../main.cpp
+ 
+Building target: diez_uno
+Invoking: GCC C++ Linker
+g++  -o "diez_uno"  ./main.o   
+Finished building target: diez_uno
+ 
+01:27:59 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::diferencia(Conjunto, Conjunto)’:
+../Conjunto.h:123:29: warning: variable ‘otroIterador’ set but not used [-Wunused-but-set-variable]
+../Conjunto.h:124:29: warning: variable ‘otroFin’ set but not used [-Wunused-but-set-variable]
+../main.cpp: In function ‘void lee(Conjunto&)’:
+../main.cpp:20:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp: In function ‘void mostrar(Conjunto)’:
+../main.cpp:33:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:35:30:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Finished building: ../main.cpp
+ 
+Building target: diez_uno
+Invoking: GCC C++ Linker
+g++  -o "diez_uno"  ./main.o   
+Finished building target: diez_uno
+ 
+01:28:44 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::diferencia(Conjunto, Conjunto)’:
+../Conjunto.h:123:29: warning: variable ‘otroIterador’ set but not used [-Wunused-but-set-variable]
+../Conjunto.h:124:29: warning: variable ‘otroFin’ set but not used [-Wunused-but-set-variable]
+../main.cpp: In function ‘void lee(Conjunto&)’:
+../main.cpp:20:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp: In function ‘void mostrar(Conjunto)’:
+../main.cpp:32:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:34:30:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Finished building: ../main.cpp
+ 
+Building target: diez_uno
+Invoking: GCC C++ Linker
+g++  -o "diez_uno"  ./main.o   
+Finished building target: diez_uno
+ 
+01:30:26 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::diferencia(Conjunto, Conjunto)’:
+../Conjunto.h:123:29: warning: variable ‘otroIterador’ set but not used [-Wunused-but-set-variable]
+../Conjunto.h:124:29: warning: variable ‘otroFin’ set but not used [-Wunused-but-set-variable]
+../main.cpp: In function ‘void lee(Conjunto&)’:
+../main.cpp:20:34: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp: In function ‘void mostrar(Conjunto)’:
+../main.cpp:32:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:34:30:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Finished building: ../main.cpp
+ 
+Building target: diez_uno
+Invoking: GCC C++ Linker
+g++  -o "diez_uno"  ./main.o   
+Finished building target: diez_uno
+ 
+01:30:28 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+make: No se hace nada para `all'.
+01:31:30 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::diferencia(Conjunto, Conjunto)’:
+../Conjunto.h:123:29: warning: variable ‘otroIterador’ set but not used [-Wunused-but-set-variable]
+../Conjunto.h:124:29: warning: variable ‘otroFin’ set but not used [-Wunused-but-set-variable]
+../main.cpp: In function ‘void lee(Conjunto&)’:
+../main.cpp:20:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp: In function ‘void mostrar(Conjunto)’:
+../main.cpp:32:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:34:30:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Finished building: ../main.cpp
+ 
+Building target: diez_uno
+Invoking: GCC C++ Linker
+g++  -o "diez_uno"  ./main.o   
+Finished building target: diez_uno
+ 
+01:32:21 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+make: No se hace nada para `all'.
+01:33:09 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::diferencia(Conjunto, Conjunto)’:
+../Conjunto.h:123:29: warning: variable ‘otroIterador’ set but not used [-Wunused-but-set-variable]
+../Conjunto.h:124:29: warning: variable ‘otroFin’ set but not used [-Wunused-but-set-variable]
+../main.cpp: In function ‘void lee(Conjunto&)’:
+../main.cpp:20:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp: In function ‘void mostrar(Conjunto)’:
+../main.cpp:32:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:34:30:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Finished building: ../main.cpp
+ 
+Building target: diez_uno
+Invoking: GCC C++ Linker
+g++  -o "diez_uno"  ./main.o   
+Finished building target: diez_uno
+ 
+01:33:49 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::diferencia(Conjunto, Conjunto)’:
+../Conjunto.h:123:29: warning: variable ‘otroIterador’ set but not used [-Wunused-but-set-variable]
+../Conjunto.h:124:29: warning: variable ‘otroFin’ set but not used [-Wunused-but-set-variable]
+../main.cpp: In function ‘void lee(Conjunto&)’:
+../main.cpp:20:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp: In function ‘void mostrar(Conjunto)’:
+../main.cpp:32:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:34:30:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Finished building: ../main.cpp
+ 
+Building target: diez_uno
+Invoking: GCC C++ Linker
+g++  -o "diez_uno"  ./main.o   
+Finished building target: diez_uno
+ 
+01:33:51 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+make: No se hace nada para `all'.
+01:34:43 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+make: No se hace nada para `all'.
+01:35:17 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+make: No se hace nada para `all'.
+01:35:19 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+make: No se hace nada para `all'.
+01:35:30 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+make: No se hace nada para `all'.
+01:39:19 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::diferencia(Conjunto, Conjunto)’:
+../Conjunto.h:123:29: warning: variable ‘otroIterador’ set but not used [-Wunused-but-set-variable]
+../Conjunto.h:124:29: warning: variable ‘otroFin’ set but not used [-Wunused-but-set-variable]
+../main.cpp: In function ‘void lee(Conjunto&)’:
+../main.cpp:20:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp: In function ‘void mostrar(Conjunto)’:
+../main.cpp:34:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:36:30:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Finished building: ../main.cpp
+ 
+Building target: diez_uno
+Invoking: GCC C++ Linker
+g++  -o "diez_uno"  ./main.o   
+Finished building target: diez_uno
+ 
+01:42:52 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::diferencia(Conjunto, Conjunto)’:
+../Conjunto.h:123:29: warning: variable ‘otroIterador’ set but not used [-Wunused-but-set-variable]
+../Conjunto.h:124:29: warning: variable ‘otroFin’ set but not used [-Wunused-but-set-variable]
+../main.cpp: In function ‘void lee(Conjunto&)’:
+../main.cpp:20:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp: In function ‘void mostrar(Conjunto)’:
+../main.cpp:34:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:36:30:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Finished building: ../main.cpp
+ 
+Building target: diez_uno
+Invoking: GCC C++ Linker
+g++  -o "diez_uno"  ./main.o   
+Finished building target: diez_uno
+ 
+01:44:33 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+make: No se hace nada para `all'.
+02:07:02 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+make: No se hace nada para `all'.
+02:07:24 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+make: No se hace nada para `all'.
+02:07:42 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+make: No se hace nada para `all'.
+02:08:11 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+make: No se hace nada para `all'.
+02:08:22 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+make: No se hace nada para `all'.
+02:10:13 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::diferencia(Conjunto, Conjunto)’:
+../Conjunto.h:123:29: warning: variable ‘otroIterador’ set but not used [-Wunused-but-set-variable]
+../Conjunto.h:124:29: warning: variable ‘otroFin’ set but not used [-Wunused-but-set-variable]
+../main.cpp: In function ‘void lee(Conjunto&)’:
+../main.cpp:20:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp: In function ‘void mostrar(Conjunto)’:
+../main.cpp:34:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp: In function ‘int main()’:
+../main.cpp:55:65: error: cannot call member function ‘Conjunto Conjunto::_union(Conjunto, Conjunto)’ without object
+../main.cpp:55:10: warning: unused variable ‘tercerConjunto’ [-Wunused-variable]
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:36:30:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+make: *** [main.o] Error 1
+02:10:33 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::diferencia(Conjunto, Conjunto)’:
+../Conjunto.h:123:29: warning: variable ‘otroIterador’ set but not used [-Wunused-but-set-variable]
+../Conjunto.h:124:29: warning: variable ‘otroFin’ set but not used [-Wunused-but-set-variable]
+../main.cpp: In function ‘void lee(Conjunto&)’:
+../main.cpp:20:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp: In function ‘void mostrar(Conjunto)’:
+../main.cpp:34:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:36:30:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Finished building: ../main.cpp
+ 
+Building target: diez_uno
+Invoking: GCC C++ Linker
+g++  -o "diez_uno"  ./main.o   
+Finished building target: diez_uno
+ 
+02:16:31 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::diferencia(Conjunto, Conjunto)’:
+../Conjunto.h:123:29: warning: variable ‘otroIterador’ set but not used [-Wunused-but-set-variable]
+../Conjunto.h:124:29: warning: variable ‘otroFin’ set but not used [-Wunused-but-set-variable]
+../main.cpp: In function ‘void lee(Conjunto&)’:
+../main.cpp:20:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp: In function ‘void mostrar(Conjunto)’:
+../main.cpp:34:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:36:30:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Finished building: ../main.cpp
+ 
+Building target: diez_uno
+Invoking: GCC C++ Linker
+g++  -o "diez_uno"  ./main.o   
+Finished building target: diez_uno
+ 
+02:16:37 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+make: No se hace nada para `all'.
+02:16:40 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+make: No se hace nada para `all'.
+02:16:52 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+make: No se hace nada para `all'.
+02:17:34 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+make: No se hace nada para `all'.
+02:40:47 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘void lee(Conjunto&)’:
+../main.cpp:20:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp: In function ‘void mostrar(Conjunto)’:
+../main.cpp:34:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:36:30:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Finished building: ../main.cpp
+ 
+Building target: diez_uno
+Invoking: GCC C++ Linker
+g++  -o "diez_uno"  ./main.o   
+Finished building target: diez_uno
+ 
+02:41:44 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+make: No se hace nada para `all'.
+02:41:46 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+make: No se hace nada para `all'.
+02:42:19 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+make: No se hace nada para `all'.
+02:43:46 **** Clean-only build of configuration Debug for project diez_uno ****
+make clean 
+rm -rf  ./main.o  ./main.d  diez_uno
+ 
+02:45:58 **** Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘void lee(Conjunto&)’:
+../main.cpp:20:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp: In function ‘void mostrar(Conjunto)’:
+../main.cpp:34:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:36:30:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Finished building: ../main.cpp
+ 
+Building target: diez_uno
+Invoking: GCC C++ Linker
+g++  -o "diez_uno"  ./main.o   
+Finished building target: diez_uno
+ 
+02:49:32 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+make: No se hace nada para `all'.
+02:49:52 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+make: No se hace nada para `all'.
+02:51:07 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+make: No se hace nada para `all'.
+03:13:45 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘Conjunto Conjunto::diferencia(Conjunto, Conjunto)’:
+../Conjunto.h:119:5: error: expected ‘)’ before ‘unConjunto’
+../main.cpp: In function ‘void lee(Conjunto&)’:
+../main.cpp:20:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp: In function ‘void mostrar(Conjunto)’:
+../main.cpp:34:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:36:30:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+make: *** [main.o] Error 1
+03:14:21 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘void lee(Conjunto&)’:
+../main.cpp:20:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp: In function ‘void mostrar(Conjunto)’:
+../main.cpp:34:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:36:30:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Finished building: ../main.cpp
+ 
+Building target: diez_uno
+Invoking: GCC C++ Linker
+g++  -o "diez_uno"  ./main.o   
+Finished building target: diez_uno
+ 
+03:14:29 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+make: No se hace nada para `all'.
+03:14:31 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+make: No se hace nada para `all'.
+03:16:46 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘void lee(Conjunto&)’:
+../main.cpp:20:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp: In function ‘void mostrar(Conjunto)’:
+../main.cpp:34:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:36:30:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Finished building: ../main.cpp
+ 
+Building target: diez_uno
+Invoking: GCC C++ Linker
+g++  -o "diez_uno"  ./main.o   
+Finished building target: diez_uno
+ 
+03:17:55 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+make: No se hace nada para `all'.
+03:20:43 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+make: No se hace nada para `all'.
+03:22:33 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+make: No se hace nada para `all'.
+03:24:08 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘void lee(Conjunto&)’:
+../main.cpp:20:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp: In function ‘void mostrar(Conjunto)’:
+../main.cpp:34:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:36:30:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Finished building: ../main.cpp
+ 
+Building target: diez_uno
+Invoking: GCC C++ Linker
+g++  -o "diez_uno"  ./main.o   
+Finished building target: diez_uno
+ 
+03:24:18 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+make: No se hace nada para `all'.
+03:25:03 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+make: No se hace nada para `all'.
+03:37:34 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘unsigned int Conjunto::hash()’:
+../Conjunto.h:132:63: error: conversion from ‘List<char>::ConstIterator’ to non-scalar type ‘HashMap<char, int>::ConstIterator’ requested
+../Conjunto.h:133:54: error: conversion from ‘List<char>::ConstIterator’ to non-scalar type ‘HashMap<char, int>::ConstIterator’ requested
+../Conjunto.h:137:8: warning: unused variable ‘unaLetra’ [-Wunused-variable]
+../Conjunto.h:140:1: warning: no return statement in function returning non-void [-Wreturn-type]
+../main.cpp: In function ‘void lee(Conjunto&)’:
+../main.cpp:20:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp: In function ‘void mostrar(Conjunto)’:
+../main.cpp:34:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:36:30:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+make: *** [main.o] Error 1
+03:40:14 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h: In member function ‘unsigned int Conjunto::hash()’:
+../Conjunto.h:142:22: error: no matching function for call to ‘Conjunto::hash(std::string&)’
+../Conjunto.h:142:22: note: candidate is:
+../Conjunto.h:128:14: note: unsigned int Conjunto::hash()
+../Conjunto.h:128:14: note:   candidate expects 0 arguments, 1 provided
+../main.cpp: In function ‘void lee(Conjunto&)’:
+../main.cpp:20:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp: In function ‘void mostrar(Conjunto)’:
+../main.cpp:34:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:36:30:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+make: *** [main.o] Error 1
+03:40:50 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h:1121:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+In file included from ../main.cpp:8:0:
+../Conjunto.h:131:2: warning: this decimal constant is unsigned only in ISO C90 [enabled by default]
+../main.cpp: In function ‘void lee(Conjunto&)’:
+../main.cpp:20:32: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+../main.cpp: In function ‘void mostrar(Conjunto)’:
+../main.cpp:34:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../Conjunto.h:7:0,
+                 from ../main.cpp:8:
+../bundleEDA.h: In instantiation of ‘const T& List<T>::at(unsigned int) const [with T = char]’:
+../main.cpp:36:30:   required from here
+../bundleEDA.h:418:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+Finished building: ../main.cpp
+ 
+Building target: diez_uno
+Invoking: GCC C++ Linker
+g++  -o "diez_uno"  ./main.o   
+Finished building target: diez_uno
+ 
+04:02:00 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+make: No se hace nada para `all'.
+04:56:11 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+make: No se hace nada para `all'.
+05:05:30 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+make: No se hace nada para `all'.
+05:05:44 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+make: No se hace nada para `all'.

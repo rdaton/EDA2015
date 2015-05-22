@@ -923,6 +923,61 @@ private: void rotateLeft(Nodo* abuelo, Nodo* padre,Nodo* hijoDr) {
 	hijoDr->_iz=padre;
 }
 
+//recibe un entero k y devuelve la k-esima clave del árbol
+//k es modulo long del iterador
+//asumo árbol no vacío
+public: Valor consultaK(const int k)
+{
+	ConstIterator unIterator=this->cbegin();
+	ConstIterator fin=this->cend();
+	Valor unElemento;
+
+	for (int r=0;r<k;r++)
+	{
+		if (unIterator==fin) unIterator=this->cbegin();
+		unElemento=unIterator.value();
+		unIterator.next();
+	};
+
+	return unElemento;
+}
+
+//dadas dos claves,a y b, devuelve una lista con los valores asociados a
+//las claves que están en el intervalo [a...b]
+//asumo que a y b están dentro del rango
+//asumo que el arbol tiene por lo menos un elemento
+public: List<Valor> recorreRango(const int a, const int b)
+{
+	ConstIterator unIterator=this->cbegin();
+	ConstIterator fin=this->cend();
+	List<Valor> unaLista;
+	Valor unElemento;
+	bool enc=false;
+	int r=0;
+	if (a<b) return unaLista;
+	//me posiciono en a
+	for (r=0;r<a;r++)
+	{
+		if (unIterator==fin) unIterator=this->cbegin();
+		unElemento=unIterator.value();
+		unIterator.next();
+	};
+
+	unaLista.push_back(unElemento);
+	//he llegado a a, sigo recorriendo hasta b
+	for(int s=r;s<b;s++)
+	{
+		if (unIterator!=fin)
+		{
+			unElemento=unIterator.value();
+			unIterator.next();
+			unaLista.push_back(unElemento);
+		}
+
+	}
+
+	return unaLista;
+}
 
 
 

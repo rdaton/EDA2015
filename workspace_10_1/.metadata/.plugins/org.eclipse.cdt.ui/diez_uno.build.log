@@ -1,4 +1,6 @@
+05:05:44 **** Incremental Build of configuration Debug for project diez_uno ****
+make all 
+make: No se hace nada para `all'.
 
-**** Build of configuration Debug for project diez_uno ****
+05:05:44 Build Finished (took 63ms)
 
-Nothing to build for project diez_uno
